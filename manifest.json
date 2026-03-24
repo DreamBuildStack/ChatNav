@@ -44,11 +44,15 @@
         "js/timeline/adapters/notebooklm.js",
         "js/timeline/adapters/registry.js",
         "js/timeline/common.js",
-        "js/panelModal/tabs/starred/folder-manager.js",
         "js/timeline/container-finder.js",
         "js/timeline/star-input-modal/star-input-modal.js",
         "js/timeline/chat-time-recorder.js",
         "js/timeline/notepad/notepad-manager.js",
+        "js/panelModal/tabs/starred/folder-manager.js",
+        "js/panelModal/base-tab.js",
+        "js/panelModal/index.js",
+        "js/panelModal/tab-registry.js",
+        "js/panelModal/tabs/starred/index.js",
         "js/timeline/timeline-manager.js",
         "js/timeline/index.js"
       ],
@@ -61,7 +65,9 @@
         "js/global/popconfirm-manager/styles.css",
         "js/timeline/star-input-modal/star-input-modal.css",
         "js/timeline/notepad/notepad.css",
-        "js/timeline/timeline.css"
+        "js/timeline/timeline.css",
+        "js/panelModal/styles.css",
+        "js/panelModal/tabs/starred/styles.css"
       ],
       "run_at": "document_idle"
     }

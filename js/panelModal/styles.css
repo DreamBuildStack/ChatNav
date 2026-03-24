@@ -1,0 +1,199 @@
+:root {
+    --pm-sidebar-width: 56px;
+    --pm-main-width: 360px;
+    --pm-transition: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+html.dark,
+body.dark,
+html[data-theme="dark"],
+[data-theme="dark"],
+[data-color-mode="dark"],
+body[class*="dark"],
+html[class*="dark"] {
+    --pm-bg: #1F1F1F;
+    --pm-text: #ECECEC;
+    --pm-text-secondary: #A1A1AA;
+    --pm-border: #3A3A3A;
+    --pm-hover: #2A2A2A;
+    --pm-active: #333333;
+    --pm-input-bg: #2B2B2B;
+    --pm-shadow: 0 8px 32px rgba(0,0,0,0.4);
+}
+
+.ait-panel-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 2147483640;
+    pointer-events: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+.ait-panel-modal.visible {
+    pointer-events: auto;
+}
+
+.ait-panel-modal-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    transition: opacity var(--pm-transition);
+}
+
+.ait-panel-modal.visible .ait-panel-modal-overlay {
+    opacity: 1;
+}
+
+.ait-panel-modal-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    display: flex;
+    transform: translateX(100%);
+    transition: transform var(--pm-transition);
+}
+
+.ait-panel-modal.visible .ait-panel-modal-wrapper {
+    transform: translateX(0);
+}
+
+.ait-panel-modal-sidebar {
+    width: var(--pm-sidebar-width);
+    height: 100%;
+    background: var(--pm-bg, #ffffff);
+    border-right: 1px solid var(--pm-border, #e5e5e5);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.ait-panel-modal-sidebar-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 0 8px;
+    gap: 8px;
+}
+
+.ait-panel-modal-close {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--pm-text, #202123);
+    padding: 6px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.15s;
+}
+
+.ait-panel-modal-close:hover {
+    background: var(--pm-hover, #f0f0f0);
+}
+
+.ait-panel-modal-sidebar-title {
+    font-size: 10px;
+    color: var(--pm-text-secondary, #6e6e80);
+    text-align: center;
+    line-height: 1.2;
+}
+
+.ait-panel-modal-tabs {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px 0;
+    gap: 4px;
+    overflow-y: auto;
+}
+
+.panel-tab {
+    width: 44px;
+    height: 44px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    color: var(--pm-text-secondary, #6e6e80);
+    transition: background 0.15s, color 0.15s;
+    padding: 4px;
+}
+
+.panel-tab:hover {
+    background: var(--pm-hover, #f0f0f0);
+    color: var(--pm-text, #202123);
+}
+
+.panel-tab.active {
+    background: var(--pm-active, #f0f0f0);
+    color: var(--pm-text, #202123);
+}
+
+.panel-tab .tab-icon {
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel-tab .tab-icon svg {
+    width: 20px;
+    height: 20px;
+}
+
+.panel-tab .tab-label {
+    font-size: 9px;
+    line-height: 1;
+    text-align: center;
+}
+
+.ait-panel-modal-footer {
+    padding: 12px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid var(--pm-border, #e5e5e5);
+}
+
+.ait-panel-modal-footer-item {
+    font-size: 10px;
+    color: var(--pm-text-secondary, #6e6e80);
+}
+
+.ait-panel-modal-main {
+    width: var(--pm-main-width);
+    height: 100%;
+    background: var(--pm-bg, #ffffff);
+    display: flex;
+    flex-direction: column;
+    box-shadow: var(--pm-shadow, 0 8px 32px rgba(0,0,0,0.15));
+}
+
+.ait-panel-modal-header {
+    padding: 16px 20px 12px;
+    border-bottom: 1px solid var(--pm-border, #e5e5e5);
+    flex-shrink: 0;
+}
+
+.ait-panel-modal-title {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--pm-text, #202123);
+}
+
+.ait-panel-modal-content {
+    flex: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
