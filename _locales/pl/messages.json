@@ -1,0 +1,440 @@
+{
+  "extName": {
+    "message": "AI Timeline: Podwój efektywność AI | GPT, Gemini, DeepSeek, Qwen"
+  },
+  "extDescription": {
+    "message": "Obsługuje GPT, Gemini, DeepSeek i wszystkie platformy AI: kopiowanie LaTeX, interaktywna oś czasu, biblioteka promptów, uruchamianie kodu - podwój efektywność AI."
+  },
+  "qwxpzm": {
+    "message": "Ulubione"
+  },
+  "hkjvnr": {
+    "message": "Zobacz ulubione"
+  },
+  "zmvkpx": {
+    "message": "Dodaj rozmowę do ulubionych"
+  },
+  "bpxjkw": {
+    "message": "Usuń z ulubionych"
+  },
+  "vnkxpm": {
+    "message": "Lista ulubionych"
+  },
+  "kxpmzv": {
+    "message": "Dodano do ulubionych"
+  },
+  "pzmvkx": {
+    "message": "Usunięto z ulubionych"
+  },
+  "jwvnkp": {
+    "message": "Brak danych"
+  },
+  "zxvkpm": {
+    "message": "Pokaż wszystko"
+  },
+  "qdyqxsc": {
+    "message": "Usunąć z ulubionych?"
+  },
+  "mvkxpz": {
+    "message": "Kopiuj"
+  },
+  "xpzmvk": {
+    "message": "Skopiowano"
+  },
+  "vkpxzm": {
+    "message": "Edytuj"
+  },
+  "kpzmvx": {
+    "message": "Kopiowanie nie powiodło się"
+  },
+  "zmxvkp": {
+    "message": "Proszę wprowadzić"
+  },
+  "pxvkmz": {
+    "message": "Anuluj"
+  },
+  "vkmzpx": {
+    "message": "Potwierdź"
+  },
+  "mzpxvk": {
+    "message": "Tytuł nie może być pusty"
+  },
+  "xvkpmz": {
+    "message": "Zmień nazwę"
+  },
+  "pzmkvx": {
+    "message": "Treść nie może być pusta"
+  },
+  "vxpzmk": {
+    "message": "Open Source"
+  },
+  "mkvxpz": {
+    "message": "Gwiazdka dla projektu"
+  },
+  "xpzmkv": {
+    "message": "Witamy"
+  },
+  "pkmzvx": {
+    "message": "Udostępnij znajomym"
+  },
+  "mvxkpz": {
+    "message": "Kopiuj formułę LaTeX"
+  },
+  "kxvpmz": {
+    "message": "Nowy folder"
+  },
+  "vpmzkx": {
+    "message": "Nowy podfolder"
+  },
+  "mzxvkp": {
+    "message": "Usuń"
+  },
+  "pkxvmz": {
+    "message": "Folder domyślny"
+  },
+  "xmkvpz": {
+    "message": "Utwórz podfolder w \"{folderName}\""
+  },
+  "vzkpmx": {
+    "message": "Wprowadź nazwę folderu"
+  },
+  "kmxpvz": {
+    "message": "Nazwa folderu nie może być pusta"
+  },
+  "pxmzvk": {
+    "message": "Zmień nazwę folderu"
+  },
+  "mvzxkp": {
+    "message": "Wprowadź nową nazwę"
+  },
+  "kpvzmx": {
+    "message": "Nazwa folderu już istnieje"
+  },
+  "xzvkpm": {
+    "message": "Utworzono pomyślnie"
+  },
+  "vmkxpz": {
+    "message": "Zaktualizowano pomyślnie"
+  },
+  "zpxmkv": {
+    "message": "Folder nie znaleziony"
+  },
+  "kvpzmx": {
+    "message": "Folder usunięty"
+  },
+  "mxkvzp": {
+    "message": "Usuwanie nie powiodło się"
+  },
+  "pzvkmx": {
+    "message": "Przeniesiono pomyślnie"
+  },
+  "vxkpmz": {
+    "message": "Przenieś do"
+  },
+  "wjxnkp": {
+    "message": "Czy na pewno chcesz usunąć folder \"{folderName}\"?\n\nTen folder i jego podfoldery zawierają {count} ulubionych elementów. Po usunięciu te elementy zostaną przeniesione do folderu domyślnego."
+  },
+  "qzmvkx": {
+    "message": "Czy na pewno chcesz usunąć folder \"{folderName}\"?"
+  },
+  "mvkzpx": {
+    "message": "Szukaj w ulubionych..."
+  },
+  "kxzpmv": {
+    "message": "Zapisz w"
+  },
+  "vmzpkx": {
+    "message": "Folder domyślny"
+  },
+  "pkmvxz": {
+    "message": "Tytuł"
+  },
+  "pxkmvz": {
+    "message": "Oś czasu"
+  },
+  "mzkvxp": {
+    "message": "Po włączeniu, interaktywna oś czasu będzie wyświetlana po prawej stronie strony rozmowy AI."
+  },
+  "vkpmzx": {
+    "message": "Użyj klawiszy ↑ / ↓ do nawigacji między węzłami rozmowy"
+  },
+  "xpvmkz": {
+    "message": "Po włączeniu, użyj klawiszy ↑ / ↓ do szybkiego przeskakiwania między węzłami rozmowy."
+  },
+  "pxmzkv": {
+    "message": "📌 Oznacz ważne rozmowy"
+  },
+  "kzxvpm": {
+    "message": "Przytrzymaj węzeł rozmowy na osi czasu, aby oznaczyć go jako ważny."
+  },
+  "xmvkpz": {
+    "message": "Pole czatu"
+  },
+  "kvzmxp": {
+    "message": "Klawisz Enter do nowej linii"
+  },
+  "kpxvmz": {
+    "message": "Kopiuj formułę"
+  },
+  "zmkvpx": {
+    "message": "Kopiuj formułę LaTeX"
+  },
+  "vxkpzm": {
+    "message": "Po włączeniu automatycznie wykrywa formuły na stronie i kliknij, aby skopiować w formacie LaTeX."
+  },
+  "mkvzpx": {
+    "message": "Obsługiwane platformy"
+  },
+  "vxmkpz": {
+    "message": "Klawisz Enter: naciśnij raz dla nowej linii, dwa razy dla wysłania"
+  },
+  "mkpxvz": {
+    "message": "Po włączeniu, w polu wprowadzania czatu AI, naciśnij Enter raz dla nowej linii, naciśnij szybko dwa razy, aby wysłać wiadomość."
+  },
+  "qoytxz": {
+    "message": "Ta funkcja jest domyślnie włączona i nie może być wyłączona"
+  },
+  "hosegod": {
+    "message": "Prompts"
+  },
+  "hobsidbg": {
+    "message": "Po włączeniu, przycisk promptu zostanie wyświetlony po lewej stronie pola wprowadzania"
+  },
+  "biwhckdj": {
+    "message": "Lista promptów"
+  },
+  "byaskjndg": {
+    "message": "Dodaj prompt"
+  },
+  "hsksuywm": {
+    "message": "Edytuj prompt"
+  },
+  "hsuywkw": {
+    "message": "Nazwa promptu"
+  },
+  "hsuywkwPlaceholder": {
+    "message": "Wprowadź nazwę promptu"
+  },
+  "promptContent": {
+    "message": "Treść"
+  },
+  "uwkjwjw": {
+    "message": "Wprowadź treść promptu"
+  },
+  "hsiwhwl": {
+    "message": "Brak promptów"
+  },
+  "shwsuwk": {
+    "message": "Prompt dodany"
+  },
+  "hwkwbhwk": {
+    "message": "Prompt zaktualizowany"
+  },
+  "qrtypd": {
+    "message": "Prompt usunięty"
+  },
+  "dcnfmq": {
+    "message": "Czy na pewno chcesz usunąć ten prompt?"
+  },
+  "svkbtn": {
+    "message": "Zapisz"
+  },
+  "pmpknd": {
+    "message": "Przypięty"
+  },
+  "pmuknp": {
+    "message": "Odpięty"
+  },
+  "addkbt": {
+    "message": "Dodaj"
+  },
+  "ptfmsl": {
+    "message": "Dotyczy"
+  },
+  "allptfm": {
+    "message": "Wszystkie platformy AI"
+  },
+  "febhyejd": {
+    "message": "Prześlij opinię online"
+  },
+  "runnerTabName": {
+    "message": "Uruchamianie kodu"
+  },
+  "runnerSettingsTitle": {
+    "message": "Obsługiwane języki"
+  },
+  "runnerSettingsHint": {
+    "message": "Po włączeniu na blokach kodu pojawi się przycisk Run do bezpośredniego uruchamiania kodu"
+  },
+  "fiveStarReview": {
+    "message": "Podoba Ci się"
+  },
+  "goToReview": {
+    "message": "Oceń nas na 5 gwiazdek"
+  },
+  "runBtn": {
+    "message": "Uruchom"
+  },
+  "themeDark": {
+    "message": "Ciemny"
+  },
+  "themeLight": {
+    "message": "Jasny"
+  },
+  "dataSyncTabName": {
+    "message": "Migracja danych"
+  },
+  "formulaFormatTitle": {
+    "message": "Wybierz format kopiowania"
+  },
+  "importSuccess": {
+    "message": "Import zakończony pomyślnie"
+  },
+  "importSuccessHint": {
+    "message": "Dane zostały pomyślnie zaimportowane. Odśwież stronę, aby zastosować"
+  },
+  "importFailed": {
+    "message": "Import nie powiódł się"
+  },
+  "refreshPage": {
+    "message": "Odśwież stronę"
+  },
+  "refreshLater": {
+    "message": "Odśwież później"
+  },
+  "quoteReply": {
+    "message": "Dopytaj"
+  },
+  "scrollToBottomTitle": {
+    "message": "Na dół"
+  },
+  "scrollToBottomHint": {
+    "message": "Pokaż przycisk szybkiego przejścia do najnowszej wiadomości"
+  },
+  "pleaseWait": {
+    "message": "Proszę czekać, ładowanie ID węzła..."
+  },
+  "chatTimeLabelTitle": {
+    "message": "Pokaż czas czatu"
+  },
+  "chatTimeLabelHint": {
+    "message": "Wyświetl czas wysłania przy każdej wiadomości, przejrzyście jak historia czatu"
+  },
+  "exportTitle": {
+    "message": "Ręczna synchronizacja"
+  },
+  "exportHint": {
+    "message": "Ręczne tworzenie kopii zapasowej lub przywracanie danych za pomocą pliku JSON w celu migracji do innych przeglądarek."
+  },
+  "gdriveTitle": {
+    "message": "Synchronizacja Google Drive"
+  },
+  "gdriveHint": {
+    "message": "Utwórz kopię zapasową danych na Google Drive, aby synchronizować między urządzeniami."
+  },
+  "mermaidTabName": {
+    "message": "Mermaid"
+  },
+  "mermaidSettingsTitle": {
+    "message": "Renderowanie diagramów Mermaid"
+  },
+  "mermaidSettingsHint": {
+    "message": "Automatycznie renderuj bloki kodu Mermaid jako interaktywne diagramy"
+  },
+  "mermaidDiagramBtn": {
+    "message": "Diagram"
+  },
+  "mermaidCodeBtn": {
+    "message": "Kod"
+  },
+  "mermaidFullscreen": {
+    "message": "Pełny ekran"
+  },
+  "mermaidViewerHint": {
+    "message": "Przewiń, aby powiększyć · Przeciągnij, aby przesunąć · ESC, aby zamknąć"
+  },
+  "notepadToggleHint": {
+    "message": "Show notepad entry at the bottom of the timeline for quick notes"
+  },
+  "notepadTitle": {
+    "message": "Flash Notes"
+  },
+  "notepadPlaceholder": {
+    "message": "Just write what comes to mind…"
+  },
+  "notepadClose": {
+    "message": "Close"
+  },
+  "notepadAllNotes": {
+    "message": "All Notes"
+  },
+  "notepadNewNote": {
+    "message": "New Note"
+  },
+  "notepadConfirmDeleteTitle": {
+    "message": "Confirm Delete"
+  },
+  "notepadConfirmDeleteContent": {
+    "message": "This cannot be undone. Are you sure?"
+  },
+  "notepadUntitled": {
+    "message": "Untitled"
+  },
+  "notepadYesterday": {
+    "message": "Yesterday"
+  },
+  "formulaCopyTypeTitle": {
+    "message": "Typ kopiowania formuły"
+  },
+  "formulaCopyMathML": {
+    "message": "Kopiuj formułę MathML"
+  },
+  "formulaCopyGeneric": {
+    "message": "Kopiuj formułę"
+  },
+  "formulaLatexTitle": {
+    "message": "Kopiuj formułę LaTeX"
+  },
+  "formulaLatexHint": {
+    "message": "Kliknij formułę, aby skopiować ją w formacie LaTeX"
+  },
+  "formulaMathMLTitle": {
+    "message": "Kopiuj formułę MathML"
+  },
+  "formulaMathMLHint": {
+    "message": "Kliknij formułę, aby skopiować ją w formacie MathML, można wkleić bezpośrednio do Worda"
+  },
+  "aboutTabName": {
+    "message": "O wtyczce"
+  },
+  "aboutPluginTitle": {
+    "message": "O rozszerzeniu"
+  },
+  "aboutPluginContent": {
+    "message": "Rozszerzenie zwiększające produktywność w rozmowach z AI, z osią czasu rozmów, szybkimi notatkami, kopiowaniem formuł LaTeX, własnymi promptami i wieloma innymi funkcjami. Obsługuje ChatGPT, Gemini, DeepSeek, Kimi, Claude i wszystkie główne platformy — podwaja efektywność korzystania z AI."
+  },
+  "aboutDataSecurityTitle": {
+    "message": "Bezpieczeństwo danych"
+  },
+  "aboutDataSecurityContent": {
+    "message": "Wszystkie Twoje dane w tym rozszerzeniu są przechowywane lokalnie w przeglądarce lub na Twoim Google Drive, bez przechodzenia przez serwery firm trzecich. Rozszerzenie nie zbiera, nie przesyła ani nie udostępnia żadnych treści rozmów ani danych osobowych. Projekt jest open-source na GitHubie, a kod jest dostępny do przeglądu w każdej chwili."
+  },
+  "aboutDeveloperTitle": {
+    "message": "Deweloper"
+  },
+  "aboutDeveloperContent": {
+    "message": "Ten projekt jest utrzymywany przeze mnie samego, w rytmie 1–2 nowych wersji tygodniowo. Aby zgłosić błąd lub zaproponować funkcję, skontaktuj się ze mną przez jeden z poniższych kanałów (na pewno odpiszę, gdy to zobaczę):"
+  },
+  "aboutShareTitle": {
+    "message": "Mała prośba"
+  },
+  "aboutShareContent": {
+    "message": "Jeśli to rozszerzenie Ci pomogło, będę wdzięczny za polecenie go na X, Reddit lub innych platformach, oraz udostępnienie znajomym, kolegom z klasy lub współpracownikom. Utrzymuję tę wtyczkę sam i nie mogę poświęcać czasu na marketing — mogę jedynie dbać o to, by była coraz lepsza. Dziękuję bardzo. ❤️"
+  },
+  "aboutXhsTip": {
+    "message": "Jeśli opublikowałeś wartościowy artykuł lub film polecający na Xiaohongshu, mogę pomóc ci z płatną promocją (od 75 ¥). 👇"
+  },
+  "aboutXhsBtn": {
+    "message": "Prześlij link Xiaohongshu"
+  }
+}

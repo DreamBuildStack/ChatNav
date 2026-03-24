@@ -1,0 +1,440 @@
+{
+  "extName": {
+    "message": "AI Timeline: KI-Effizienz verdoppeln | GPT, Gemini, DeepSeek, Qwen"
+  },
+  "extDescription": {
+    "message": "Unterstützt GPT, Gemini, DeepSeek & alle großen AI-Plattformen: LaTeX kopieren, interaktive Zeitleiste, Prompt-Bibliothek, Code ausführen - KI-Effizienz verdoppeln."
+  },
+  "qwxpzm": {
+    "message": "Favorisieren"
+  },
+  "hkjvnr": {
+    "message": "Favoriten ansehen"
+  },
+  "zmvkpx": {
+    "message": "Gespräch favorisieren"
+  },
+  "bpxjkw": {
+    "message": "Favorit entfernen"
+  },
+  "vnkxpm": {
+    "message": "Favoritenliste"
+  },
+  "kxpmzv": {
+    "message": "Erfolgreich favorisiert"
+  },
+  "pzmvkx": {
+    "message": "Favorit entfernt"
+  },
+  "jwvnkp": {
+    "message": "Keine Daten"
+  },
+  "zxvkpm": {
+    "message": "Alle anzeigen"
+  },
+  "qdyqxsc": {
+    "message": "Möchten Sie das Lesezeichen entfernen?"
+  },
+  "mvkxpz": {
+    "message": "Kopieren"
+  },
+  "xpzmvk": {
+    "message": "Kopiert"
+  },
+  "vkpxzm": {
+    "message": "Bearbeiten"
+  },
+  "kpzmvx": {
+    "message": "Kopieren fehlgeschlagen"
+  },
+  "zmxvkp": {
+    "message": "Bitte eingeben"
+  },
+  "pxvkmz": {
+    "message": "Abbrechen"
+  },
+  "vkmzpx": {
+    "message": "Bestätigen"
+  },
+  "mzpxvk": {
+    "message": "Titel darf nicht leer sein"
+  },
+  "xvkpmz": {
+    "message": "Umbenennen"
+  },
+  "pzmkvx": {
+    "message": "Inhalt darf nicht leer sein"
+  },
+  "vxpzmk": {
+    "message": "Open Source"
+  },
+  "mkvxpz": {
+    "message": "Projekt mit Stern markieren"
+  },
+  "xpzmkv": {
+    "message": "Willkommen"
+  },
+  "pkmzvx": {
+    "message": "Mit Freunden teilen"
+  },
+  "mvxkpz": {
+    "message": "LaTeX-Formel kopieren"
+  },
+  "kxvpmz": {
+    "message": "Neuer Ordner"
+  },
+  "vpmzkx": {
+    "message": "Neuer Unterordner"
+  },
+  "mzxvkp": {
+    "message": "Löschen"
+  },
+  "pkxvmz": {
+    "message": "Standardordner"
+  },
+  "xmkvpz": {
+    "message": "Unterordner in \"{folderName}\" erstellen"
+  },
+  "vzkpmx": {
+    "message": "Ordnernamen eingeben"
+  },
+  "kmxpvz": {
+    "message": "Ordnername darf nicht leer sein"
+  },
+  "pxmzvk": {
+    "message": "Ordner umbenennen"
+  },
+  "mvzxkp": {
+    "message": "Neuen Namen eingeben"
+  },
+  "kpvzmx": {
+    "message": "Ordnername existiert bereits"
+  },
+  "xzvkpm": {
+    "message": "Erfolgreich erstellt"
+  },
+  "vmkxpz": {
+    "message": "Erfolgreich aktualisiert"
+  },
+  "zpxmkv": {
+    "message": "Ordner nicht gefunden"
+  },
+  "kvpzmx": {
+    "message": "Ordner gelöscht"
+  },
+  "mxkvzp": {
+    "message": "Löschen fehlgeschlagen"
+  },
+  "pzvkmx": {
+    "message": "Erfolgreich verschoben"
+  },
+  "vxkpmz": {
+    "message": "Verschieben nach"
+  },
+  "wjxnkp": {
+    "message": "Möchten Sie den Ordner \"{folderName}\" wirklich löschen?\n\nDieser Ordner und seine Unterordner enthalten {count} Favoriten. Nach dem Löschen werden diese in den Standardordner verschoben."
+  },
+  "qzmvkx": {
+    "message": "Möchten Sie den Ordner \"{folderName}\" wirklich löschen?"
+  },
+  "mvkzpx": {
+    "message": "Favoriten durchsuchen..."
+  },
+  "kxzpmv": {
+    "message": "Speichern unter"
+  },
+  "vmzpkx": {
+    "message": "Standardordner"
+  },
+  "pkmvxz": {
+    "message": "Titel"
+  },
+  "pxkmvz": {
+    "message": "Zeitleiste"
+  },
+  "mzkvxp": {
+    "message": "Wenn aktiviert, wird eine interaktive Zeitleiste auf der rechten Seite der KI-Gesprächsseite angezeigt."
+  },
+  "vkpmzx": {
+    "message": "Mit ↑ / ↓ Tasten zwischen Gesprächsknoten navigieren"
+  },
+  "xpvmkz": {
+    "message": "Wenn aktiviert, können Sie mit ↑ / ↓ Tasten schnell zwischen Gesprächsknoten wechseln."
+  },
+  "pxmzkv": {
+    "message": "📌 Wichtige Gespräche markieren"
+  },
+  "kzxvpm": {
+    "message": "Drücken Sie lange auf einen Gesprächsknoten in der Zeitleiste, um ihn als wichtig zu markieren."
+  },
+  "xmvkpz": {
+    "message": "Chat-Box"
+  },
+  "kvzmxp": {
+    "message": "Enter-Taste für Zeilenumbruch"
+  },
+  "kpxvmz": {
+    "message": "Formel kopieren"
+  },
+  "zmkvpx": {
+    "message": "LaTeX-Formel kopieren"
+  },
+  "vxkpzm": {
+    "message": "Wenn aktiviert, werden Formeln auf der Seite automatisch erkannt und können per Klick als LaTeX kopiert werden."
+  },
+  "mkvzpx": {
+    "message": "Unterstützte Plattformen"
+  },
+  "vxmkpz": {
+    "message": "Enter-Taste: Einmal für Zeilenumbruch, doppelt für Senden"
+  },
+  "mkpxvz": {
+    "message": "Wenn aktiviert, erzeugt einmaliges Drücken von Enter einen Zeilenumbruch, schnelles doppeltes Drücken sendet die Nachricht."
+  },
+  "qoytxz": {
+    "message": "Diese Funktion ist standardmäßig aktiviert und kann nicht deaktiviert werden"
+  },
+  "hosegod": {
+    "message": "Prompts"
+  },
+  "hobsidbg": {
+    "message": "Wenn aktiviert, wird links neben dem Eingabefeld eine Prompt-Taste angezeigt"
+  },
+  "biwhckdj": {
+    "message": "Prompt-Liste"
+  },
+  "byaskjndg": {
+    "message": "Prompt hinzufügen"
+  },
+  "hsksuywm": {
+    "message": "Prompt bearbeiten"
+  },
+  "hsuywkw": {
+    "message": "Prompt-Name"
+  },
+  "hsuywkwPlaceholder": {
+    "message": "Prompt-Namen eingeben"
+  },
+  "promptContent": {
+    "message": "Inhalt"
+  },
+  "uwkjwjw": {
+    "message": "Prompt-Inhalt eingeben"
+  },
+  "hsiwhwl": {
+    "message": "Keine Prompts vorhanden"
+  },
+  "shwsuwk": {
+    "message": "Prompt hinzugefügt"
+  },
+  "hwkwbhwk": {
+    "message": "Prompt aktualisiert"
+  },
+  "qrtypd": {
+    "message": "Prompt gelöscht"
+  },
+  "dcnfmq": {
+    "message": "Möchten Sie diesen Prompt wirklich löschen?"
+  },
+  "svkbtn": {
+    "message": "Speichern"
+  },
+  "pmpknd": {
+    "message": "Angepinnt"
+  },
+  "pmuknp": {
+    "message": "Pin entfernt"
+  },
+  "addkbt": {
+    "message": "Hinzufügen"
+  },
+  "ptfmsl": {
+    "message": "Gilt für"
+  },
+  "allptfm": {
+    "message": "Alle KI-Plattformen"
+  },
+  "febhyejd": {
+    "message": "Feedback online einreichen"
+  },
+  "runnerTabName": {
+    "message": "Code-Runner"
+  },
+  "runnerSettingsTitle": {
+    "message": "Unterstützte Sprachen"
+  },
+  "runnerSettingsHint": {
+    "message": "Wenn aktiviert, erscheint ein Run-Button auf Codeblöcken, um Code direkt auszuführen"
+  },
+  "fiveStarReview": {
+    "message": "Gefällt es Ihnen"
+  },
+  "goToReview": {
+    "message": "Bewerten Sie uns mit 5 Sternen"
+  },
+  "runBtn": {
+    "message": "Ausführen"
+  },
+  "themeDark": {
+    "message": "Dunkel"
+  },
+  "themeLight": {
+    "message": "Hell"
+  },
+  "dataSyncTabName": {
+    "message": "Datenmigration"
+  },
+  "formulaFormatTitle": {
+    "message": "Kopierformat auswählen"
+  },
+  "importSuccess": {
+    "message": "Import erfolgreich"
+  },
+  "importSuccessHint": {
+    "message": "Daten wurden erfolgreich importiert. Bitte aktualisieren Sie die Seite"
+  },
+  "importFailed": {
+    "message": "Import fehlgeschlagen"
+  },
+  "refreshPage": {
+    "message": "Seite aktualisieren"
+  },
+  "refreshLater": {
+    "message": "Später aktualisieren"
+  },
+  "quoteReply": {
+    "message": "Nachfragen"
+  },
+  "scrollToBottomTitle": {
+    "message": "Nach unten"
+  },
+  "scrollToBottomHint": {
+    "message": "Schnellschaltfläche anzeigen, um zur neuesten Nachricht zu gelangen"
+  },
+  "pleaseWait": {
+    "message": "Bitte warten, Knoten-ID wird geladen..."
+  },
+  "chatTimeLabelTitle": {
+    "message": "Chat-Zeit anzeigen"
+  },
+  "chatTimeLabelHint": {
+    "message": "Sendezeit bei jeder Nachricht anzeigen, so übersichtlich wie ein Chatverlauf"
+  },
+  "exportTitle": {
+    "message": "Manuelle Synchronisierung"
+  },
+  "exportHint": {
+    "message": "Daten manuell über JSON-Datei sichern oder wiederherstellen, um sie auf andere Browser zu übertragen."
+  },
+  "gdriveTitle": {
+    "message": "Google Drive Synchronisierung"
+  },
+  "gdriveHint": {
+    "message": "Daten in Google Drive sichern und geräteübergreifend synchronisieren."
+  },
+  "mermaidTabName": {
+    "message": "Mermaid"
+  },
+  "mermaidSettingsTitle": {
+    "message": "Mermaid-Diagramm-Rendering"
+  },
+  "mermaidSettingsHint": {
+    "message": "Mermaid-Codeblöcke automatisch als interaktive Diagramme rendern"
+  },
+  "mermaidDiagramBtn": {
+    "message": "Diagramm"
+  },
+  "mermaidCodeBtn": {
+    "message": "Code"
+  },
+  "mermaidFullscreen": {
+    "message": "Vollbild"
+  },
+  "mermaidViewerHint": {
+    "message": "Scrollen zum Zoomen · Ziehen zum Verschieben · ESC zum Schließen"
+  },
+  "notepadToggleHint": {
+    "message": "Show notepad entry at the bottom of the timeline for quick notes"
+  },
+  "notepadTitle": {
+    "message": "Flash Notes"
+  },
+  "notepadPlaceholder": {
+    "message": "Just write what comes to mind…"
+  },
+  "notepadClose": {
+    "message": "Close"
+  },
+  "notepadAllNotes": {
+    "message": "All Notes"
+  },
+  "notepadNewNote": {
+    "message": "New Note"
+  },
+  "notepadConfirmDeleteTitle": {
+    "message": "Confirm Delete"
+  },
+  "notepadConfirmDeleteContent": {
+    "message": "This cannot be undone. Are you sure?"
+  },
+  "notepadUntitled": {
+    "message": "Untitled"
+  },
+  "notepadYesterday": {
+    "message": "Yesterday"
+  },
+  "formulaCopyTypeTitle": {
+    "message": "Formel-Kopiertyp"
+  },
+  "formulaCopyMathML": {
+    "message": "MathML-Formel kopieren"
+  },
+  "formulaCopyGeneric": {
+    "message": "Formel kopieren"
+  },
+  "formulaLatexTitle": {
+    "message": "LaTeX-Formel kopieren"
+  },
+  "formulaLatexHint": {
+    "message": "Klicken Sie auf eine Formel, um sie im LaTeX-Format zu kopieren"
+  },
+  "formulaMathMLTitle": {
+    "message": "MathML-Formel kopieren"
+  },
+  "formulaMathMLHint": {
+    "message": "Klicken Sie auf eine Formel, um sie im MathML-Format zu kopieren — direkt in Word einfügbar"
+  },
+  "aboutTabName": {
+    "message": "Über"
+  },
+  "aboutPluginTitle": {
+    "message": "Über diese Erweiterung"
+  },
+  "aboutPluginContent": {
+    "message": "Eine Produktivitätserweiterung für KI-Gespräche mit Zeitleiste, Schnellnotizen, LaTeX-Formelkopie, benutzerdefinierten Prompts und vielem mehr. Unterstützt ChatGPT, Gemini, DeepSeek, Kimi, Claude und alle wichtigen Plattformen — verdoppelt Ihre KI-Effizienz."
+  },
+  "aboutDataSecurityTitle": {
+    "message": "Datensicherheit"
+  },
+  "aboutDataSecurityContent": {
+    "message": "Alle Ihre Daten innerhalb dieser Erweiterung werden lokal in Ihrem Browser oder in Ihrem Google Drive gespeichert, ohne über Drittanbieter-Server zu gehen. Die Erweiterung sammelt, lädt hoch oder teilt keine Ihrer Gesprächsinhalte oder persönlichen Informationen. Dieses Projekt ist auf GitHub quelloffen, und der Code kann jederzeit überprüft werden."
+  },
+  "aboutDeveloperTitle": {
+    "message": "Entwickler"
+  },
+  "aboutDeveloperContent": {
+    "message": "Dieses Projekt wird von mir alleine gepflegt, mit 1–2 neuen Versionen pro Woche. Um einen Bug zu melden oder eine Funktion vorzuschlagen, wende dich über einen der folgenden Kanäle an mich (ich antworte auf jeden Fall, wenn ich es sehe):"
+  },
+  "aboutShareTitle": {
+    "message": "Eine kleine Bitte"
+  },
+  "aboutShareContent": {
+    "message": "Wenn Ihnen diese Erweiterung geholfen hat, würde ich mich freuen, wenn Sie sie auf X, Reddit oder anderen Plattformen empfehlen und mit Freunden, Kommilitonen oder Kollegen teilen. Ich pflege dieses Plugin allein und kann keine Zeit für Marketing aufwenden — was ich tun kann, ist es immer besser zu machen. Vielen Dank. ❤️"
+  },
+  "aboutXhsTip": {
+    "message": "Wenn du einen hochwertigen Empfehlungsartikel oder ein Video auf Xiaohongshu veröffentlicht hast, kann ich dir bei der bezahlten Werbung helfen (ab 75 ¥). 👇"
+  },
+  "aboutXhsBtn": {
+    "message": "Xiaohongshu-Link einreichen"
+  }
+}

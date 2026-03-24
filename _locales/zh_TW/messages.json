@@ -1,0 +1,473 @@
+{
+  "extName": {
+    "message": "AI Timeline：助您使用 AI 效率翻倍 | GPT、Gemini、DeepSeek、Qwen"
+  },
+  "extDescription": {
+    "message": "支援 GPT、Gemini、DeepSeek 等所有主流 AI 平台：複製 LaTeX 公式、可互動對話時間軸、自訂提示詞庫、執行程式碼區塊等超多功能，助您使用 AI 效率翻倍。"
+  },
+  "qwxpzm": {
+    "message": "收藏"
+  },
+  "hkjvnr": {
+    "message": "查看收藏"
+  },
+  "zmvkpx": {
+    "message": "收藏對話"
+  },
+  "bpxjkw": {
+    "message": "取消收藏"
+  },
+  "vnkxpm": {
+    "message": "收藏清單"
+  },
+  "kxpmzv": {
+    "message": "收藏成功"
+  },
+  "pzmvkx": {
+    "message": "已取消收藏"
+  },
+  "jwvnkp": {
+    "message": "暫無資料"
+  },
+  "zxvkpm": {
+    "message": "查看全部"
+  },
+  "qdyqxsc": {
+    "message": "確定要取消收藏嗎？"
+  },
+  "mvkxpz": {
+    "message": "複製"
+  },
+  "xpzmvk": {
+    "message": "複製成功"
+  },
+  "vkpxzm": {
+    "message": "編輯"
+  },
+  "kpzmvx": {
+    "message": "複製失敗"
+  },
+  "zmxvkp": {
+    "message": "請輸入"
+  },
+  "pxvkmz": {
+    "message": "取消"
+  },
+  "vkmzpx": {
+    "message": "確定"
+  },
+  "mzpxvk": {
+    "message": "標題不能為空"
+  },
+  "xvkpmz": {
+    "message": "重新命名"
+  },
+  "pzmkvx": {
+    "message": "內容不能為空"
+  },
+  "vxpzmk": {
+    "message": "已開源"
+  },
+  "mkvxpz": {
+    "message": "為項目點亮"
+  },
+  "xpzmkv": {
+    "message": "歡迎"
+  },
+  "pkmzvx": {
+    "message": "分享給朋友"
+  },
+  "mvxkpz": {
+    "message": "複製 LaTeX 公式"
+  },
+  "kxvpmz": {
+    "message": "新建資料夾"
+  },
+  "vpmzkx": {
+    "message": "新建子資料夾"
+  },
+  "mzxvkp": {
+    "message": "刪除"
+  },
+  "pkxvmz": {
+    "message": "預設資料夾"
+  },
+  "xmkvpz": {
+    "message": "在「{folderName}」下新建子資料夾"
+  },
+  "vzkpmx": {
+    "message": "請輸入資料夾名稱"
+  },
+  "kmxpvz": {
+    "message": "資料夾名稱不能為空"
+  },
+  "pxmzvk": {
+    "message": "修改資料夾名稱"
+  },
+  "mvzxkp": {
+    "message": "請輸入新名稱"
+  },
+  "kpvzmx": {
+    "message": "資料夾名稱已存在"
+  },
+  "xzvkpm": {
+    "message": "建立成功"
+  },
+  "vmkxpz": {
+    "message": "更新成功"
+  },
+  "zpxmkv": {
+    "message": "資料夾不存在"
+  },
+  "kvpzmx": {
+    "message": "資料夾已刪除"
+  },
+  "mxkvzp": {
+    "message": "刪除失敗"
+  },
+  "pzvkmx": {
+    "message": "移動成功"
+  },
+  "vxkpmz": {
+    "message": "移動到"
+  },
+  "wjxnkp": {
+    "message": "確定要刪除資料夾「{folderName}」嗎？\n\n該資料夾及其子資料夾中有 {count} 個收藏項，刪除後這些收藏項將移至預設資料夾。"
+  },
+  "qzmvkx": {
+    "message": "確定要刪除資料夾「{folderName}」嗎？"
+  },
+  "mvkzpx": {
+    "message": "搜尋收藏..."
+  },
+  "kxzpmv": {
+    "message": "收藏到"
+  },
+  "vmzpkx": {
+    "message": "預設資料夾"
+  },
+  "pkmvxz": {
+    "message": "標題"
+  },
+  "pxkmvz": {
+    "message": "時間軸"
+  },
+  "mzkvxp": {
+    "message": "啟用後，在 AI 對話頁面右側會顯示可互動時間軸。"
+  },
+  "vkpmzx": {
+    "message": "鍵盤 ↑ / ↓ 鍵跳轉對話節點"
+  },
+  "xpvmkz": {
+    "message": "啟用後，使用鍵盤 ↑ / ↓ 鍵，在對話節點間快速跳轉。"
+  },
+  "pxmzkv": {
+    "message": "📌 標記重點對話"
+  },
+  "kzxvpm": {
+    "message": "長按時間軸上的對話節點，即可標記重點。"
+  },
+  "xmvkpz": {
+    "message": "對話框"
+  },
+  "kvzmxp": {
+    "message": "鍵盤 Enter 鍵換行"
+  },
+  "kpxvmz": {
+    "message": "複製公式"
+  },
+  "zmkvpx": {
+    "message": "複製 LaTeX 公式"
+  },
+  "vxkpzm": {
+    "message": "啟用後，自動識別頁面上的公式，點擊即可複製為 LaTeX 格式。"
+  },
+  "mkvzpx": {
+    "message": "支援的平台"
+  },
+  "vxmkpz": {
+    "message": "Enter鍵：單擊換行，雙擊發送訊息"
+  },
+  "mkpxvz": {
+    "message": "啟用後，在 AI 對話輸入框中，單擊 Enter 鍵換行，快速雙擊 Enter 鍵發送訊息。"
+  },
+  "qoytxz": {
+    "message": "此功能預設開啟，無法關閉"
+  },
+  "hosegod": {
+    "message": "提示詞"
+  },
+  "hobsidbg": {
+    "message": "啟用後，在輸入框左側顯示提示詞按鈕"
+  },
+  "biwhckdj": {
+    "message": "提示詞列表"
+  },
+  "byaskjndg": {
+    "message": "新增提示詞"
+  },
+  "hsksuywm": {
+    "message": "編輯提示詞"
+  },
+  "hsuywkw": {
+    "message": "提示詞名稱"
+  },
+  "hsuywkwPlaceholder": {
+    "message": "輸入提示詞名稱"
+  },
+  "promptContent": {
+    "message": "內容"
+  },
+  "uwkjwjw": {
+    "message": "輸入提示詞內容"
+  },
+  "hsiwhwl": {
+    "message": "暫無提示詞"
+  },
+  "shwsuwk": {
+    "message": "提示詞已新增"
+  },
+  "hwkwbhwk": {
+    "message": "提示詞已更新"
+  },
+  "qrtypd": {
+    "message": "提示詞已刪除"
+  },
+  "dcnfmq": {
+    "message": "確定刪除這個提示詞嗎？"
+  },
+  "svkbtn": {
+    "message": "儲存"
+  },
+  "pmpknd": {
+    "message": "已置頂"
+  },
+  "pmuknp": {
+    "message": "已取消置頂"
+  },
+  "addkbt": {
+    "message": "新增"
+  },
+  "ptfmsl": {
+    "message": "適用於"
+  },
+  "allptfm": {
+    "message": "全部 AI 平台"
+  },
+  "febhyejd": {
+    "message": "線上提交反饋"
+  },
+  "runnerTabName": {
+    "message": "程式碼執行"
+  },
+  "runnerSettingsTitle": {
+    "message": "支援的程式語言"
+  },
+  "runnerSettingsHint": {
+    "message": "開啟後，程式碼區塊右上角將顯示 Run 按鈕，點擊可直接執行程式碼"
+  },
+  "fiveStarReview": {
+    "message": "覺得好用"
+  },
+  "goToReview": {
+    "message": "給我們五星好評"
+  },
+  "runBtn": {
+    "message": "執行"
+  },
+  "themeDark": {
+    "message": "深色"
+  },
+  "themeLight": {
+    "message": "淺色"
+  },
+  "formulaFormatTitle": {
+    "message": "選擇複製格式"
+  },
+  "formulaCopyTypeTitle": {
+    "message": "複製公式類型"
+  },
+  "formulaCopyMathML": {
+    "message": "複製 MathML 公式"
+  },
+  "dataSyncTabName": {
+    "message": "資料遷移"
+  },
+  "exportTitle": {
+    "message": "手動同步"
+  },
+  "exportHint": {
+    "message": "透過 JSON 檔案手動備份或恢復數據，用於遷移到其他瀏覽器。"
+  },
+  "exportBtn": {
+    "message": "匯出數據"
+  },
+  "importTitle": {
+    "message": "匯入數據"
+  },
+  "importHint": {
+    "message": "從 JSON 文件匯入數據，支援覆蓋或合併兩種模式。"
+  },
+  "importBtn": {
+    "message": "選擇文件匯入"
+  },
+  "importModeMerge": {
+    "message": "合併"
+  },
+  "importModeMergeDesc": {
+    "message": "保留現有數據，與匯入數據合併"
+  },
+  "importModeOverwrite": {
+    "message": "覆蓋"
+  },
+  "importModeOverwriteDesc": {
+    "message": "清空現有數據，使用匯入數據替換"
+  },
+  "exportSuccess": {
+    "message": "匯出成功"
+  },
+  "importSuccess": {
+    "message": "匯入成功"
+  },
+  "importSuccessHint": {
+    "message": "資料已成功匯入，需要重新整理頁面後生效"
+  },
+  "importFailed": {
+    "message": "匯入失敗"
+  },
+  "refreshPage": {
+    "message": "重新整理頁面"
+  },
+  "refreshLater": {
+    "message": "稍後重新整理"
+  },
+  "quoteReply": {
+    "message": "追問"
+  },
+  "quoteReplyTitle": {
+    "message": "追問功能"
+  },
+  "quoteReplyHint": {
+    "message": "選中頁面上的文字後，顯示追問按鈕，點擊可快速引用到對話框中"
+  },
+  "scrollToBottomTitle": {
+    "message": "返回底部"
+  },
+  "scrollToBottomHint": {
+    "message": "顯示返回底部的快捷按鈕，方便回到最新訊息"
+  },
+  "pleaseWait": {
+    "message": "請稍等，節點ID正在載入..."
+  },
+  "chatTimeLabelTitle": {
+    "message": "顯示對話時間"
+  },
+  "chatTimeLabelHint": {
+    "message": "在每條訊息上顯示發送時間，像聊天記錄一樣清晰"
+  },
+  "gdriveTitle": {
+    "message": "Google Drive 雲端同步"
+  },
+  "gdriveHint": {
+    "message": "將數據備份到你的 Google Drive 中，實現多設備同步。"
+  },
+  "mermaidTabName": {
+    "message": "Mermaid 圖表"
+  },
+  "mermaidSettingsTitle": {
+    "message": "Mermaid 圖表渲染"
+  },
+  "mermaidSettingsHint": {
+    "message": "自動將 Mermaid 程式碼區塊渲染為可視化圖表"
+  },
+  "mermaidDiagramBtn": {
+    "message": "圖表"
+  },
+  "mermaidCodeBtn": {
+    "message": "原始碼"
+  },
+  "mermaidFullscreen": {
+    "message": "全螢幕查看"
+  },
+  "mermaidViewerHint": {
+    "message": "滾輪縮放 · 拖曳平移 · ESC 退出"
+  },
+  "notepadToggleHint": {
+    "message": "在時間軸底部顯示閃記入口，隨手記錄靈感"
+  },
+  "notepadTitle": {
+    "message": "閃記"
+  },
+  "notepadPlaceholder": {
+    "message": "想到什麼就寫什麼，無需排版…"
+  },
+  "notepadClose": {
+    "message": "關閉"
+  },
+  "notepadAllNotes": {
+    "message": "全部筆記"
+  },
+  "notepadNewNote": {
+    "message": "新建筆記"
+  },
+  "notepadConfirmDeleteTitle": {
+    "message": "確認刪除"
+  },
+  "notepadConfirmDeleteContent": {
+    "message": "刪除後將無法恢復，確定要繼續嗎？"
+  },
+  "notepadUntitled": {
+    "message": "無標題"
+  },
+  "notepadYesterday": {
+    "message": "昨天"
+  },
+  "aboutTabName": {
+    "message": "關於插件"
+  },
+  "aboutPluginTitle": {
+    "message": "插件簡介"
+  },
+  "aboutPluginContent": {
+    "message": "專門為 AI 對話開發的提效插件，擁有對話時間軸、閃記、複製 LaTeX 公式、自訂提示詞等超多功能。支援 ChatGPT、Gemini、DeepSeek、Kimi、Claude 等主流平台，它的使命是助你使用 AI 的效率翻倍。"
+  },
+  "aboutDataSecurityTitle": {
+    "message": "數據安全"
+  },
+  "aboutDataSecurityContent": {
+    "message": "你在本插件內的所有數據都存儲在你的瀏覽器本地或你的 Google Drive 中，不經過任何第三方伺服器。插件不會收集、上傳或分享你的任何對話內容和個人信息，本項目已在GitHub開源，可隨時審查代碼。"
+  },
+  "aboutDeveloperTitle": {
+    "message": "開發者"
+  },
+  "aboutDeveloperContent": {
+    "message": "這個專案由我一個人維護，每週 1～2 個新版本的更新節奏。如果想回饋 bug 或功能建議，可透過以下任一管道進行回饋（我看到一定會回覆）："
+  },
+  "aboutShareTitle": {
+    "message": "想請你幫個忙"
+  },
+  "aboutShareContent": {
+    "message": "如果這個插件幫到了你，想請你在 X、Reddit 等平台發帖推薦一下，也歡迎分享給朋友、同學、同事，讓更多人使用到它。我是一個人維護這個插件，精力有限，無法抽身去做用戶增長運營，我能做到的是讓這個插件越來越好用，非常感謝。❤️"
+  },
+  "formulaCopyGeneric": {
+    "message": "複製公式"
+  },
+  "formulaLatexTitle": {
+    "message": "複製 LaTeX 公式"
+  },
+  "formulaLatexHint": {
+    "message": "點擊公式複製為 LaTeX 格式"
+  },
+  "formulaMathMLTitle": {
+    "message": "複製 MathML 公式"
+  },
+  "formulaMathMLHint": {
+    "message": "點擊公式複製為 MathML 格式，可直接貼到 Word"
+  },
+  "aboutXhsTip": {
+    "message": "如果你在小紅書發布了推薦文章或影片，且內容優質，我可以幫你投流推廣（75元起）。👇"
+  },
+  "aboutXhsBtn": {
+    "message": "登記小紅書連結"
+  }
+}

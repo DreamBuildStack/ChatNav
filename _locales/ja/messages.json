@@ -1,0 +1,467 @@
+{
+  "extName": {
+    "message": "AI Timeline：AI効率を倍増 | GPT、Gemini、DeepSeek、Qwen"
+  },
+  "extDescription": {
+    "message": "GPT、Gemini、DeepSeek等すべての主要AIプラットフォーム対応：LaTeX数式コピー、対話タイムライン、プロンプトライブラリ、コード実行でAI効率を倍増。"
+  },
+  "qwxpzm": {
+    "message": "お気に入り"
+  },
+  "hkjvnr": {
+    "message": "お気に入りを見る"
+  },
+  "zmvkpx": {
+    "message": "会話をお気に入りに追加"
+  },
+  "bpxjkw": {
+    "message": "お気に入りから削除"
+  },
+  "vnkxpm": {
+    "message": "お気に入りリスト"
+  },
+  "kxpmzv": {
+    "message": "お気に入りに追加しました"
+  },
+  "pzmvkx": {
+    "message": "お気に入りから削除しました"
+  },
+  "jwvnkp": {
+    "message": "データがありません"
+  },
+  "zxvkpm": {
+    "message": "すべて表示"
+  },
+  "qdyqxsc": {
+    "message": "お気に入りを解除しますか？"
+  },
+  "mvkxpz": {
+    "message": "コピー"
+  },
+  "xpzmvk": {
+    "message": "コピーしました"
+  },
+  "vkpxzm": {
+    "message": "編集"
+  },
+  "kpzmvx": {
+    "message": "コピーに失敗しました"
+  },
+  "zmxvkp": {
+    "message": "入力してください"
+  },
+  "pxvkmz": {
+    "message": "キャンセル"
+  },
+  "vkmzpx": {
+    "message": "確定"
+  },
+  "mzpxvk": {
+    "message": "タイトルは空にできません"
+  },
+  "xvkpmz": {
+    "message": "名前を変更"
+  },
+  "pzmkvx": {
+    "message": "内容は空にできません"
+  },
+  "vxpzmk": {
+    "message": "オープンソース"
+  },
+  "mkvxpz": {
+    "message": "プロジェクトにスターを"
+  },
+  "xpzmkv": {
+    "message": "ようこそ"
+  },
+  "pkmzvx": {
+    "message": "友達にシェア"
+  },
+  "mvxkpz": {
+    "message": "LaTeX数式をコピー"
+  },
+  "kxvpmz": {
+    "message": "新規フォルダ"
+  },
+  "vpmzkx": {
+    "message": "新規サブフォルダ"
+  },
+  "mzxvkp": {
+    "message": "削除"
+  },
+  "pkxvmz": {
+    "message": "デフォルトフォルダ"
+  },
+  "xmkvpz": {
+    "message": "「{folderName}」にサブフォルダを作成"
+  },
+  "vzkpmx": {
+    "message": "フォルダ名を入力"
+  },
+  "kmxpvz": {
+    "message": "フォルダ名は空にできません"
+  },
+  "pxmzvk": {
+    "message": "フォルダ名を変更"
+  },
+  "mvzxkp": {
+    "message": "新しい名前を入力"
+  },
+  "kpvzmx": {
+    "message": "フォルダ名は既に存在します"
+  },
+  "xzvkpm": {
+    "message": "作成しました"
+  },
+  "vmkxpz": {
+    "message": "更新しました"
+  },
+  "zpxmkv": {
+    "message": "フォルダが見つかりません"
+  },
+  "kvpzmx": {
+    "message": "フォルダを削除しました"
+  },
+  "mxkvzp": {
+    "message": "削除に失敗しました"
+  },
+  "pzvkmx": {
+    "message": "移動しました"
+  },
+  "vxkpmz": {
+    "message": "移動先"
+  },
+  "wjxnkp": {
+    "message": "フォルダ「{folderName}」を削除しますか？\n\nこのフォルダとサブフォルダには {count} 件のお気に入りがあります。削除後、これらはデフォルトフォルダに移動されます。"
+  },
+  "qzmvkx": {
+    "message": "フォルダ「{folderName}」を削除しますか？"
+  },
+  "mvkzpx": {
+    "message": "お気に入りを検索..."
+  },
+  "kxzpmv": {
+    "message": "お気に入りに保存"
+  },
+  "vmzpkx": {
+    "message": "デフォルトフォルダ"
+  },
+  "pkmvxz": {
+    "message": "タイトル"
+  },
+  "pxkmvz": {
+    "message": "タイムライン"
+  },
+  "mzkvxp": {
+    "message": "有効にすると、AI会話ページの右側にインタラクティブなタイムラインが表示されます。"
+  },
+  "vkpmzx": {
+    "message": "↑ / ↓ キーで会話ノードを移動"
+  },
+  "xpvmkz": {
+    "message": "有効にすると、↑ / ↓ キーで会話ノード間を素早く移動できます。"
+  },
+  "pxmzkv": {
+    "message": "📌 重要な会話をマーク"
+  },
+  "kzxvpm": {
+    "message": "タイムライン上の会話ノードを長押しすると、重要としてマークできます。"
+  },
+  "xmvkpz": {
+    "message": "チャットボックス"
+  },
+  "kvzmxp": {
+    "message": "Enterキーで改行"
+  },
+  "kpxvmz": {
+    "message": "数式をコピー"
+  },
+  "zmkvpx": {
+    "message": "LaTeX数式をコピー"
+  },
+  "vxkpzm": {
+    "message": "有効にすると、ページ上の数式を自動検出し、クリックでLaTeX形式でコピーできます。"
+  },
+  "mkvzpx": {
+    "message": "対応プラットフォーム"
+  },
+  "vxmkpz": {
+    "message": "Enterキー：1回押しで改行、2回連続で送信"
+  },
+  "mkpxvz": {
+    "message": "有効にすると、AIチャット入力欄でEnterキーを1回押すと改行、素早く2回押すとメッセージを送信します。"
+  },
+  "qoytxz": {
+    "message": "この機能はデフォルトで有効で、オフにできません"
+  },
+  "hosegod": {
+    "message": "プロンプト"
+  },
+  "hobsidbg": {
+    "message": "有効にすると、入力ボックスの左側にプロンプトボタンが表示されます"
+  },
+  "biwhckdj": {
+    "message": "プロンプト一覧"
+  },
+  "byaskjndg": {
+    "message": "プロンプトを追加"
+  },
+  "hsksuywm": {
+    "message": "プロンプトを編集"
+  },
+  "hsuywkw": {
+    "message": "プロンプト名"
+  },
+  "hsuywkwPlaceholder": {
+    "message": "プロンプト名を入力"
+  },
+  "promptContent": {
+    "message": "内容"
+  },
+  "uwkjwjw": {
+    "message": "プロンプト内容を入力"
+  },
+  "hsiwhwl": {
+    "message": "プロンプトがありません"
+  },
+  "shwsuwk": {
+    "message": "プロンプトを追加しました"
+  },
+  "hwkwbhwk": {
+    "message": "プロンプトを更新しました"
+  },
+  "qrtypd": {
+    "message": "プロンプトを削除しました"
+  },
+  "dcnfmq": {
+    "message": "このプロンプトを削除しますか？"
+  },
+  "svkbtn": {
+    "message": "保存"
+  },
+  "pmpknd": {
+    "message": "ピン留めしました"
+  },
+  "pmuknp": {
+    "message": "ピン留めを解除しました"
+  },
+  "addkbt": {
+    "message": "追加"
+  },
+  "ptfmsl": {
+    "message": "対象"
+  },
+  "allptfm": {
+    "message": "すべてのAIプラットフォーム"
+  },
+  "febhyejd": {
+    "message": "オンラインでフィードバックを送信"
+  },
+  "runnerTabName": {
+    "message": "コードランナー"
+  },
+  "runnerSettingsTitle": {
+    "message": "対応言語"
+  },
+  "runnerSettingsHint": {
+    "message": "有効にすると、コードブロックにRunボタンが表示され、コードを直接実行できます"
+  },
+  "fiveStarReview": {
+    "message": "気に入りましたか"
+  },
+  "goToReview": {
+    "message": "5つ星評価をお願いします"
+  },
+  "runBtn": {
+    "message": "実行"
+  },
+  "themeDark": {
+    "message": "ダーク"
+  },
+  "themeLight": {
+    "message": "ライト"
+  },
+  "formulaFormatTitle": {
+    "message": "コピー形式を選択"
+  },
+  "dataSyncTabName": {
+    "message": "データ移行"
+  },
+  "exportTitle": {
+    "message": "手動同期"
+  },
+  "exportHint": {
+    "message": "JSONファイルで手動バックアップまたはデータ復元を行い、他のブラウザへの移行に使用できます。"
+  },
+  "exportBtn": {
+    "message": "エクスポート"
+  },
+  "importTitle": {
+    "message": "データをインポート"
+  },
+  "importHint": {
+    "message": "JSONファイルからデータをインポートします。上書きまたはマージモードをサポートしています。"
+  },
+  "importBtn": {
+    "message": "ファイルを選択"
+  },
+  "importModeMerge": {
+    "message": "マージ"
+  },
+  "importModeMergeDesc": {
+    "message": "既存のデータを保持し、インポートデータとマージ"
+  },
+  "importModeOverwrite": {
+    "message": "上書き"
+  },
+  "importModeOverwriteDesc": {
+    "message": "既存のデータを消去し、インポートデータで置き換え"
+  },
+  "exportSuccess": {
+    "message": "エクスポート成功"
+  },
+  "importSuccess": {
+    "message": "インポート成功"
+  },
+  "importSuccessHint": {
+    "message": "データのインポートが成功しました。ページを更新して適用してください"
+  },
+  "importFailed": {
+    "message": "インポート失敗"
+  },
+  "refreshPage": {
+    "message": "ページを更新"
+  },
+  "refreshLater": {
+    "message": "後で更新"
+  },
+  "quoteReply": {
+    "message": "追加質問"
+  },
+  "scrollToBottomTitle": {
+    "message": "最下部へ"
+  },
+  "scrollToBottomHint": {
+    "message": "最新メッセージに戻るクイックボタンを表示"
+  },
+  "pleaseWait": {
+    "message": "お待ちください、ノードIDを読み込み中..."
+  },
+  "chatTimeLabelTitle": {
+    "message": "会話時間を表示"
+  },
+  "chatTimeLabelHint": {
+    "message": "各メッセージに送信時間を表示、チャット履歴のように一目瞭然"
+  },
+  "gdriveTitle": {
+    "message": "Google Drive 同期"
+  },
+  "gdriveHint": {
+    "message": "データをGoogle Driveにバックアップし、複数デバイス間で同期します。"
+  },
+  "mermaidTabName": {
+    "message": "Mermaid"
+  },
+  "mermaidSettingsTitle": {
+    "message": "Mermaid ダイアグラム描画"
+  },
+  "mermaidSettingsHint": {
+    "message": "Mermaid コードブロックをインタラクティブなダイアグラムに自動レンダリング"
+  },
+  "mermaidDiagramBtn": {
+    "message": "ダイアグラム"
+  },
+  "mermaidCodeBtn": {
+    "message": "コード"
+  },
+  "mermaidFullscreen": {
+    "message": "全画面表示"
+  },
+  "mermaidViewerHint": {
+    "message": "スクロールでズーム · ドラッグで移動 · ESC で閉じる"
+  },
+  "notepadToggleHint": {
+    "message": "Show notepad entry at the bottom of the timeline for quick notes"
+  },
+  "notepadTitle": {
+    "message": "Flash Notes"
+  },
+  "notepadPlaceholder": {
+    "message": "Just write what comes to mind…"
+  },
+  "notepadClose": {
+    "message": "Close"
+  },
+  "notepadAllNotes": {
+    "message": "All Notes"
+  },
+  "notepadNewNote": {
+    "message": "New Note"
+  },
+  "notepadConfirmDeleteTitle": {
+    "message": "Confirm Delete"
+  },
+  "notepadConfirmDeleteContent": {
+    "message": "This cannot be undone. Are you sure?"
+  },
+  "notepadUntitled": {
+    "message": "Untitled"
+  },
+  "notepadYesterday": {
+    "message": "Yesterday"
+  },
+  "formulaCopyTypeTitle": {
+    "message": "数式コピーの種類"
+  },
+  "formulaCopyMathML": {
+    "message": "MathML 数式をコピー"
+  },
+  "formulaCopyGeneric": {
+    "message": "数式をコピー"
+  },
+  "formulaLatexTitle": {
+    "message": "LaTeX 数式をコピー"
+  },
+  "formulaLatexHint": {
+    "message": "数式をクリックすると LaTeX 形式でコピーされます"
+  },
+  "formulaMathMLTitle": {
+    "message": "MathML 数式をコピー"
+  },
+  "formulaMathMLHint": {
+    "message": "数式をクリックすると MathML 形式でコピーされ、Word に直接貼り付け可能"
+  },
+  "aboutTabName": {
+    "message": "プラグインについて"
+  },
+  "aboutPluginTitle": {
+    "message": "プラグイン紹介"
+  },
+  "aboutPluginContent": {
+    "message": "AI 会話専用の効率化プラグイン。会話タイムライン、フラッシュメモ、LaTeX 数式コピー、カスタムプロンプトなど多数の機能を搭載。ChatGPT、Gemini、DeepSeek、Kimi、Claude など主要プラットフォームに対応し、AI の使用効率を倍増させます。"
+  },
+  "aboutDataSecurityTitle": {
+    "message": "データセキュリティ"
+  },
+  "aboutDataSecurityContent": {
+    "message": "本拡張機能内のすべてのデータは、ブラウザのローカルまたは Google Drive に保存され、第三者のサーバーを経由しません。拡張機能はあなたの会話内容や個人情報を収集、アップロード、共有することはありません。本プロジェクトはGitHubでオープンソース化されており、いつでもコードを確認できます。"
+  },
+  "aboutDeveloperTitle": {
+    "message": "開発者"
+  },
+  "aboutDeveloperContent": {
+    "message": "このプロジェクトは私一人で管理しており、毎週1～2件の新バージョンをリリースしています。バグ報告や機能提案は以下のいずれかのチャンネルからご連絡ください（見つけ次第必ずご返信します）："
+  },
+  "aboutShareTitle": {
+    "message": "お願い"
+  },
+  "aboutShareContent": {
+    "message": "このプラグインが役に立ったら、X、Reddit などのプラットフォームで紹介していただけると嬉しいです。友人や同僚への共有も大歓迎です。一人で維持しており、マーケティングに手が回らないので、できることはプラグインをもっと良くし続けることです。ありがとうございます。❤️"
+  },
+  "aboutXhsTip": {
+    "message": "Xiaohongshuに質の高いおすすめ記事や動画を投稿した場合、有料プロモーション（75元〜）でお手伝いできます。👇"
+  },
+  "aboutXhsBtn": {
+    "message": "Xiaohongshuリンクを登録"
+  }
+}

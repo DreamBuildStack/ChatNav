@@ -1,0 +1,440 @@
+{
+  "extName": {
+    "message": "AI Timeline: Tăng gấp đôi hiệu suất AI | GPT, Gemini, DeepSeek, Qwen"
+  },
+  "extDescription": {
+    "message": "Hỗ trợ GPT, Gemini, DeepSeek và tất cả nền tảng AI: sao chép LaTeX, dòng thời gian tương tác, thư viện prompt, chạy mã để tăng gấp đôi hiệu suất AI."
+  },
+  "qwxpzm": {
+    "message": "Yêu thích"
+  },
+  "hkjvnr": {
+    "message": "Xem mục yêu thích"
+  },
+  "zmvkpx": {
+    "message": "Thêm hội thoại vào yêu thích"
+  },
+  "bpxjkw": {
+    "message": "Xóa khỏi yêu thích"
+  },
+  "vnkxpm": {
+    "message": "Danh sách yêu thích"
+  },
+  "kxpmzv": {
+    "message": "Đã thêm vào yêu thích"
+  },
+  "pzmvkx": {
+    "message": "Đã xóa khỏi yêu thích"
+  },
+  "jwvnkp": {
+    "message": "Không có dữ liệu"
+  },
+  "zxvkpm": {
+    "message": "Xem tất cả"
+  },
+  "qdyqxsc": {
+    "message": "Bạn có muốn bỏ yêu thích không?"
+  },
+  "mvkxpz": {
+    "message": "Sao chép"
+  },
+  "xpzmvk": {
+    "message": "Đã sao chép"
+  },
+  "vkpxzm": {
+    "message": "Chỉnh sửa"
+  },
+  "kpzmvx": {
+    "message": "Sao chép thất bại"
+  },
+  "zmxvkp": {
+    "message": "Vui lòng nhập"
+  },
+  "pxvkmz": {
+    "message": "Hủy"
+  },
+  "vkmzpx": {
+    "message": "Xác nhận"
+  },
+  "mzpxvk": {
+    "message": "Tiêu đề không được để trống"
+  },
+  "xvkpmz": {
+    "message": "Đổi tên"
+  },
+  "pzmkvx": {
+    "message": "Nội dung không được để trống"
+  },
+  "vxpzmk": {
+    "message": "Mã nguồn mở"
+  },
+  "mkvxpz": {
+    "message": "Gắn sao cho dự án"
+  },
+  "xpzmkv": {
+    "message": "Chào mừng"
+  },
+  "pkmzvx": {
+    "message": "Chia sẻ với bạn bè"
+  },
+  "mvxkpz": {
+    "message": "Sao chép công thức LaTeX"
+  },
+  "kxvpmz": {
+    "message": "Thư mục mới"
+  },
+  "vpmzkx": {
+    "message": "Thư mục con mới"
+  },
+  "mzxvkp": {
+    "message": "Xóa"
+  },
+  "pkxvmz": {
+    "message": "Thư mục mặc định"
+  },
+  "xmkvpz": {
+    "message": "Tạo thư mục con trong \"{folderName}\""
+  },
+  "vzkpmx": {
+    "message": "Nhập tên thư mục"
+  },
+  "kmxpvz": {
+    "message": "Tên thư mục không được để trống"
+  },
+  "pxmzvk": {
+    "message": "Đổi tên thư mục"
+  },
+  "mvzxkp": {
+    "message": "Nhập tên mới"
+  },
+  "kpvzmx": {
+    "message": "Tên thư mục đã tồn tại"
+  },
+  "xzvkpm": {
+    "message": "Tạo thành công"
+  },
+  "vmkxpz": {
+    "message": "Cập nhật thành công"
+  },
+  "zpxmkv": {
+    "message": "Không tìm thấy thư mục"
+  },
+  "kvpzmx": {
+    "message": "Đã xóa thư mục"
+  },
+  "mxkvzp": {
+    "message": "Xóa thất bại"
+  },
+  "pzvkmx": {
+    "message": "Di chuyển thành công"
+  },
+  "vxkpmz": {
+    "message": "Di chuyển đến"
+  },
+  "wjxnkp": {
+    "message": "Bạn có chắc muốn xóa thư mục \"{folderName}\"?\n\nThư mục này và các thư mục con chứa {count} mục yêu thích. Sau khi xóa, các mục này sẽ được chuyển đến thư mục mặc định."
+  },
+  "qzmvkx": {
+    "message": "Bạn có chắc muốn xóa thư mục \"{folderName}\"?"
+  },
+  "mvkzpx": {
+    "message": "Tìm kiếm yêu thích..."
+  },
+  "kxzpmv": {
+    "message": "Lưu vào"
+  },
+  "vmzpkx": {
+    "message": "Thư mục mặc định"
+  },
+  "pkmvxz": {
+    "message": "Tiêu đề"
+  },
+  "pxkmvz": {
+    "message": "Dòng thời gian"
+  },
+  "mzkvxp": {
+    "message": "Khi bật, dòng thời gian tương tác sẽ hiển thị ở bên phải trang hội thoại AI."
+  },
+  "vkpmzx": {
+    "message": "Sử dụng phím ↑ / ↓ để di chuyển giữa các nút hội thoại"
+  },
+  "xpvmkz": {
+    "message": "Khi bật, sử dụng phím ↑ / ↓ để nhảy nhanh giữa các nút hội thoại."
+  },
+  "pxmzkv": {
+    "message": "📌 Đánh dấu hội thoại quan trọng"
+  },
+  "kzxvpm": {
+    "message": "Nhấn giữ nút hội thoại trên dòng thời gian để đánh dấu là quan trọng."
+  },
+  "xmvkpz": {
+    "message": "Hộp chat"
+  },
+  "kvzmxp": {
+    "message": "Phím Enter để xuống dòng"
+  },
+  "kpxvmz": {
+    "message": "Sao chép công thức"
+  },
+  "zmkvpx": {
+    "message": "Sao chép công thức LaTeX"
+  },
+  "vxkpzm": {
+    "message": "Khi bật, tự động phát hiện công thức trên trang và nhấp để sao chép dưới dạng LaTeX."
+  },
+  "mkvzpx": {
+    "message": "Nền tảng được hỗ trợ"
+  },
+  "vxmkpz": {
+    "message": "Phím Enter: nhấn một lần để xuống dòng, hai lần để gửi"
+  },
+  "mkpxvz": {
+    "message": "Khi bật, trong hộp nhập chat AI, nhấn Enter một lần để xuống dòng, nhấn nhanh hai lần để gửi tin nhắn."
+  },
+  "qoytxz": {
+    "message": "Tính năng này được bật theo mặc định và không thể tắt"
+  },
+  "hosegod": {
+    "message": "Prompts"
+  },
+  "hobsidbg": {
+    "message": "Khi bật, một nút prompt sẽ được hiển thị ở bên trái hộp nhập liệu"
+  },
+  "biwhckdj": {
+    "message": "Danh sách Prompt"
+  },
+  "byaskjndg": {
+    "message": "Thêm Prompt"
+  },
+  "hsksuywm": {
+    "message": "Chỉnh sửa Prompt"
+  },
+  "hsuywkw": {
+    "message": "Tên Prompt"
+  },
+  "hsuywkwPlaceholder": {
+    "message": "Nhập tên prompt"
+  },
+  "promptContent": {
+    "message": "Nội dung"
+  },
+  "uwkjwjw": {
+    "message": "Nhập nội dung prompt"
+  },
+  "hsiwhwl": {
+    "message": "Chưa có prompt"
+  },
+  "shwsuwk": {
+    "message": "Đã thêm prompt"
+  },
+  "hwkwbhwk": {
+    "message": "Đã cập nhật prompt"
+  },
+  "qrtypd": {
+    "message": "Đã xóa prompt"
+  },
+  "dcnfmq": {
+    "message": "Bạn có chắc muốn xóa prompt này?"
+  },
+  "svkbtn": {
+    "message": "Lưu"
+  },
+  "pmpknd": {
+    "message": "Đã ghim"
+  },
+  "pmuknp": {
+    "message": "Đã bỏ ghim"
+  },
+  "addkbt": {
+    "message": "Thêm"
+  },
+  "ptfmsl": {
+    "message": "Áp dụng cho"
+  },
+  "allptfm": {
+    "message": "Tất cả nền tảng AI"
+  },
+  "febhyejd": {
+    "message": "Gửi phản hồi trực tuyến"
+  },
+  "runnerTabName": {
+    "message": "Chạy mã"
+  },
+  "runnerSettingsTitle": {
+    "message": "Ngôn ngữ được hỗ trợ"
+  },
+  "runnerSettingsHint": {
+    "message": "Khi bật, nút Run sẽ xuất hiện trên các khối mã để chạy mã trực tiếp"
+  },
+  "fiveStarReview": {
+    "message": "Thích không"
+  },
+  "goToReview": {
+    "message": "Đánh giá 5 sao cho chúng tôi"
+  },
+  "runBtn": {
+    "message": "Chạy"
+  },
+  "themeDark": {
+    "message": "Tối"
+  },
+  "themeLight": {
+    "message": "Sáng"
+  },
+  "dataSyncTabName": {
+    "message": "Di chuyển dữ liệu"
+  },
+  "formulaFormatTitle": {
+    "message": "Chọn định dạng sao chép"
+  },
+  "importSuccess": {
+    "message": "Nhập thành công"
+  },
+  "importSuccessHint": {
+    "message": "Dữ liệu đã được nhập thành công. Vui lòng làm mới trang"
+  },
+  "importFailed": {
+    "message": "Nhập thất bại"
+  },
+  "refreshPage": {
+    "message": "Làm mới trang"
+  },
+  "refreshLater": {
+    "message": "Làm mới sau"
+  },
+  "quoteReply": {
+    "message": "Hỏi thêm"
+  },
+  "scrollToBottomTitle": {
+    "message": "Xuống cuối"
+  },
+  "scrollToBottomHint": {
+    "message": "Hiển thị nút nhanh để quay lại tin nhắn mới nhất"
+  },
+  "pleaseWait": {
+    "message": "Vui lòng chờ, đang tải ID nút..."
+  },
+  "chatTimeLabelTitle": {
+    "message": "Hiển thị thời gian chat"
+  },
+  "chatTimeLabelHint": {
+    "message": "Hiển thị thời gian gửi trên mỗi tin nhắn, rõ ràng như lịch sử trò chuyện"
+  },
+  "exportTitle": {
+    "message": "Đồng bộ thủ công"
+  },
+  "exportHint": {
+    "message": "Sao lưu hoặc khôi phục dữ liệu thủ công qua tệp JSON để chuyển sang trình duyệt khác."
+  },
+  "gdriveTitle": {
+    "message": "Đồng bộ Google Drive"
+  },
+  "gdriveHint": {
+    "message": "Sao lưu dữ liệu vào Google Drive của bạn để đồng bộ nhiều thiết bị."
+  },
+  "mermaidTabName": {
+    "message": "Mermaid"
+  },
+  "mermaidSettingsTitle": {
+    "message": "Hiển thị biểu đồ Mermaid"
+  },
+  "mermaidSettingsHint": {
+    "message": "Tự động hiển thị khối mã Mermaid dưới dạng biểu đồ tương tác"
+  },
+  "mermaidDiagramBtn": {
+    "message": "Biểu đồ"
+  },
+  "mermaidCodeBtn": {
+    "message": "Mã nguồn"
+  },
+  "mermaidFullscreen": {
+    "message": "Toàn màn hình"
+  },
+  "mermaidViewerHint": {
+    "message": "Cuộn để thu phóng · Kéo để di chuyển · ESC để đóng"
+  },
+  "notepadToggleHint": {
+    "message": "Show notepad entry at the bottom of the timeline for quick notes"
+  },
+  "notepadTitle": {
+    "message": "Flash Notes"
+  },
+  "notepadPlaceholder": {
+    "message": "Just write what comes to mind…"
+  },
+  "notepadClose": {
+    "message": "Close"
+  },
+  "notepadAllNotes": {
+    "message": "All Notes"
+  },
+  "notepadNewNote": {
+    "message": "New Note"
+  },
+  "notepadConfirmDeleteTitle": {
+    "message": "Confirm Delete"
+  },
+  "notepadConfirmDeleteContent": {
+    "message": "This cannot be undone. Are you sure?"
+  },
+  "notepadUntitled": {
+    "message": "Untitled"
+  },
+  "notepadYesterday": {
+    "message": "Yesterday"
+  },
+  "formulaCopyTypeTitle": {
+    "message": "Loại sao chép công thức"
+  },
+  "formulaCopyMathML": {
+    "message": "Sao chép công thức MathML"
+  },
+  "formulaCopyGeneric": {
+    "message": "Sao chép công thức"
+  },
+  "formulaLatexTitle": {
+    "message": "Sao chép công thức LaTeX"
+  },
+  "formulaLatexHint": {
+    "message": "Nhấp vào công thức để sao chép dạng LaTeX"
+  },
+  "formulaMathMLTitle": {
+    "message": "Sao chép công thức MathML"
+  },
+  "formulaMathMLHint": {
+    "message": "Nhấp vào công thức để sao chép dạng MathML, dán trực tiếp vào Word"
+  },
+  "aboutTabName": {
+    "message": "Giới thiệu"
+  },
+  "aboutPluginTitle": {
+    "message": "Về tiện ích"
+  },
+  "aboutPluginContent": {
+    "message": "Tiện ích nâng cao năng suất cho hội thoại AI, bao gồm dòng thời gian hội thoại, ghi chú nhanh, sao chép công thức LaTeX, prompt tùy chỉnh và nhiều tính năng khác. Hỗ trợ ChatGPT, Gemini, DeepSeek, Kimi, Claude và tất cả nền tảng chính — giúp tăng gấp đôi hiệu suất sử dụng AI."
+  },
+  "aboutDataSecurityTitle": {
+    "message": "Bảo mật dữ liệu"
+  },
+  "aboutDataSecurityContent": {
+    "message": "Tất cả dữ liệu của bạn trong tiện ích mở rộng này được lưu trữ cục bộ trên trình duyệt hoặc trong Google Drive của bạn, không đi qua bất kỳ máy chủ bên thứ ba nào. Tiện ích không thu thập, tải lên hoặc chia sẻ bất kỳ nội dung cuộc trò chuyện hay thông tin cá nhân nào của bạn. Dự án này là mã nguồn mở trên GitHub, bạn có thể kiểm tra mã bất cứ lúc nào."
+  },
+  "aboutDeveloperTitle": {
+    "message": "Nhà phát triển"
+  },
+  "aboutDeveloperContent": {
+    "message": "Dự án này được tôi duy trì một mình, với nhịp độ 1–2 phiên bản mới mỗi tuần. Để báo lỗi hoặc đề xuất tính năng, hãy liên hệ qua bất kỳ kênh nào bên dưới (tôi chắc chắn sẽ trả lời khi thấy):"
+  },
+  "aboutShareTitle": {
+    "message": "Nhờ giúp một chút"
+  },
+  "aboutShareContent": {
+    "message": "Nếu tiện ích này hữu ích, hãy giới thiệu trên X, Reddit hoặc các nền tảng khác, và chia sẻ với bạn bè, bạn học hoặc đồng nghiệp. Tôi duy trì plugin này một mình, không có thời gian làm marketing — điều tôi có thể làm là làm cho nó ngày càng tốt hơn. Cảm ơn rất nhiều. ❤️"
+  },
+  "aboutXhsTip": {
+    "message": "Nếu bạn đã đăng bài viết hoặc video giới thiệu chất lượng trên Xiaohongshu, tôi có thể giúp bạn quảng bá trả phí (từ ¥75). 👇"
+  },
+  "aboutXhsBtn": {
+    "message": "Gửi liên kết Xiaohongshu"
+  }
+}

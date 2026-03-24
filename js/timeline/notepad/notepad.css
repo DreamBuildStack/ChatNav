@@ -1,0 +1,376 @@
+/* ============================================
+   闪记面板 & 入口按钮（固定浅色主题）
+   ============================================ */
+
+/* ── 面板容器 ── */
+.ait-notepad-panel {
+    position: fixed;
+    z-index: 99998;
+    width: 260px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    background: #fffdf7;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow:
+        0 8px 32px rgba(0, 0, 0, 0.10),
+        0 2px 8px rgba(0, 0, 0, 0.05);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.96) translateX(6px);
+    transform-origin: right bottom;
+    transition:
+        opacity 0.15s cubic-bezier(0, 0, 0.2, 1),
+        transform 0.15s cubic-bezier(0, 0, 0.2, 1);
+    overflow: hidden;
+}
+
+.ait-notepad-panel.ait-notepad-visible {
+    opacity: 0.55;
+    pointer-events: none;
+    transform: scale(1) translateX(0);
+}
+
+.ait-notepad-panel.ait-notepad-visible.ait-notepad-focused {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* ── 头部 ── */
+.ait-notepad-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px 10px 14px;
+    background: rgba(0, 0, 0, 0.025);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    flex-shrink: 0;
+    user-select: none;
+    cursor: move;
+    gap: 8px;
+}
+
+.ait-notepad-header-right {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    flex-shrink: 0;
+}
+
+/* ── 标题 ── */
+.ait-notepad-title {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #444;
+    letter-spacing: 0.01em;
+    line-height: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.ait-notepad-title svg {
+    display: block;
+    flex-shrink: 0;
+    color: #6128FF;
+}
+
+/* ── 头部按钮（关闭 / 列表 / 新增） ── */
+.ait-notepad-close-btn,
+.ait-notepad-list-btn,
+.ait-notepad-add-btn {
+    width: 28px;
+    height: 28px;
+    border: none;
+    background: transparent;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #888;
+    transition: background-color 0.15s ease, color 0.15s ease;
+    padding: 0;
+    flex-shrink: 0;
+}
+
+.ait-notepad-close-btn:hover,
+.ait-notepad-list-btn:hover,
+.ait-notepad-add-btn:hover {
+    background: rgba(0, 0, 0, 0.07);
+    color: #444;
+}
+
+.ait-notepad-close-btn:active,
+.ait-notepad-list-btn:active,
+.ait-notepad-add-btn:active {
+    background: rgba(0, 0, 0, 0.12);
+}
+
+/* ── 主体区域 ── */
+.ait-notepad-body {
+    flex: 1;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ── 列表视图 ── */
+.ait-notepad-list {
+    flex: 1;
+    overflow-y: auto;
+    padding: 6px;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(0, 0, 0, 0.12) transparent;
+}
+
+.ait-notepad-list::-webkit-scrollbar {
+    width: 4px;
+}
+
+.ait-notepad-list::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.12);
+    border-radius: 2px;
+}
+
+/* ── 列表项 ── */
+.ait-notepad-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.12s ease;
+}
+
+.ait-notepad-item:hover {
+    background: rgba(0, 0, 0, 0.04);
+}
+
+.ait-notepad-item:active {
+    background: rgba(0, 0, 0, 0.07);
+}
+
+.ait-notepad-item-content {
+    flex: 1;
+    min-width: 0;
+}
+
+.ait-notepad-item-title {
+    font-size: 13.5px;
+    font-weight: 500;
+    color: #222;
+    line-height: 1.4;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.ait-notepad-item-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 3px;
+    font-size: 11.5px;
+    color: #aaa;
+    line-height: 1.3;
+}
+
+.ait-notepad-item-time {
+    flex-shrink: 0;
+}
+
+.ait-notepad-item-preview {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 0;
+}
+
+/* ── 列表项删除按钮 ── */
+.ait-notepad-item-delete {
+    width: 26px;
+    height: 26px;
+    border: none;
+    background: transparent;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #ccc;
+    transition: background-color 0.12s ease, color 0.12s ease;
+    padding: 0;
+    flex-shrink: 0;
+    opacity: 0;
+}
+
+.ait-notepad-item:hover .ait-notepad-item-delete {
+    opacity: 1;
+}
+
+.ait-notepad-item-delete:hover {
+    background: rgba(220, 50, 50, 0.08);
+    color: #e53e3e;
+}
+
+.ait-notepad-item-delete:active {
+    background: rgba(220, 50, 50, 0.15);
+}
+
+/* ── 编辑器 ── */
+.ait-notepad-editor {
+    flex: 1;
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    padding: 12px 14px;
+    font-size: 15px;
+    line-height: 1.65;
+    font-family: inherit;
+    background: transparent;
+    color: #222;
+    box-sizing: border-box;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(0, 0, 0, 0.15) transparent;
+}
+
+.ait-notepad-editor::-webkit-scrollbar {
+    width: 4px;
+}
+
+.ait-notepad-editor::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: 2px;
+}
+
+.ait-notepad-editor::placeholder {
+    color: #c0c0c0;
+    font-size: 13px;
+}
+
+.ait-notepad-editor:focus,
+.ait-notepad-editor:focus-visible,
+.ait-notepad-editor:active {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+/* ── 调整大小手柄（8 方向，与 runner 保持一致）── */
+.ait-notepad-resize-handle {
+    position: absolute;
+    z-index: 10;
+}
+
+.ait-notepad-resize-handle[data-direction="se"] {
+    right: 0; bottom: 0;
+    width: 16px; height: 16px;
+    cursor: nwse-resize;
+}
+
+.ait-notepad-resize-handle[data-direction="sw"] {
+    left: 0; bottom: 0;
+    width: 16px; height: 16px;
+    cursor: nesw-resize;
+}
+
+.ait-notepad-resize-handle[data-direction="ne"] {
+    right: 0; top: 0;
+    width: 16px; height: 16px;
+    cursor: nesw-resize;
+}
+
+.ait-notepad-resize-handle[data-direction="nw"] {
+    left: 0; top: 0;
+    width: 16px; height: 16px;
+    cursor: nwse-resize;
+}
+
+.ait-notepad-resize-handle[data-direction="e"] {
+    right: 0; top: 16px; bottom: 16px;
+    width: 6px;
+    cursor: ew-resize;
+}
+
+.ait-notepad-resize-handle[data-direction="w"] {
+    left: 0; top: 16px; bottom: 16px;
+    width: 6px;
+    cursor: ew-resize;
+}
+
+.ait-notepad-resize-handle[data-direction="n"] {
+    top: 0; left: 16px; right: 16px;
+    height: 6px;
+    cursor: ns-resize;
+}
+
+.ait-notepad-resize-handle[data-direction="s"] {
+    bottom: 0; left: 16px; right: 16px;
+    height: 6px;
+    cursor: ns-resize;
+}
+
+/* ── 时间轴上的入口按钮 ── */
+.ait-notepad-btn {
+    position: relative;
+    width: 28px;
+    height: 28px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    margin-top: -4px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    border-radius: 6px;
+    flex-shrink: 0;
+    color: #6b6b6b;
+}
+
+.ait-notepad-btn svg {
+    width: 20px;
+    height: 20px;
+}
+
+.ait-notepad-btn:hover {
+    background-color: rgba(0, 0, 0, 0.08);
+    color: #444;
+}
+
+.ait-notepad-btn:active {
+    background-color: rgba(0, 0, 0, 0.12);
+}
+
+.ait-notepad-btn.active {
+    color: #6128FF;
+}
+
+html[data-timeline-theme="dark"] .ait-notepad-btn {
+    color: #9a9a9a;
+}
+
+html[data-timeline-theme="dark"] .ait-notepad-btn:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ccc;
+}
+
+html[data-timeline-theme="dark"] .ait-notepad-btn:active {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+html[data-timeline-theme="dark"] .ait-notepad-btn.active {
+    color: #8B5CF6;
+}

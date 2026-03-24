@@ -1,0 +1,467 @@
+{
+  "extName": {
+    "message": "AI Timeline: AI 효율 두 배로 | GPT, Gemini, DeepSeek, Qwen"
+  },
+  "extDescription": {
+    "message": "GPT, Gemini, DeepSeek 등 모든 주요 AI 플랫폼 지원: LaTeX 복사, 대화 타임라인, 프롬프트 라이브러리, 코드 실행으로 AI 효율 두 배로."
+  },
+  "qwxpzm": {
+    "message": "즐겨찾기"
+  },
+  "hkjvnr": {
+    "message": "즐겨찾기 보기"
+  },
+  "zmvkpx": {
+    "message": "대화 즐겨찾기"
+  },
+  "bpxjkw": {
+    "message": "즐겨찾기 해제"
+  },
+  "vnkxpm": {
+    "message": "즐겨찾기 목록"
+  },
+  "kxpmzv": {
+    "message": "즐겨찾기에 추가됨"
+  },
+  "pzmvkx": {
+    "message": "즐겨찾기 해제됨"
+  },
+  "jwvnkp": {
+    "message": "데이터 없음"
+  },
+  "zxvkpm": {
+    "message": "모두 보기"
+  },
+  "qdyqxsc": {
+    "message": "즐겨찾기를 취소하시겠습니까?"
+  },
+  "mvkxpz": {
+    "message": "복사"
+  },
+  "xpzmvk": {
+    "message": "복사됨"
+  },
+  "vkpxzm": {
+    "message": "편집"
+  },
+  "kpzmvx": {
+    "message": "복사 실패"
+  },
+  "zmxvkp": {
+    "message": "입력하세요"
+  },
+  "pxvkmz": {
+    "message": "취소"
+  },
+  "vkmzpx": {
+    "message": "확인"
+  },
+  "mzpxvk": {
+    "message": "제목은 비워둘 수 없습니다"
+  },
+  "xvkpmz": {
+    "message": "이름 변경"
+  },
+  "pzmkvx": {
+    "message": "내용은 비워둘 수 없습니다"
+  },
+  "vxpzmk": {
+    "message": "오픈 소스"
+  },
+  "mkvxpz": {
+    "message": "프로젝트에 스타 주기"
+  },
+  "xpzmkv": {
+    "message": "환영합니다"
+  },
+  "pkmzvx": {
+    "message": "친구에게 공유"
+  },
+  "mvxkpz": {
+    "message": "LaTeX 수식 복사"
+  },
+  "kxvpmz": {
+    "message": "새 폴더"
+  },
+  "vpmzkx": {
+    "message": "새 하위 폴더"
+  },
+  "mzxvkp": {
+    "message": "삭제"
+  },
+  "pkxvmz": {
+    "message": "기본 폴더"
+  },
+  "xmkvpz": {
+    "message": "「{folderName}」에 하위 폴더 만들기"
+  },
+  "vzkpmx": {
+    "message": "폴더 이름을 입력하세요"
+  },
+  "kmxpvz": {
+    "message": "폴더 이름은 비워둘 수 없습니다"
+  },
+  "pxmzvk": {
+    "message": "폴더 이름 변경"
+  },
+  "mvzxkp": {
+    "message": "새 이름을 입력하세요"
+  },
+  "kpvzmx": {
+    "message": "폴더 이름이 이미 존재합니다"
+  },
+  "xzvkpm": {
+    "message": "생성 완료"
+  },
+  "vmkxpz": {
+    "message": "업데이트 완료"
+  },
+  "zpxmkv": {
+    "message": "폴더를 찾을 수 없습니다"
+  },
+  "kvpzmx": {
+    "message": "폴더 삭제됨"
+  },
+  "mxkvzp": {
+    "message": "삭제 실패"
+  },
+  "pzvkmx": {
+    "message": "이동 완료"
+  },
+  "vxkpmz": {
+    "message": "이동 위치"
+  },
+  "wjxnkp": {
+    "message": "「{folderName}」 폴더를 삭제하시겠습니까?\n\n이 폴더와 하위 폴더에는 {count}개의 즐겨찾기 항목이 있습니다. 삭제 후 이 항목들은 기본 폴더로 이동됩니다."
+  },
+  "qzmvkx": {
+    "message": "「{folderName}」 폴더를 삭제하시겠습니까?"
+  },
+  "mvkzpx": {
+    "message": "즐겨찾기 검색..."
+  },
+  "kxzpmv": {
+    "message": "즐겨찾기에 저장"
+  },
+  "vmzpkx": {
+    "message": "기본 폴더"
+  },
+  "pkmvxz": {
+    "message": "제목"
+  },
+  "pxkmvz": {
+    "message": "타임라인"
+  },
+  "mzkvxp": {
+    "message": "활성화하면 AI 대화 페이지 오른쪽에 인터랙티브 타임라인이 표시됩니다."
+  },
+  "vkpmzx": {
+    "message": "↑ / ↓ 키로 대화 노드 이동"
+  },
+  "xpvmkz": {
+    "message": "활성화하면 ↑ / ↓ 키로 대화 노드 사이를 빠르게 이동할 수 있습니다."
+  },
+  "pxmzkv": {
+    "message": "📌 중요 대화 표시"
+  },
+  "kzxvpm": {
+    "message": "타임라인의 대화 노드를 길게 누르면 중요 표시를 할 수 있습니다."
+  },
+  "xmvkpz": {
+    "message": "채팅 상자"
+  },
+  "kvzmxp": {
+    "message": "Enter 키로 줄바꿈"
+  },
+  "kpxvmz": {
+    "message": "수식 복사"
+  },
+  "zmkvpx": {
+    "message": "LaTeX 수식 복사"
+  },
+  "vxkpzm": {
+    "message": "활성화하면 페이지의 수식을 자동 감지하고 클릭하여 LaTeX 형식으로 복사합니다."
+  },
+  "mkvzpx": {
+    "message": "지원 플랫폼"
+  },
+  "vxmkpz": {
+    "message": "Enter 키: 한 번 누르면 줄바꿈, 두 번 빠르게 누르면 전송"
+  },
+  "mkpxvz": {
+    "message": "활성화하면 AI 채팅 입력창에서 Enter를 한 번 누르면 줄바꿈, 빠르게 두 번 누르면 메시지가 전송됩니다."
+  },
+  "qoytxz": {
+    "message": "이 기능은 기본 활성화되어 있으며 끌 수 없습니다"
+  },
+  "hosegod": {
+    "message": "Prompts"
+  },
+  "hobsidbg": {
+    "message": "활성화하면 입력 상자 왼쪽에 프롬프트 버튼이 표시됩니다"
+  },
+  "biwhckdj": {
+    "message": "프롬프트 목록"
+  },
+  "byaskjndg": {
+    "message": "프롬프트 추가"
+  },
+  "hsksuywm": {
+    "message": "프롬프트 편집"
+  },
+  "hsuywkw": {
+    "message": "프롬프트 이름"
+  },
+  "hsuywkwPlaceholder": {
+    "message": "프롬프트 이름을 입력하세요"
+  },
+  "promptContent": {
+    "message": "내용"
+  },
+  "uwkjwjw": {
+    "message": "프롬프트 내용을 입력하세요"
+  },
+  "hsiwhwl": {
+    "message": "프롬프트가 없습니다"
+  },
+  "shwsuwk": {
+    "message": "프롬프트가 추가되었습니다"
+  },
+  "hwkwbhwk": {
+    "message": "프롬프트가 업데이트되었습니다"
+  },
+  "qrtypd": {
+    "message": "프롬프트가 삭제되었습니다"
+  },
+  "dcnfmq": {
+    "message": "이 프롬프트를 삭제하시겠습니까?"
+  },
+  "svkbtn": {
+    "message": "저장"
+  },
+  "pmpknd": {
+    "message": "고정됨"
+  },
+  "pmuknp": {
+    "message": "고정 해제됨"
+  },
+  "addkbt": {
+    "message": "추가"
+  },
+  "ptfmsl": {
+    "message": "적용 대상"
+  },
+  "allptfm": {
+    "message": "모든 AI 플랫폼"
+  },
+  "febhyejd": {
+    "message": "온라인으로 피드백 제출"
+  },
+  "runnerTabName": {
+    "message": "코드 실행기"
+  },
+  "runnerSettingsTitle": {
+    "message": "지원 언어"
+  },
+  "runnerSettingsHint": {
+    "message": "활성화하면 코드 블록에 Run 버튼이 표시되어 코드를 직접 실행할 수 있습니다"
+  },
+  "fiveStarReview": {
+    "message": "마음에 드시나요"
+  },
+  "goToReview": {
+    "message": "별점 5점 부탁드려요"
+  },
+  "runBtn": {
+    "message": "실행"
+  },
+  "themeDark": {
+    "message": "다크"
+  },
+  "themeLight": {
+    "message": "라이트"
+  },
+  "formulaFormatTitle": {
+    "message": "복사 형식 선택"
+  },
+  "dataSyncTabName": {
+    "message": "데이터 마이그레이션"
+  },
+  "exportTitle": {
+    "message": "수동 동기화"
+  },
+  "exportHint": {
+    "message": "JSON 파일을 통해 수동으로 데이터를 백업하거나 복원하여 다른 브라우저로 마이그레이션할 수 있습니다."
+  },
+  "exportBtn": {
+    "message": "내보내기"
+  },
+  "importTitle": {
+    "message": "데이터 가져오기"
+  },
+  "importHint": {
+    "message": "JSON 파일에서 데이터를 가져옵니다. 덮어쓰기 또는 병합 모드를 지원합니다."
+  },
+  "importBtn": {
+    "message": "파일 선택"
+  },
+  "importModeMerge": {
+    "message": "병합"
+  },
+  "importModeMergeDesc": {
+    "message": "기존 데이터를 유지하고 가져온 데이터와 병합"
+  },
+  "importModeOverwrite": {
+    "message": "덮어쓰기"
+  },
+  "importModeOverwriteDesc": {
+    "message": "기존 데이터를 지우고 가져온 데이터로 교체"
+  },
+  "exportSuccess": {
+    "message": "내보내기 성공"
+  },
+  "importSuccess": {
+    "message": "가져오기 성공"
+  },
+  "importSuccessHint": {
+    "message": "데이터를 성공적으로 가져왔습니다. 페이지를 새로고침하여 적용하세요"
+  },
+  "importFailed": {
+    "message": "가져오기 실패"
+  },
+  "refreshPage": {
+    "message": "페이지 새로고침"
+  },
+  "refreshLater": {
+    "message": "나중에 새로고침"
+  },
+  "quoteReply": {
+    "message": "추가 질문"
+  },
+  "scrollToBottomTitle": {
+    "message": "맨 아래로"
+  },
+  "scrollToBottomHint": {
+    "message": "최신 메시지로 빠르게 이동하는 버튼 표시"
+  },
+  "pleaseWait": {
+    "message": "잠시만 기다려주세요, 노드 ID를 로드 중..."
+  },
+  "chatTimeLabelTitle": {
+    "message": "대화 시간 표시"
+  },
+  "chatTimeLabelHint": {
+    "message": "각 메시지에 전송 시간 표시, 채팅 기록처럼 한눈에"
+  },
+  "gdriveTitle": {
+    "message": "Google Drive 동기화"
+  },
+  "gdriveHint": {
+    "message": "데이터를 Google Drive에 백업하여 여러 기기 간에 동기화합니다."
+  },
+  "mermaidTabName": {
+    "message": "Mermaid"
+  },
+  "mermaidSettingsTitle": {
+    "message": "Mermaid 다이어그램 렌더링"
+  },
+  "mermaidSettingsHint": {
+    "message": "Mermaid 코드 블록을 인터랙티브 다이어그램으로 자동 렌더링"
+  },
+  "mermaidDiagramBtn": {
+    "message": "다이어그램"
+  },
+  "mermaidCodeBtn": {
+    "message": "코드"
+  },
+  "mermaidFullscreen": {
+    "message": "전체 화면"
+  },
+  "mermaidViewerHint": {
+    "message": "스크롤로 확대/축소 · 드래그로 이동 · ESC로 닫기"
+  },
+  "notepadToggleHint": {
+    "message": "Show notepad entry at the bottom of the timeline for quick notes"
+  },
+  "notepadTitle": {
+    "message": "Flash Notes"
+  },
+  "notepadPlaceholder": {
+    "message": "Just write what comes to mind…"
+  },
+  "notepadClose": {
+    "message": "Close"
+  },
+  "notepadAllNotes": {
+    "message": "All Notes"
+  },
+  "notepadNewNote": {
+    "message": "New Note"
+  },
+  "notepadConfirmDeleteTitle": {
+    "message": "Confirm Delete"
+  },
+  "notepadConfirmDeleteContent": {
+    "message": "This cannot be undone. Are you sure?"
+  },
+  "notepadUntitled": {
+    "message": "Untitled"
+  },
+  "notepadYesterday": {
+    "message": "Yesterday"
+  },
+  "formulaCopyTypeTitle": {
+    "message": "수식 복사 유형"
+  },
+  "formulaCopyMathML": {
+    "message": "MathML 수식 복사"
+  },
+  "formulaCopyGeneric": {
+    "message": "수식 복사"
+  },
+  "formulaLatexTitle": {
+    "message": "LaTeX 수식 복사"
+  },
+  "formulaLatexHint": {
+    "message": "수식을 클릭하면 LaTeX 형식으로 복사됩니다"
+  },
+  "formulaMathMLTitle": {
+    "message": "MathML 수식 복사"
+  },
+  "formulaMathMLHint": {
+    "message": "수식을 클릭하면 MathML 형식으로 복사되어 Word에 바로 붙여넣기 가능"
+  },
+  "aboutTabName": {
+    "message": "플러그인 소개"
+  },
+  "aboutPluginTitle": {
+    "message": "플러그인 소개"
+  },
+  "aboutPluginContent": {
+    "message": "AI 대화를 위한 생산성 플러그인입니다. 대화 타임라인, 플래시 메모, LaTeX 수식 복사, 사용자 정의 프롬프트 등 다양한 기능을 제공합니다. ChatGPT, Gemini, DeepSeek, Kimi, Claude 등 주요 플랫폼을 지원하며, AI 사용 효율을 배로 높여줍니다."
+  },
+  "aboutDataSecurityTitle": {
+    "message": "데이터 보안"
+  },
+  "aboutDataSecurityContent": {
+    "message": "이 확장 프로그램의 모든 데이터는 브라우저 로컬 또는 Google Drive에 저장되며, 제3자 서버를 거치지 않습니다. 확장 프로그램은 대화 내용이나 개인 정보를 수집, 업로드 또는 공유하지 않습니다. 이 프로젝트는 GitHub에서 오픈소스로 공개되어 있으며, 언제든지 코드를 검토할 수 있습니다."
+  },
+  "aboutDeveloperTitle": {
+    "message": "개발자"
+  },
+  "aboutDeveloperContent": {
+    "message": "이 프로젝트는 저 혼자 유지하며, 매주 1~2개의 새 버전을 출시합니다. 버그 제보나 기능 제안은 아래 채널 중 하나로 연락해 주세요 (보는 즉시 반드시 답변 드립니다):"
+  },
+  "aboutShareTitle": {
+    "message": "부탁드립니다"
+  },
+  "aboutShareContent": {
+    "message": "이 플러그인이 도움이 되었다면, X, Reddit 등의 플랫폼에서 추천해 주시고, 친구나 동료에게도 공유해 주세요. 혼자서 유지보수하는 플러그인이라 마케팅에 시간을 할애할 수 없지만, 플러그인을 점점 더 좋게 만들겠습니다. 감사합니다. ❤️"
+  },
+  "aboutXhsTip": {
+    "message": "Xiaohongshu에 양질의 추천 글이나 영상을 게시했다면, 유료 홍보(75위안부터)를 도와드릴 수 있습니다. 👇"
+  },
+  "aboutXhsBtn": {
+    "message": "Xiaohongshu 링크 등록"
+  }
+}

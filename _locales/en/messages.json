@@ -1,0 +1,509 @@
+{
+  "extName": {
+    "message": "AI Timeline: Double Your AI Efficiency | GPT, Gemini, DeepSeek, Qwen"
+  },
+  "extDescription": {
+    "message": "Supports GPT, Gemini, DeepSeek & all major AI platforms: LaTeX copy, interactive timeline, prompt library, code runner."
+  },
+  "qwxpzm": {
+    "message": "Star"
+  },
+  "hkjvnr": {
+    "message": "View Starred"
+  },
+  "zmvkpx": {
+    "message": "Star Conversation"
+  },
+  "bpxjkw": {
+    "message": "Unstar"
+  },
+  "vnkxpm": {
+    "message": "Starred List"
+  },
+  "kxpmzv": {
+    "message": "Starred Successfully"
+  },
+  "pzmvkx": {
+    "message": "Unstarred"
+  },
+  "jwvnkp": {
+    "message": "No Data"
+  },
+  "mvkxpz": {
+    "message": "Copy"
+  },
+  "xpzmvk": {
+    "message": "Copied"
+  },
+  "vkpxzm": {
+    "message": "Edit"
+  },
+  "kpzmvx": {
+    "message": "Copy Failed"
+  },
+  "zmxvkp": {
+    "message": "Please Enter"
+  },
+  "pxvkmz": {
+    "message": "Cancel"
+  },
+  "vkmzpx": {
+    "message": "Confirm"
+  },
+  "mzpxvk": {
+    "message": "Title cannot be empty"
+  },
+  "xvkpmz": {
+    "message": "Rename"
+  },
+  "pzmkvx": {
+    "message": "Content cannot be empty"
+  },
+  "vxpzmk": {
+    "message": "Open Source"
+  },
+  "mkvxpz": {
+    "message": "Star the Project"
+  },
+  "xpzmkv": {
+    "message": "Welcome"
+  },
+  "pkmzvx": {
+    "message": "Share with Friends"
+  },
+  "mvxkpz": {
+    "message": "Copy LaTeX Formula"
+  },
+  "kxvpmz": {
+    "message": "New Folder"
+  },
+  "vpmzkx": {
+    "message": "New Subfolder"
+  },
+  "mzxvkp": {
+    "message": "Delete"
+  },
+  "pkxvmz": {
+    "message": "Default Folder"
+  },
+  "xmkvpz": {
+    "message": "Create subfolder in \"{folderName}\""
+  },
+  "vzkpmx": {
+    "message": "Enter folder name"
+  },
+  "kmxpvz": {
+    "message": "Folder name cannot be empty"
+  },
+  "pxmzvk": {
+    "message": "Rename Folder"
+  },
+  "mvzxkp": {
+    "message": "Enter new name"
+  },
+  "kpvzmx": {
+    "message": "Folder name already exists"
+  },
+  "xzvkpm": {
+    "message": "Created Successfully"
+  },
+  "vmkxpz": {
+    "message": "Updated Successfully"
+  },
+  "zpxmkv": {
+    "message": "Folder not found"
+  },
+  "kvpzmx": {
+    "message": "Folder Deleted"
+  },
+  "mxkvzp": {
+    "message": "Delete Failed"
+  },
+  "pzvkmx": {
+    "message": "Moved Successfully"
+  },
+  "vxkpmz": {
+    "message": "Move to"
+  },
+  "wjxnkp": {
+    "message": "Are you sure you want to delete folder \"{folderName}\"?\n\nThis folder and its subfolders contain {count} starred items. These items will be moved to the default folder after deletion."
+  },
+  "qzmvkx": {
+    "message": "Are you sure you want to delete folder \"{folderName}\"?"
+  },
+  "mvkzpx": {
+    "message": "Search starred..."
+  },
+  "kxzpmv": {
+    "message": "Save to"
+  },
+  "vmzpkx": {
+    "message": "Default Folder"
+  },
+  "pkmvxz": {
+    "message": "Title"
+  },
+  "pxkmvz": {
+    "message": "Timeline"
+  },
+  "mzkvxp": {
+    "message": "When enabled, an interactive timeline will be displayed on the right side of the AI conversation page."
+  },
+  "vkpmzx": {
+    "message": "Use ↑ / ↓ keys to navigate conversation nodes"
+  },
+  "xpvmkz": {
+    "message": "When enabled, use ↑ / ↓ keys to quickly jump between conversation nodes."
+  },
+  "pxmzkv": {
+    "message": "📌 Mark Important Conversations"
+  },
+  "kzxvpm": {
+    "message": "Long press on a conversation node in the timeline to mark it as important."
+  },
+  "xmvkpz": {
+    "message": "Chat Box"
+  },
+  "kvzmxp": {
+    "message": "Enter Key for New Line"
+  },
+  "kpxvmz": {
+    "message": "Copy Formula"
+  },
+  "zmkvpx": {
+    "message": "Copy LaTeX Formula"
+  },
+  "vxkpzm": {
+    "message": "When enabled, formulas on the page are automatically detected. Click to copy in LaTeX format."
+  },
+  "mkvzpx": {
+    "message": "Supported Platforms"
+  },
+  "vxmkpz": {
+    "message": "Enter key: Single press for new line, double press to send"
+  },
+  "mkpxvz": {
+    "message": "When enabled, press Enter once for a new line in the AI chat input box; press Enter twice quickly to send the message."
+  },
+  "qoytxz": {
+    "message": "This feature is enabled by default and cannot be turned off"
+  },
+  "hosegod": {
+    "message": "Prompts"
+  },
+  "hobsidbg": {
+    "message": "When enabled, a prompt button will be displayed on the left side of the input box"
+  },
+  "biwhckdj": {
+    "message": "Prompt List"
+  },
+  "byaskjndg": {
+    "message": "Add Prompt"
+  },
+  "hsksuywm": {
+    "message": "Edit Prompt"
+  },
+  "hsuywkw": {
+    "message": "Prompt Name"
+  },
+  "hsuywkwPlaceholder": {
+    "message": "Enter prompt name"
+  },
+  "promptContent": {
+    "message": "Content"
+  },
+  "uwkjwjw": {
+    "message": "Enter prompt content"
+  },
+  "hsiwhwl": {
+    "message": "No Prompts Yet"
+  },
+  "shwsuwk": {
+    "message": "Prompt Added"
+  },
+  "hwkwbhwk": {
+    "message": "Prompt Updated"
+  },
+  "qrtypd": {
+    "message": "Prompt Deleted"
+  },
+  "dcnfmq": {
+    "message": "Are you sure you want to delete this prompt?"
+  },
+  "svkbtn": {
+    "message": "Save"
+  },
+  "pmpknd": {
+    "message": "Pinned"
+  },
+  "pmuknp": {
+    "message": "Unpinned"
+  },
+  "mvupkt": {
+    "message": "Move Up"
+  },
+  "mvdnkt": {
+    "message": "Move Down"
+  },
+  "pntotp": {
+    "message": "Pin"
+  },
+  "addkbt": {
+    "message": "Add"
+  },
+  "ptfmsl": {
+    "message": "Applies to"
+  },
+  "allptfm": {
+    "message": "All AI Platforms"
+  },
+  "febhyejd": {
+    "message": "Submit Feedback Online"
+  },
+  "runnerTabTitle": {
+    "message": "Code Runner"
+  },
+  "runnerExecute": {
+    "message": "Run"
+  },
+  "runnerClear": {
+    "message": "Clear"
+  },
+  "runnerCodeEditor": {
+    "message": "Code Editor"
+  },
+  "runnerOutput": {
+    "message": "Output"
+  },
+  "runnerHint": {
+    "message": "Enter your code here, async/await supported"
+  },
+  "runnerTabName": {
+    "message": "Code Runner"
+  },
+  "runnerSettingsTitle": {
+    "message": "Supported Languages"
+  },
+  "runnerSettingsHint": {
+    "message": "When enabled, a Run button will appear on code blocks to execute code directly"
+  },
+  "fiveStarReview": {
+    "message": "Like it"
+  },
+  "goToReview": {
+    "message": "Rate us 5 stars"
+  },
+  "runBtn": {
+    "message": "Run"
+  },
+  "themeDark": {
+    "message": "Dark"
+  },
+  "themeLight": {
+    "message": "Light"
+  },
+  "zxvkpm": {
+    "message": "View All"
+  },
+  "qdyqxsc": {
+    "message": "Are you sure you want to unstar?"
+  },
+  "formulaFormatTitle": {
+    "message": "Select Copy Format"
+  },
+  "formulaCopyTypeTitle": {
+    "message": "Formula Copy Type"
+  },
+  "formulaCopyMathML": {
+    "message": "Copy MathML Formula"
+  },
+  "formulaCopyGeneric": {
+    "message": "Copy Formula"
+  },
+  "formulaLatexTitle": {
+    "message": "Copy LaTeX Formula"
+  },
+  "formulaLatexHint": {
+    "message": "Click on a formula to copy it in LaTeX format"
+  },
+  "formulaMathMLTitle": {
+    "message": "Copy MathML Formula"
+  },
+  "formulaMathMLHint": {
+    "message": "Click on a formula to copy it in MathML format, paste directly into Word"
+  },
+  "dataSyncTabName": {
+    "message": "Data Migration"
+  },
+  "exportTitle": {
+    "message": "Manual Sync"
+  },
+  "exportHint": {
+    "message": "Manually back up or restore data via JSON file for migration to other browsers."
+  },
+  "exportBtn": {
+    "message": "Export Data"
+  },
+  "importTitle": {
+    "message": "Import Data"
+  },
+  "importHint": {
+    "message": "Import data from a JSON file, supports overwrite or merge modes."
+  },
+  "importBtn": {
+    "message": "Select File to Import"
+  },
+  "importModeMerge": {
+    "message": "Merge"
+  },
+  "importModeMergeDesc": {
+    "message": "Keep existing data and merge with imported data"
+  },
+  "importModeOverwrite": {
+    "message": "Overwrite"
+  },
+  "importModeOverwriteDesc": {
+    "message": "Clear existing data and replace with imported data"
+  },
+  "exportingData": {
+    "message": "Exporting..."
+  },
+  "exportSuccess": {
+    "message": "Export successful"
+  },
+  "exportFailed": {
+    "message": "Export failed"
+  },
+  "importingData": {
+    "message": "Importing..."
+  },
+  "importSuccess": {
+    "message": "Import Successful"
+  },
+  "importSuccessHint": {
+    "message": "Data imported successfully. Please refresh the page to apply changes."
+  },
+  "importFailed": {
+    "message": "Import failed"
+  },
+  "refreshPage": {
+    "message": "Refresh Page"
+  },
+  "refreshLater": {
+    "message": "Later"
+  },
+  "quoteReply": {
+    "message": "Follow Up"
+  },
+  "quoteReplyTitle": {
+    "message": "Follow Up"
+  },
+  "quoteReplyHint": {
+    "message": "After selecting text on the page, a follow-up button appears to quickly quote into the input box"
+  },
+  "scrollToBottomTitle": {
+    "message": "Scroll to Bottom"
+  },
+  "scrollToBottomHint": {
+    "message": "Show a quick button to scroll to the latest message"
+  },
+  "pleaseWait": {
+    "message": "Please wait, node ID is loading..."
+  },
+  "chatTimeLabelTitle": {
+    "message": "Show Chat Time"
+  },
+  "chatTimeLabelHint": {
+    "message": "Display send time on each message, as clear as a chat log"
+  },
+  "gdriveTitle": {
+    "message": "Google Drive Sync"
+  },
+  "gdriveHint": {
+    "message": "Back up data to your Google Drive for multi-device sync."
+  },
+  "mermaidTabName": {
+    "message": "Mermaid"
+  },
+  "mermaidSettingsTitle": {
+    "message": "Mermaid Diagram Rendering"
+  },
+  "mermaidSettingsHint": {
+    "message": "Automatically render Mermaid code blocks as interactive diagrams"
+  },
+  "mermaidDiagramBtn": {
+    "message": "Diagram"
+  },
+  "mermaidCodeBtn": {
+    "message": "Code"
+  },
+  "mermaidFullscreen": {
+    "message": "Fullscreen"
+  },
+  "mermaidViewerHint": {
+    "message": "Scroll to zoom · Drag to pan · ESC to close"
+  },
+  "notepadToggleHint": {
+    "message": "Show notepad entry at the bottom of the timeline for quick notes"
+  },
+  "notepadTitle": {
+    "message": "Flash Notes"
+  },
+  "notepadPlaceholder": {
+    "message": "Just write what comes to mind…"
+  },
+  "notepadClose": {
+    "message": "Close"
+  },
+  "notepadAllNotes": {
+    "message": "All Notes"
+  },
+  "notepadNewNote": {
+    "message": "New Note"
+  },
+  "notepadConfirmDeleteTitle": {
+    "message": "Confirm Delete"
+  },
+  "notepadConfirmDeleteContent": {
+    "message": "This cannot be undone. Are you sure?"
+  },
+  "notepadUntitled": {
+    "message": "Untitled"
+  },
+  "notepadYesterday": {
+    "message": "Yesterday"
+  },
+  "aboutTabName": {
+    "message": "About"
+  },
+  "aboutPluginTitle": {
+    "message": "About This Extension"
+  },
+  "aboutPluginContent": {
+    "message": "A productivity plugin built for AI conversations, featuring conversation timeline, quick notes, LaTeX formula copying, custom prompts, and more. Works with ChatGPT, Gemini, DeepSeek, Kimi, Claude, and all major platforms — designed to double your AI efficiency."
+  },
+  "aboutDataSecurityTitle": {
+    "message": "Data Security"
+  },
+  "aboutDataSecurityContent": {
+    "message": "All your data within this extension is stored locally in your browser or in your Google Drive, without passing through any third-party servers. The extension does not collect, upload, or share any of your conversation content or personal information. This project is open-source on GitHub, and the code is available for review at any time."
+  },
+  "aboutDeveloperTitle": {
+    "message": "Developer"
+  },
+  "aboutDeveloperContent": {
+    "message": "This project is maintained by just me, with 1–2 new versions released every week. To report a bug or suggest a feature, reach out through any of the channels below (I will definitely reply when I see it):"
+  },
+  "aboutShareTitle": {
+    "message": "A Small Favor"
+  },
+  "aboutShareContent": {
+    "message": "If this extension has been helpful, I'd love it if you could recommend it on X, Reddit, or other platforms, and share it with friends, classmates, or colleagues so more people can discover it. I maintain this plugin solo with limited energy and can't spare time for marketing — what I can do is keep making it better and better. Thank you so much. ❤️"
+  },
+  "aboutXhsTip": {
+    "message": "If you've posted a quality recommendation article or video on Xiaohongshu, I can help boost it with paid promotion (starting from ¥75). 👇"
+  },
+  "aboutXhsBtn": {
+    "message": "Submit Xiaohongshu Link"
+  }
+}

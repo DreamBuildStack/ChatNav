@@ -1,0 +1,440 @@
+{
+  "extName": {
+    "message": "AI Timeline: AI दक्षता दोगुनी करें | GPT, Gemini, DeepSeek, Qwen"
+  },
+  "extDescription": {
+    "message": "GPT, Gemini, DeepSeek और सभी AI प्लेटफ़ॉर्म का समर्थन: LaTeX कॉपी, इंटरैक्टिव टाइमलाइन, प्रॉम्प्ट लाइब्रेरी, कोड रन - AI दक्षता दोगुनी।"
+  },
+  "qwxpzm": {
+    "message": "पसंदीदा"
+  },
+  "hkjvnr": {
+    "message": "पसंदीदा देखें"
+  },
+  "zmvkpx": {
+    "message": "वार्तालाप पसंदीदा में जोड़ें"
+  },
+  "bpxjkw": {
+    "message": "पसंदीदा से हटाएं"
+  },
+  "vnkxpm": {
+    "message": "पसंदीदा सूची"
+  },
+  "kxpmzv": {
+    "message": "पसंदीदा में जोड़ा गया"
+  },
+  "pzmvkx": {
+    "message": "पसंदीदा से हटाया गया"
+  },
+  "jwvnkp": {
+    "message": "कोई डेटा नहीं"
+  },
+  "zxvkpm": {
+    "message": "सभी देखें"
+  },
+  "qdyqxsc": {
+    "message": "क्या आप पसंदीदा से हटाना चाहते हैं?"
+  },
+  "mvkxpz": {
+    "message": "कॉपी करें"
+  },
+  "xpzmvk": {
+    "message": "कॉपी हो गया"
+  },
+  "vkpxzm": {
+    "message": "संपादित करें"
+  },
+  "kpzmvx": {
+    "message": "कॉपी विफल"
+  },
+  "zmxvkp": {
+    "message": "कृपया दर्ज करें"
+  },
+  "pxvkmz": {
+    "message": "रद्द करें"
+  },
+  "vkmzpx": {
+    "message": "पुष्टि करें"
+  },
+  "mzpxvk": {
+    "message": "शीर्षक खाली नहीं हो सकता"
+  },
+  "xvkpmz": {
+    "message": "नाम बदलें"
+  },
+  "pzmkvx": {
+    "message": "सामग्री खाली नहीं हो सकती"
+  },
+  "vxpzmk": {
+    "message": "ओपन सोर्स"
+  },
+  "mkvxpz": {
+    "message": "प्रोजेक्ट को स्टार दें"
+  },
+  "xpzmkv": {
+    "message": "स्वागत है"
+  },
+  "pkmzvx": {
+    "message": "दोस्तों के साथ साझा करें"
+  },
+  "mvxkpz": {
+    "message": "LaTeX फ़ॉर्मूला कॉपी करें"
+  },
+  "kxvpmz": {
+    "message": "नया फ़ोल्डर"
+  },
+  "vpmzkx": {
+    "message": "नया सबफ़ोल्डर"
+  },
+  "mzxvkp": {
+    "message": "हटाएं"
+  },
+  "pkxvmz": {
+    "message": "डिफ़ॉल्ट फ़ोल्डर"
+  },
+  "xmkvpz": {
+    "message": "\"{folderName}\" में सबफ़ोल्डर बनाएं"
+  },
+  "vzkpmx": {
+    "message": "फ़ोल्डर का नाम दर्ज करें"
+  },
+  "kmxpvz": {
+    "message": "फ़ोल्डर का नाम खाली नहीं हो सकता"
+  },
+  "pxmzvk": {
+    "message": "फ़ोल्डर का नाम बदलें"
+  },
+  "mvzxkp": {
+    "message": "नया नाम दर्ज करें"
+  },
+  "kpvzmx": {
+    "message": "फ़ोल्डर का नाम पहले से मौजूद है"
+  },
+  "xzvkpm": {
+    "message": "सफलतापूर्वक बनाया गया"
+  },
+  "vmkxpz": {
+    "message": "सफलतापूर्वक अपडेट किया गया"
+  },
+  "zpxmkv": {
+    "message": "फ़ोल्डर नहीं मिला"
+  },
+  "kvpzmx": {
+    "message": "फ़ोल्डर हटाया गया"
+  },
+  "mxkvzp": {
+    "message": "हटाना विफल"
+  },
+  "pzvkmx": {
+    "message": "सफलतापूर्वक स्थानांतरित"
+  },
+  "vxkpmz": {
+    "message": "यहां स्थानांतरित करें"
+  },
+  "wjxnkp": {
+    "message": "क्या आप वाकई \"{folderName}\" फ़ोल्डर को हटाना चाहते हैं?\n\nइस फ़ोल्डर और इसके सबफ़ोल्डर में {count} पसंदीदा आइटम हैं। हटाने के बाद, ये आइटम डिफ़ॉल्ट फ़ोल्डर में स्थानांतरित कर दिए जाएंगे।"
+  },
+  "qzmvkx": {
+    "message": "क्या आप वाकई \"{folderName}\" फ़ोल्डर को हटाना चाहते हैं?"
+  },
+  "mvkzpx": {
+    "message": "पसंदीदा खोजें..."
+  },
+  "kxzpmv": {
+    "message": "यहां सहेजें"
+  },
+  "vmzpkx": {
+    "message": "डिफ़ॉल्ट फ़ोल्डर"
+  },
+  "pkmvxz": {
+    "message": "शीर्षक"
+  },
+  "pxkmvz": {
+    "message": "टाइमलाइन"
+  },
+  "mzkvxp": {
+    "message": "सक्षम होने पर, AI वार्तालाप पृष्ठ के दाईं ओर एक इंटरैक्टिव टाइमलाइन प्रदर्शित होगी।"
+  },
+  "vkpmzx": {
+    "message": "वार्तालाप नोड्स के बीच नेविगेट करने के लिए ↑ / ↓ कुंजियों का उपयोग करें"
+  },
+  "xpvmkz": {
+    "message": "सक्षम होने पर, वार्तालाप नोड्स के बीच तेज़ी से जाने के लिए ↑ / ↓ कुंजियों का उपयोग करें।"
+  },
+  "pxmzkv": {
+    "message": "📌 महत्वपूर्ण वार्तालाप चिह्नित करें"
+  },
+  "kzxvpm": {
+    "message": "टाइमलाइन पर किसी वार्तालाप नोड को महत्वपूर्ण के रूप में चिह्नित करने के लिए देर तक दबाएं।"
+  },
+  "xmvkpz": {
+    "message": "चैट बॉक्स"
+  },
+  "kvzmxp": {
+    "message": "Enter कुंजी से नई लाइन"
+  },
+  "kpxvmz": {
+    "message": "फ़ॉर्मूला कॉपी करें"
+  },
+  "zmkvpx": {
+    "message": "LaTeX फ़ॉर्मूला कॉपी करें"
+  },
+  "vxkpzm": {
+    "message": "सक्षम होने पर, पृष्ठ पर फ़ॉर्मूला स्वचालित रूप से पहचाना जाता है और LaTeX प्रारूप में कॉपी करने के लिए क्लिक करें।"
+  },
+  "mkvzpx": {
+    "message": "समर्थित प्लेटफ़ॉर्म"
+  },
+  "vxmkpz": {
+    "message": "Enter कुंजी: नई लाइन के लिए एक बार दबाएं, भेजने के लिए दो बार दबाएं"
+  },
+  "mkpxvz": {
+    "message": "सक्षम होने पर, AI चैट इनपुट बॉक्स में, नई लाइन के लिए Enter एक बार दबाएं, संदेश भेजने के लिए जल्दी से दो बार दबाएं।"
+  },
+  "qoytxz": {
+    "message": "यह सुविधा डिफ़ॉल्ट रूप से सक्षम है और बंद नहीं की जा सकती"
+  },
+  "hosegod": {
+    "message": "Prompts"
+  },
+  "hobsidbg": {
+    "message": "सक्षम होने पर, इनपुट बॉक्स के बाईं ओर एक प्रॉम्प्ट बटन प्रदर्शित किया जाएगा"
+  },
+  "biwhckdj": {
+    "message": "प्रॉम्प्ट सूची"
+  },
+  "byaskjndg": {
+    "message": "प्रॉम्प्ट जोड़ें"
+  },
+  "hsksuywm": {
+    "message": "प्रॉम्प्ट संपादित करें"
+  },
+  "hsuywkw": {
+    "message": "प्रॉम्प्ट नाम"
+  },
+  "hsuywkwPlaceholder": {
+    "message": "प्रॉम्प्ट नाम दर्ज करें"
+  },
+  "promptContent": {
+    "message": "सामग्री"
+  },
+  "uwkjwjw": {
+    "message": "प्रॉम्प्ट सामग्री दर्ज करें"
+  },
+  "hsiwhwl": {
+    "message": "कोई प्रॉम्प्ट नहीं"
+  },
+  "shwsuwk": {
+    "message": "प्रॉम्प्ट जोड़ा गया"
+  },
+  "hwkwbhwk": {
+    "message": "प्रॉम्प्ट अपडेट किया गया"
+  },
+  "qrtypd": {
+    "message": "प्रॉम्प्ट हटाया गया"
+  },
+  "dcnfmq": {
+    "message": "क्या आप वाकई इस प्रॉम्प्ट को हटाना चाहते हैं?"
+  },
+  "svkbtn": {
+    "message": "सहेजें"
+  },
+  "pmpknd": {
+    "message": "पिन किया गया"
+  },
+  "pmuknp": {
+    "message": "पिन हटाया गया"
+  },
+  "addkbt": {
+    "message": "जोड़ें"
+  },
+  "ptfmsl": {
+    "message": "लागू होता है"
+  },
+  "allptfm": {
+    "message": "सभी AI प्लेटफ़ॉर्म"
+  },
+  "febhyejd": {
+    "message": "ऑनलाइन फीडबैक सबमिट करें"
+  },
+  "runnerTabName": {
+    "message": "कोड रनर"
+  },
+  "runnerSettingsTitle": {
+    "message": "समर्थित भाषाएँ"
+  },
+  "runnerSettingsHint": {
+    "message": "सक्षम होने पर, कोड ब्लॉक पर एक Run बटन दिखाई देगा जिससे कोड को सीधे चलाया जा सकता है"
+  },
+  "fiveStarReview": {
+    "message": "पसंद आया"
+  },
+  "goToReview": {
+    "message": "हमें 5 स्टार दें"
+  },
+  "runBtn": {
+    "message": "चलाएं"
+  },
+  "themeDark": {
+    "message": "गहरा"
+  },
+  "themeLight": {
+    "message": "हल्का"
+  },
+  "dataSyncTabName": {
+    "message": "डेटा माइग्रेशन"
+  },
+  "formulaFormatTitle": {
+    "message": "कॉपी प्रारूप चुनें"
+  },
+  "importSuccess": {
+    "message": "आयात सफल"
+  },
+  "importSuccessHint": {
+    "message": "डेटा सफलतापूर्वक आयात किया गया। कृपया पेज रीफ्रेश करें"
+  },
+  "importFailed": {
+    "message": "आयात विफल"
+  },
+  "refreshPage": {
+    "message": "पेज रीफ्रेश करें"
+  },
+  "refreshLater": {
+    "message": "बाद में रीफ्रेश करें"
+  },
+  "quoteReply": {
+    "message": "अनुवर्ती प्रश्न"
+  },
+  "scrollToBottomTitle": {
+    "message": "नीचे जाएं"
+  },
+  "scrollToBottomHint": {
+    "message": "नवीनतम संदेश पर जाने के लिए त्वरित बटन दिखाएं"
+  },
+  "pleaseWait": {
+    "message": "कृपया प्रतीक्षा करें, नोड ID लोड हो रहा है..."
+  },
+  "chatTimeLabelTitle": {
+    "message": "चैट समय दिखाएं"
+  },
+  "chatTimeLabelHint": {
+    "message": "प्रत्येक संदेश पर भेजने का समय दिखाएं, चैट रिकॉर्ड जैसी स्पष्टता"
+  },
+  "exportTitle": {
+    "message": "मैन्युअल सिंक"
+  },
+  "exportHint": {
+    "message": "अन्य ब्राउज़रों में माइग्रेट करने के लिए JSON फ़ाइल के माध्यम से मैन्युअल रूप से डेटा बैकअप या रीस्टोर करें।"
+  },
+  "gdriveTitle": {
+    "message": "Google Drive सिंक"
+  },
+  "gdriveHint": {
+    "message": "मल्टी-डिवाइस सिंक के लिए डेटा को अपने Google Drive में बैकअप करें।"
+  },
+  "mermaidTabName": {
+    "message": "Mermaid"
+  },
+  "mermaidSettingsTitle": {
+    "message": "Mermaid डायग्राम रेंडरिंग"
+  },
+  "mermaidSettingsHint": {
+    "message": "Mermaid कोड ब्लॉक को स्वचालित रूप से इंटरैक्टिव डायग्राम में रेंडर करें"
+  },
+  "mermaidDiagramBtn": {
+    "message": "डायग्राम"
+  },
+  "mermaidCodeBtn": {
+    "message": "कोड"
+  },
+  "mermaidFullscreen": {
+    "message": "पूर्ण स्क्रीन"
+  },
+  "mermaidViewerHint": {
+    "message": "ज़ूम के लिए स्क्रॉल करें · खींचकर ले जाएं · बंद करने के लिए ESC"
+  },
+  "notepadToggleHint": {
+    "message": "Show notepad entry at the bottom of the timeline for quick notes"
+  },
+  "notepadTitle": {
+    "message": "Flash Notes"
+  },
+  "notepadPlaceholder": {
+    "message": "Just write what comes to mind…"
+  },
+  "notepadClose": {
+    "message": "Close"
+  },
+  "notepadAllNotes": {
+    "message": "All Notes"
+  },
+  "notepadNewNote": {
+    "message": "New Note"
+  },
+  "notepadConfirmDeleteTitle": {
+    "message": "Confirm Delete"
+  },
+  "notepadConfirmDeleteContent": {
+    "message": "This cannot be undone. Are you sure?"
+  },
+  "notepadUntitled": {
+    "message": "Untitled"
+  },
+  "notepadYesterday": {
+    "message": "Yesterday"
+  },
+  "formulaCopyTypeTitle": {
+    "message": "सूत्र कॉपी प्रकार"
+  },
+  "formulaCopyMathML": {
+    "message": "MathML सूत्र कॉपी करें"
+  },
+  "formulaCopyGeneric": {
+    "message": "सूत्र कॉपी करें"
+  },
+  "formulaLatexTitle": {
+    "message": "LaTeX सूत्र कॉपी करें"
+  },
+  "formulaLatexHint": {
+    "message": "सूत्र पर क्लिक करके LaTeX में कॉपी करें"
+  },
+  "formulaMathMLTitle": {
+    "message": "MathML सूत्र कॉपी करें"
+  },
+  "formulaMathMLHint": {
+    "message": "सूत्र पर क्लिक करके MathML में कॉपी करें, Word में सीधे पेस्ट करें"
+  },
+  "aboutTabName": {
+    "message": "प्लगइन के बारे में"
+  },
+  "aboutPluginTitle": {
+    "message": "एक्सटेंशन के बारे में"
+  },
+  "aboutPluginContent": {
+    "message": "AI संवाद के लिए उत्पादकता एक्सटेंशन, जिसमें संवाद टाइमलाइन, फ्लैश मेमो, LaTeX सूत्र कॉपी, कस्टम प्रॉम्प्ट और बहुत कुछ शामिल है। ChatGPT, Gemini, DeepSeek, Kimi, Claude और सभी प्रमुख प्लेटफॉर्मों के साथ संगत — AI उपयोग की दक्षता को दोगुना करने के लिए डिज़ाइन किया गया।"
+  },
+  "aboutDataSecurityTitle": {
+    "message": "डेटा सुरक्षा"
+  },
+  "aboutDataSecurityContent": {
+    "message": "इस एक्सटेंशन में आपका सारा डेटा आपके ब्राउज़र में स्थानीय रूप से या आपके Google Drive में संग्रहीत होता है, किसी भी तृतीय-पक्ष सर्वर से नहीं गुजरता। एक्सटेंशन आपकी किसी भी बातचीत की सामग्री या व्यक्तिगत जानकारी को एकत्र, अपलोड या साझा नहीं करता। यह प्रोजेक्ट GitHub पर ओपन-सोर्स है, और कोड किसी भी समय समीक्षा के लिए उपलब्ध है।"
+  },
+  "aboutDeveloperTitle": {
+    "message": "डेवलपर"
+  },
+  "aboutDeveloperContent": {
+    "message": "यह प्रोजेक्ट अकेले मेरे द्वारा मेंटेन किया जाता है, हर हफ्ते 1–2 नए वर्शन के साथ। बग रिपोर्ट करने या फीचर सुझाने के लिए नीचे दिए किसी भी चैनल से संपर्क करें (देखने पर मैं जरूर जवाब दूंगा):"
+  },
+  "aboutShareTitle": {
+    "message": "एक छोटी सी मदद"
+  },
+  "aboutShareContent": {
+    "message": "अगर यह एक्सटेंशन आपके काम आया, तो कृपया X, Reddit या अन्य प्लेटफॉर्म पर सिफारिश करें, और दोस्तों, सहपाठियों या सहकर्मियों के साथ शेयर करें। मैं अकेले इस प्लगइन को मैन्टेन करता हूँ, मार्केटिंग के लिए समय नहीं है — जो मैं कर सकता हूँ वह है इसे बेहतर से बेहतर बनाते रहना। बहुत धन्यवाद। ❤️"
+  },
+  "aboutXhsTip": {
+    "message": "यदि आपने Xiaohongshu पर एक गुणवत्तापूर्ण अनुशंसा लेख या वीडियो पोस्ट किया है, तो मैं सशुल्क प्रचार (¥75 से) में मदद कर सकता हूं। 👇"
+  },
+  "aboutXhsBtn": {
+    "message": "Xiaohongshu लिंक जमा करें"
+  }
+}

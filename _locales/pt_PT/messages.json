@@ -1,0 +1,440 @@
+{
+  "extName": {
+    "message": "AI Timeline: Duplique sua eficiência IA | GPT, Gemini, DeepSeek, Qwen"
+  },
+  "extDescription": {
+    "message": "Suporta GPT, Gemini, DeepSeek e todas as plataformas AI: copiar LaTeX, cronologia interativa, biblioteca de prompts, executar código para duplicar sua eficiência IA."
+  },
+  "qwxpzm": {
+    "message": "Favorito"
+  },
+  "hkjvnr": {
+    "message": "Ver favoritos"
+  },
+  "zmvkpx": {
+    "message": "Adicionar conversa aos favoritos"
+  },
+  "bpxjkw": {
+    "message": "Remover dos favoritos"
+  },
+  "vnkxpm": {
+    "message": "Lista de favoritos"
+  },
+  "kxpmzv": {
+    "message": "Adicionado aos favoritos"
+  },
+  "pzmvkx": {
+    "message": "Removido dos favoritos"
+  },
+  "jwvnkp": {
+    "message": "Sem dados"
+  },
+  "zxvkpm": {
+    "message": "Ver tudo"
+  },
+  "qdyqxsc": {
+    "message": "Quer remover dos favoritos?"
+  },
+  "mvkxpz": {
+    "message": "Copiar"
+  },
+  "xpzmvk": {
+    "message": "Copiado"
+  },
+  "vkpxzm": {
+    "message": "Editar"
+  },
+  "kpzmvx": {
+    "message": "Falha ao copiar"
+  },
+  "zmxvkp": {
+    "message": "Por favor, introduza"
+  },
+  "pxvkmz": {
+    "message": "Cancelar"
+  },
+  "vkmzpx": {
+    "message": "Confirmar"
+  },
+  "mzpxvk": {
+    "message": "O título não pode estar vazio"
+  },
+  "xvkpmz": {
+    "message": "Renomear"
+  },
+  "pzmkvx": {
+    "message": "O conteúdo não pode estar vazio"
+  },
+  "vxpzmk": {
+    "message": "Código aberto"
+  },
+  "mkvxpz": {
+    "message": "Dar uma estrela"
+  },
+  "xpzmkv": {
+    "message": "Bem-vindo"
+  },
+  "pkmzvx": {
+    "message": "Partilhar com amigos"
+  },
+  "mvxkpz": {
+    "message": "Copiar fórmula LaTeX"
+  },
+  "kxvpmz": {
+    "message": "Nova pasta"
+  },
+  "vpmzkx": {
+    "message": "Nova subpasta"
+  },
+  "mzxvkp": {
+    "message": "Eliminar"
+  },
+  "pkxvmz": {
+    "message": "Pasta predefinida"
+  },
+  "xmkvpz": {
+    "message": "Criar subpasta em \"{folderName}\""
+  },
+  "vzkpmx": {
+    "message": "Introduza o nome da pasta"
+  },
+  "kmxpvz": {
+    "message": "O nome da pasta não pode estar vazio"
+  },
+  "pxmzvk": {
+    "message": "Renomear pasta"
+  },
+  "mvzxkp": {
+    "message": "Introduza o novo nome"
+  },
+  "kpvzmx": {
+    "message": "O nome da pasta já existe"
+  },
+  "xzvkpm": {
+    "message": "Criado com sucesso"
+  },
+  "vmkxpz": {
+    "message": "Atualizado com sucesso"
+  },
+  "zpxmkv": {
+    "message": "Pasta não encontrada"
+  },
+  "kvpzmx": {
+    "message": "Pasta eliminada"
+  },
+  "mxkvzp": {
+    "message": "Falha ao eliminar"
+  },
+  "pzvkmx": {
+    "message": "Movido com sucesso"
+  },
+  "vxkpmz": {
+    "message": "Mover para"
+  },
+  "wjxnkp": {
+    "message": "Tem a certeza de que pretende eliminar a pasta \"{folderName}\"?\n\nEsta pasta e as suas subpastas contêm {count} itens favoritos. Após a eliminação, estes itens serão movidos para a pasta predefinida."
+  },
+  "qzmvkx": {
+    "message": "Tem a certeza de que pretende eliminar a pasta \"{folderName}\"?"
+  },
+  "mvkzpx": {
+    "message": "Pesquisar favoritos..."
+  },
+  "kxzpmv": {
+    "message": "Guardar em"
+  },
+  "vmzpkx": {
+    "message": "Pasta predefinida"
+  },
+  "pkmvxz": {
+    "message": "Título"
+  },
+  "pxkmvz": {
+    "message": "Cronologia"
+  },
+  "mzkvxp": {
+    "message": "Quando ativado, uma cronologia interativa será exibida no lado direito da página de conversa de IA."
+  },
+  "vkpmzx": {
+    "message": "Use as teclas ↑ / ↓ para navegar entre os nós da conversa"
+  },
+  "xpvmkz": {
+    "message": "Quando ativado, use as teclas ↑ / ↓ para saltar rapidamente entre os nós da conversa."
+  },
+  "pxmzkv": {
+    "message": "📌 Marcar conversas importantes"
+  },
+  "kzxvpm": {
+    "message": "Mantenha premido um nó da conversa na cronologia para o marcar como importante."
+  },
+  "xmvkpz": {
+    "message": "Caixa de chat"
+  },
+  "kvzmxp": {
+    "message": "Tecla Enter para nova linha"
+  },
+  "kpxvmz": {
+    "message": "Copiar fórmula"
+  },
+  "zmkvpx": {
+    "message": "Copiar fórmula LaTeX"
+  },
+  "vxkpzm": {
+    "message": "Quando ativado, deteta automaticamente fórmulas na página e clique para copiar em formato LaTeX."
+  },
+  "mkvzpx": {
+    "message": "Plataformas suportadas"
+  },
+  "vxmkpz": {
+    "message": "Tecla Enter: prima uma vez para nova linha, duas vezes para enviar"
+  },
+  "mkpxvz": {
+    "message": "Quando ativado, na caixa de entrada do chat de IA, prima Enter uma vez para nova linha, prima rapidamente duas vezes para enviar a mensagem."
+  },
+  "qoytxz": {
+    "message": "Esta funcionalidade está ativada por predefinição e não pode ser desativada"
+  },
+  "hosegod": {
+    "message": "Prompts"
+  },
+  "hobsidbg": {
+    "message": "Quando ativado, um botão de prompt será exibido no lado esquerdo da caixa de entrada"
+  },
+  "biwhckdj": {
+    "message": "Lista de prompts"
+  },
+  "byaskjndg": {
+    "message": "Adicionar prompt"
+  },
+  "hsksuywm": {
+    "message": "Editar prompt"
+  },
+  "hsuywkw": {
+    "message": "Nome do prompt"
+  },
+  "hsuywkwPlaceholder": {
+    "message": "Introduza o nome do prompt"
+  },
+  "promptContent": {
+    "message": "Conteúdo"
+  },
+  "uwkjwjw": {
+    "message": "Introduza o conteúdo do prompt"
+  },
+  "hsiwhwl": {
+    "message": "Sem prompts"
+  },
+  "shwsuwk": {
+    "message": "Prompt adicionado"
+  },
+  "hwkwbhwk": {
+    "message": "Prompt atualizado"
+  },
+  "qrtypd": {
+    "message": "Prompt eliminado"
+  },
+  "dcnfmq": {
+    "message": "Tem a certeza de que pretende eliminar este prompt?"
+  },
+  "svkbtn": {
+    "message": "Guardar"
+  },
+  "pmpknd": {
+    "message": "Fixado"
+  },
+  "pmuknp": {
+    "message": "Desfixado"
+  },
+  "addkbt": {
+    "message": "Adicionar"
+  },
+  "ptfmsl": {
+    "message": "Aplica-se a"
+  },
+  "allptfm": {
+    "message": "Todas as plataformas de IA"
+  },
+  "febhyejd": {
+    "message": "Enviar feedback online"
+  },
+  "runnerTabName": {
+    "message": "Executor de código"
+  },
+  "runnerSettingsTitle": {
+    "message": "Linguagens suportadas"
+  },
+  "runnerSettingsHint": {
+    "message": "Quando ativado, um botão Run aparecerá nos blocos de código para executar código diretamente"
+  },
+  "fiveStarReview": {
+    "message": "Gostou"
+  },
+  "goToReview": {
+    "message": "Avalie-nos com 5 estrelas"
+  },
+  "runBtn": {
+    "message": "Executar"
+  },
+  "themeDark": {
+    "message": "Escuro"
+  },
+  "themeLight": {
+    "message": "Claro"
+  },
+  "dataSyncTabName": {
+    "message": "Migração de dados"
+  },
+  "formulaFormatTitle": {
+    "message": "Selecionar formato de cópia"
+  },
+  "importSuccess": {
+    "message": "Importação bem-sucedida"
+  },
+  "importSuccessHint": {
+    "message": "Os dados foram importados com sucesso. Por favor atualize a página"
+  },
+  "importFailed": {
+    "message": "Falha na importação"
+  },
+  "refreshPage": {
+    "message": "Atualizar página"
+  },
+  "refreshLater": {
+    "message": "Atualizar mais tarde"
+  },
+  "quoteReply": {
+    "message": "Perguntar mais"
+  },
+  "scrollToBottomTitle": {
+    "message": "Ir para baixo"
+  },
+  "scrollToBottomHint": {
+    "message": "Mostrar botão rápido para voltar à mensagem mais recente"
+  },
+  "pleaseWait": {
+    "message": "Por favor aguarde, o ID do nó está a carregar..."
+  },
+  "chatTimeLabelTitle": {
+    "message": "Mostrar hora do chat"
+  },
+  "chatTimeLabelHint": {
+    "message": "Mostrar hora de envio em cada mensagem, tão claro como um histórico de chat"
+  },
+  "exportTitle": {
+    "message": "Sincronização manual"
+  },
+  "exportHint": {
+    "message": "Faça backup ou restaure dados manualmente através de ficheiro JSON para migração para outros navegadores."
+  },
+  "gdriveTitle": {
+    "message": "Sincronização Google Drive"
+  },
+  "gdriveHint": {
+    "message": "Faça backup dos dados no Google Drive para sincronização entre dispositivos."
+  },
+  "mermaidTabName": {
+    "message": "Mermaid"
+  },
+  "mermaidSettingsTitle": {
+    "message": "Renderização de diagramas Mermaid"
+  },
+  "mermaidSettingsHint": {
+    "message": "Renderizar automaticamente blocos de código Mermaid como diagramas interativos"
+  },
+  "mermaidDiagramBtn": {
+    "message": "Diagrama"
+  },
+  "mermaidCodeBtn": {
+    "message": "Código"
+  },
+  "mermaidFullscreen": {
+    "message": "Ecrã inteiro"
+  },
+  "mermaidViewerHint": {
+    "message": "Scroll para zoom · Arrastar para mover · ESC para fechar"
+  },
+  "notepadToggleHint": {
+    "message": "Show notepad entry at the bottom of the timeline for quick notes"
+  },
+  "notepadTitle": {
+    "message": "Flash Notes"
+  },
+  "notepadPlaceholder": {
+    "message": "Just write what comes to mind…"
+  },
+  "notepadClose": {
+    "message": "Close"
+  },
+  "notepadAllNotes": {
+    "message": "All Notes"
+  },
+  "notepadNewNote": {
+    "message": "New Note"
+  },
+  "notepadConfirmDeleteTitle": {
+    "message": "Confirm Delete"
+  },
+  "notepadConfirmDeleteContent": {
+    "message": "This cannot be undone. Are you sure?"
+  },
+  "notepadUntitled": {
+    "message": "Untitled"
+  },
+  "notepadYesterday": {
+    "message": "Yesterday"
+  },
+  "formulaCopyTypeTitle": {
+    "message": "Tipo de cópia de fórmula"
+  },
+  "formulaCopyMathML": {
+    "message": "Copiar fórmula MathML"
+  },
+  "formulaCopyGeneric": {
+    "message": "Copiar fórmula"
+  },
+  "formulaLatexTitle": {
+    "message": "Copiar fórmula LaTeX"
+  },
+  "formulaLatexHint": {
+    "message": "Clique numa fórmula para copiá-la em formato LaTeX"
+  },
+  "formulaMathMLTitle": {
+    "message": "Copiar fórmula MathML"
+  },
+  "formulaMathMLHint": {
+    "message": "Clique numa fórmula para copiá-la em formato MathML, colável diretamente no Word"
+  },
+  "aboutTabName": {
+    "message": "Sobre"
+  },
+  "aboutPluginTitle": {
+    "message": "Sobre a extensão"
+  },
+  "aboutPluginContent": {
+    "message": "Extensão de produtividade para conversas com IA, com timeline de conversas, notas rápidas, cópia de fórmulas LaTeX, prompts personalizados e muito mais. Compatível com ChatGPT, Gemini, DeepSeek, Kimi, Claude e todas as principais plataformas — projetada para duplicar a sua eficiência com IA."
+  },
+  "aboutDataSecurityTitle": {
+    "message": "Segurança de dados"
+  },
+  "aboutDataSecurityContent": {
+    "message": "Todos os seus dados nesta extensão são armazenados localmente no seu navegador ou no seu Google Drive, sem passar por servidores de terceiros. A extensão não recolhe, carrega ou partilha qualquer conteúdo das suas conversas ou informações pessoais. Este projeto é de código aberto no GitHub, e o código está disponível para revisão a qualquer momento."
+  },
+  "aboutDeveloperTitle": {
+    "message": "Desenvolvedor"
+  },
+  "aboutDeveloperContent": {
+    "message": "Este projeto é mantido por mim sozinho, com um ritmo de 1 a 2 novas versões por semana. Para reportar um bug ou sugerir uma funcionalidade, contacte-me através de qualquer um dos canais abaixo (responderei assim que vir):"
+  },
+  "aboutShareTitle": {
+    "message": "Um pequeno favor"
+  },
+  "aboutShareContent": {
+    "message": "Se esta extensão o ajudou, ficaria grato se a recomendasse no X, Reddit ou outras plataformas, e a partilhasse com amigos, colegas de turma ou de trabalho. Mantenho este plugin sozinho e não consigo dedicar tempo ao marketing — o que posso fazer é torná-lo cada vez melhor. Muito obrigado. ❤️"
+  },
+  "aboutXhsTip": {
+    "message": "Se publicou um artigo ou vídeo de recomendação de qualidade no Xiaohongshu, posso ajudá-lo com promoção paga (a partir de ¥75). 👇"
+  },
+  "aboutXhsBtn": {
+    "message": "Enviar link do Xiaohongshu"
+  }
+}

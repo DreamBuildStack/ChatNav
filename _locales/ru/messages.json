@@ -1,0 +1,440 @@
+{
+  "extName": {
+    "message": "AI Timeline: Удвойте эффективность ИИ | GPT, Gemini, DeepSeek, Qwen"
+  },
+  "extDescription": {
+    "message": "Поддержка GPT, Gemini, DeepSeek и всех AI-платформ: копирование LaTeX, интерактивная шкала времени, библиотека промптов, запуск кода - удвойте эффективность ИИ."
+  },
+  "qwxpzm": {
+    "message": "Избранное"
+  },
+  "hkjvnr": {
+    "message": "Просмотр избранного"
+  },
+  "zmvkpx": {
+    "message": "Добавить диалог в избранное"
+  },
+  "bpxjkw": {
+    "message": "Удалить из избранного"
+  },
+  "vnkxpm": {
+    "message": "Список избранного"
+  },
+  "kxpmzv": {
+    "message": "Добавлено в избранное"
+  },
+  "pzmvkx": {
+    "message": "Удалено из избранного"
+  },
+  "jwvnkp": {
+    "message": "Нет данных"
+  },
+  "zxvkpm": {
+    "message": "Показать все"
+  },
+  "qdyqxsc": {
+    "message": "Удалить из избранного?"
+  },
+  "mvkxpz": {
+    "message": "Копировать"
+  },
+  "xpzmvk": {
+    "message": "Скопировано"
+  },
+  "vkpxzm": {
+    "message": "Редактировать"
+  },
+  "kpzmvx": {
+    "message": "Ошибка копирования"
+  },
+  "zmxvkp": {
+    "message": "Пожалуйста, введите"
+  },
+  "pxvkmz": {
+    "message": "Отмена"
+  },
+  "vkmzpx": {
+    "message": "Подтвердить"
+  },
+  "mzpxvk": {
+    "message": "Заголовок не может быть пустым"
+  },
+  "xvkpmz": {
+    "message": "Переименовать"
+  },
+  "pzmkvx": {
+    "message": "Содержимое не может быть пустым"
+  },
+  "vxpzmk": {
+    "message": "Открытый исходный код"
+  },
+  "mkvxpz": {
+    "message": "Поставить звезду"
+  },
+  "xpzmkv": {
+    "message": "Добро пожаловать"
+  },
+  "pkmzvx": {
+    "message": "Поделиться с друзьями"
+  },
+  "mvxkpz": {
+    "message": "Копировать формулу LaTeX"
+  },
+  "kxvpmz": {
+    "message": "Новая папка"
+  },
+  "vpmzkx": {
+    "message": "Новая подпапка"
+  },
+  "mzxvkp": {
+    "message": "Удалить"
+  },
+  "pkxvmz": {
+    "message": "Папка по умолчанию"
+  },
+  "xmkvpz": {
+    "message": "Создать подпапку в «{folderName}»"
+  },
+  "vzkpmx": {
+    "message": "Введите название папки"
+  },
+  "kmxpvz": {
+    "message": "Название папки не может быть пустым"
+  },
+  "pxmzvk": {
+    "message": "Переименовать папку"
+  },
+  "mvzxkp": {
+    "message": "Введите новое название"
+  },
+  "kpvzmx": {
+    "message": "Папка с таким названием уже существует"
+  },
+  "xzvkpm": {
+    "message": "Успешно создано"
+  },
+  "vmkxpz": {
+    "message": "Успешно обновлено"
+  },
+  "zpxmkv": {
+    "message": "Папка не найдена"
+  },
+  "kvpzmx": {
+    "message": "Папка удалена"
+  },
+  "mxkvzp": {
+    "message": "Ошибка удаления"
+  },
+  "pzvkmx": {
+    "message": "Успешно перемещено"
+  },
+  "vxkpmz": {
+    "message": "Переместить в"
+  },
+  "wjxnkp": {
+    "message": "Вы уверены, что хотите удалить папку «{folderName}»?\n\nЭта папка и её подпапки содержат {count} избранных элементов. После удаления эти элементы будут перемещены в папку по умолчанию."
+  },
+  "qzmvkx": {
+    "message": "Вы уверены, что хотите удалить папку «{folderName}»?"
+  },
+  "mvkzpx": {
+    "message": "Поиск в избранном..."
+  },
+  "kxzpmv": {
+    "message": "Сохранить в"
+  },
+  "vmzpkx": {
+    "message": "Папка по умолчанию"
+  },
+  "pkmvxz": {
+    "message": "Заголовок"
+  },
+  "pxkmvz": {
+    "message": "Шкала времени"
+  },
+  "mzkvxp": {
+    "message": "При включении справа на странице диалога с ИИ отображается интерактивная шкала времени."
+  },
+  "vkpmzx": {
+    "message": "Используйте клавиши ↑ / ↓ для навигации по узлам диалога"
+  },
+  "xpvmkz": {
+    "message": "При включении используйте клавиши ↑ / ↓ для быстрого перехода между узлами диалога."
+  },
+  "pxmzkv": {
+    "message": "📌 Отметить важные диалоги"
+  },
+  "kzxvpm": {
+    "message": "Нажмите и удерживайте узел диалога на шкале времени, чтобы отметить его как важный."
+  },
+  "xmvkpz": {
+    "message": "Окно чата"
+  },
+  "kvzmxp": {
+    "message": "Клавиша Enter для переноса строки"
+  },
+  "kpxvmz": {
+    "message": "Копировать формулу"
+  },
+  "zmkvpx": {
+    "message": "Копировать формулу LaTeX"
+  },
+  "vxkpzm": {
+    "message": "При включении автоматически обнаруживает формулы на странице, и вы можете скопировать их в формате LaTeX одним кликом."
+  },
+  "mkvzpx": {
+    "message": "Поддерживаемые платформы"
+  },
+  "vxmkpz": {
+    "message": "Клавиша Enter: одно нажатие — перенос строки, двойное нажатие — отправка"
+  },
+  "mkpxvz": {
+    "message": "При включении в поле ввода чата ИИ одно нажатие Enter создаёт перенос строки, быстрое двойное нажатие отправляет сообщение."
+  },
+  "qoytxz": {
+    "message": "Эта функция включена по умолчанию и не может быть отключена"
+  },
+  "hosegod": {
+    "message": "Prompts"
+  },
+  "hobsidbg": {
+    "message": "При включении слева от поля ввода отображается кнопка промптов"
+  },
+  "biwhckdj": {
+    "message": "Список промптов"
+  },
+  "byaskjndg": {
+    "message": "Добавить промпт"
+  },
+  "hsksuywm": {
+    "message": "Редактировать промпт"
+  },
+  "hsuywkw": {
+    "message": "Название промпта"
+  },
+  "hsuywkwPlaceholder": {
+    "message": "Введите название промпта"
+  },
+  "promptContent": {
+    "message": "Содержимое"
+  },
+  "uwkjwjw": {
+    "message": "Введите содержимое промпта"
+  },
+  "hsiwhwl": {
+    "message": "Нет промптов"
+  },
+  "shwsuwk": {
+    "message": "Промпт добавлен"
+  },
+  "hwkwbhwk": {
+    "message": "Промпт обновлён"
+  },
+  "qrtypd": {
+    "message": "Промпт удалён"
+  },
+  "dcnfmq": {
+    "message": "Вы уверены, что хотите удалить этот промпт?"
+  },
+  "svkbtn": {
+    "message": "Сохранить"
+  },
+  "pmpknd": {
+    "message": "Закреплено"
+  },
+  "pmuknp": {
+    "message": "Откреплено"
+  },
+  "addkbt": {
+    "message": "Добавить"
+  },
+  "ptfmsl": {
+    "message": "Применяется к"
+  },
+  "allptfm": {
+    "message": "Все ИИ-платформы"
+  },
+  "febhyejd": {
+    "message": "Отправить отзыв онлайн"
+  },
+  "runnerTabName": {
+    "message": "Запуск кода"
+  },
+  "runnerSettingsTitle": {
+    "message": "Поддерживаемые языки"
+  },
+  "runnerSettingsHint": {
+    "message": "При включении на блоках кода появится кнопка Run для прямого выполнения кода"
+  },
+  "fiveStarReview": {
+    "message": "Нравится"
+  },
+  "goToReview": {
+    "message": "Поставьте нам 5 звёзд"
+  },
+  "runBtn": {
+    "message": "Запуск"
+  },
+  "themeDark": {
+    "message": "Тёмная"
+  },
+  "themeLight": {
+    "message": "Светлая"
+  },
+  "dataSyncTabName": {
+    "message": "Миграция данных"
+  },
+  "formulaFormatTitle": {
+    "message": "Выберите формат копирования"
+  },
+  "importSuccess": {
+    "message": "Импорт успешен"
+  },
+  "importSuccessHint": {
+    "message": "Данные успешно импортированы. Обновите страницу для применения"
+  },
+  "importFailed": {
+    "message": "Ошибка импорта"
+  },
+  "refreshPage": {
+    "message": "Обновить страницу"
+  },
+  "refreshLater": {
+    "message": "Обновить позже"
+  },
+  "quoteReply": {
+    "message": "Уточнить"
+  },
+  "scrollToBottomTitle": {
+    "message": "Вниз"
+  },
+  "scrollToBottomHint": {
+    "message": "Показать кнопку быстрого перехода к последнему сообщению"
+  },
+  "pleaseWait": {
+    "message": "Пожалуйста, подождите, загрузка ID узла..."
+  },
+  "chatTimeLabelTitle": {
+    "message": "Показать время чата"
+  },
+  "chatTimeLabelHint": {
+    "message": "Показывать время отправки для каждого сообщения, наглядно как в истории чата"
+  },
+  "exportTitle": {
+    "message": "Ручная синхронизация"
+  },
+  "exportHint": {
+    "message": "Ручное резервное копирование или восстановление данных через JSON-файл для переноса в другие браузеры."
+  },
+  "gdriveTitle": {
+    "message": "Синхронизация Google Drive"
+  },
+  "gdriveHint": {
+    "message": "Резервное копирование данных в Google Drive для синхронизации между устройствами."
+  },
+  "mermaidTabName": {
+    "message": "Mermaid"
+  },
+  "mermaidSettingsTitle": {
+    "message": "Отображение диаграмм Mermaid"
+  },
+  "mermaidSettingsHint": {
+    "message": "Автоматически отображать блоки кода Mermaid как интерактивные диаграммы"
+  },
+  "mermaidDiagramBtn": {
+    "message": "Диаграмма"
+  },
+  "mermaidCodeBtn": {
+    "message": "Код"
+  },
+  "mermaidFullscreen": {
+    "message": "Полный экран"
+  },
+  "mermaidViewerHint": {
+    "message": "Прокрутка для масштабирования · Перетаскивание для перемещения · ESC для закрытия"
+  },
+  "notepadToggleHint": {
+    "message": "Show notepad entry at the bottom of the timeline for quick notes"
+  },
+  "notepadTitle": {
+    "message": "Flash Notes"
+  },
+  "notepadPlaceholder": {
+    "message": "Just write what comes to mind…"
+  },
+  "notepadClose": {
+    "message": "Close"
+  },
+  "notepadAllNotes": {
+    "message": "All Notes"
+  },
+  "notepadNewNote": {
+    "message": "New Note"
+  },
+  "notepadConfirmDeleteTitle": {
+    "message": "Confirm Delete"
+  },
+  "notepadConfirmDeleteContent": {
+    "message": "This cannot be undone. Are you sure?"
+  },
+  "notepadUntitled": {
+    "message": "Untitled"
+  },
+  "notepadYesterday": {
+    "message": "Yesterday"
+  },
+  "formulaCopyTypeTitle": {
+    "message": "Тип копирования формулы"
+  },
+  "formulaCopyMathML": {
+    "message": "Копировать формулу MathML"
+  },
+  "formulaCopyGeneric": {
+    "message": "Копировать формулу"
+  },
+  "formulaLatexTitle": {
+    "message": "Копировать формулу LaTeX"
+  },
+  "formulaLatexHint": {
+    "message": "Нажмите на формулу, чтобы скопировать в формате LaTeX"
+  },
+  "formulaMathMLTitle": {
+    "message": "Копировать формулу MathML"
+  },
+  "formulaMathMLHint": {
+    "message": "Нажмите на формулу, чтобы скопировать в формате MathML — можно вставить прямо в Word"
+  },
+  "aboutTabName": {
+    "message": "О плагине"
+  },
+  "aboutPluginTitle": {
+    "message": "О расширении"
+  },
+  "aboutPluginContent": {
+    "message": "Расширение для повышения продуктивности в диалогах с ИИ. Включает таймлайн диалогов, быстрые заметки, копирование формул LaTeX, пользовательские промпты и многое другое. Поддерживает ChatGPT, Gemini, DeepSeek, Kimi, Claude и все основные платформы — удваивает эффективность работы с ИИ."
+  },
+  "aboutDataSecurityTitle": {
+    "message": "Безопасность данных"
+  },
+  "aboutDataSecurityContent": {
+    "message": "Все ваши данные в этом расширении хранятся локально в вашем браузере или в вашем Google Drive и не проходят через сторонние серверы. Расширение не собирает, не загружает и не передаёт содержимое ваших разговоров или личную информацию. Проект имеет открытый исходный код на GitHub, и код доступен для проверки в любое время."
+  },
+  "aboutDeveloperTitle": {
+    "message": "Разработчик"
+  },
+  "aboutDeveloperContent": {
+    "message": "Этот проект поддерживаю я один, выпуская 1–2 новые версии каждую неделю. Чтобы сообщить об ошибке или предложить функцию, свяжитесь со мной через любой из каналов ниже (я обязательно отвечу, когда увижу):"
+  },
+  "aboutShareTitle": {
+    "message": "Небольшая просьба"
+  },
+  "aboutShareContent": {
+    "message": "Если это расширение вам помогло, буду благодарен, если порекомендуете его на X, Reddit или других платформах, а также поделитесь с друзьями, однокурсниками или коллегами. Я поддерживаю этот плагин один и не могу тратить время на маркетинг — всё, что я могу — делать его всё лучше и лучше. Большое спасибо. ❤️"
+  },
+  "aboutXhsTip": {
+    "message": "Если вы опубликовали качественную рекомендательную статью или видео на Xiaohongshu, я могу помочь с платным продвижением (от 75 ¥). 👇"
+  },
+  "aboutXhsBtn": {
+    "message": "Отправить ссылку Xiaohongshu"
+  }
+}

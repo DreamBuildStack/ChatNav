@@ -1,0 +1,84 @@
+{
+  "manifest_version": 3,
+  "name": "ChatNav - AI 对话时间轴",
+  "short_name": "AI Timeline",
+  "version": "1.0.1",
+  "description": "Add an interactive timeline to AI chat pages for quick navigation. Supports ChatGPT, DeepSeek, Gemini, Kimi, Doubao, Tongyi, Yuanbao, Yiyan, and Grok.",
+  "default_locale": "en",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": [
+    "storage",
+    "unlimitedStorage"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "js/global/constants.js",
+        "js/global/dom-observer-manager/index.js",
+        "js/global/ai-state-monitor/index.js",
+        "js/global/tooltip-manager/index.js",
+        "js/global/toast-manager/index.js",
+        "js/global/input-modal/index.js",
+        "js/global/dropdown-manager/index.js",
+        "js/global/popconfirm-manager/index.js",
+        "js/global/event-delegate-manager/index.js",
+        "js/timeline/adapters/base.js",
+        "js/timeline/adapters/chatgpt.js",
+        "js/timeline/adapters/gemini.js",
+        "js/timeline/adapters/doubao.js",
+        "js/timeline/adapters/deepseek.js",
+        "js/timeline/adapters/yiyan.js",
+        "js/timeline/adapters/tongyi.js",
+        "js/timeline/adapters/kimi.js",
+        "js/timeline/adapters/yuanbao.js",
+        "js/timeline/adapters/grok.js",
+        "js/timeline/adapters/perplexity.js",
+        "js/timeline/adapters/claude.js",
+        "js/timeline/adapters/notebooklm.js",
+        "js/timeline/adapters/registry.js",
+        "js/timeline/common.js",
+        "js/panelModal/tabs/starred/folder-manager.js",
+        "js/timeline/container-finder.js",
+        "js/timeline/star-input-modal/star-input-modal.js",
+        "js/timeline/chat-time-recorder.js",
+        "js/timeline/notepad/notepad-manager.js",
+        "js/timeline/timeline-manager.js",
+        "js/timeline/index.js"
+      ],
+      "css": [
+        "styles/variables.css",
+        "js/global/tooltip-manager/styles.css",
+        "js/global/toast-manager/styles.css",
+        "js/global/input-modal/styles.css",
+        "js/global/dropdown-manager/styles.css",
+        "js/global/popconfirm-manager/styles.css",
+        "js/timeline/star-input-modal/star-input-modal.css",
+        "js/timeline/notepad/notepad.css",
+        "js/timeline/timeline.css"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "images/logo.png",
+        "images/logo/*.webp",
+        "images/logo/*.svg"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ],
+  "action": {
+    "default_title": "ChatNav"
+  }
+}

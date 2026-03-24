@@ -1,0 +1,440 @@
+{
+  "extName": {
+    "message": "AI Timeline: เพิ่มประสิทธิภาพ AI เท่าตัว | GPT, Gemini, DeepSeek, Qwen"
+  },
+  "extDescription": {
+    "message": "รองรับ GPT, Gemini, DeepSeek และทุกแพลตฟอร์ม AI: คัดลอก LaTeX, ไทม์ไลน์โต้ตอบ, คลัง Prompt, รันโค้ด เพิ่มประสิทธิภาพ AI เท่าตัว"
+  },
+  "qwxpzm": {
+    "message": "รายการโปรด"
+  },
+  "hkjvnr": {
+    "message": "ดูรายการโปรด"
+  },
+  "zmvkpx": {
+    "message": "เพิ่มการสนทนาในรายการโปรด"
+  },
+  "bpxjkw": {
+    "message": "ลบออกจากรายการโปรด"
+  },
+  "vnkxpm": {
+    "message": "รายการโปรด"
+  },
+  "kxpmzv": {
+    "message": "เพิ่มในรายการโปรดแล้ว"
+  },
+  "pzmvkx": {
+    "message": "ลบออกจากรายการโปรดแล้ว"
+  },
+  "jwvnkp": {
+    "message": "ไม่มีข้อมูล"
+  },
+  "zxvkpm": {
+    "message": "ดูทั้งหมด"
+  },
+  "qdyqxsc": {
+    "message": "ต้องการลบออกจากรายการโปรด?"
+  },
+  "mvkxpz": {
+    "message": "คัดลอก"
+  },
+  "xpzmvk": {
+    "message": "คัดลอกแล้ว"
+  },
+  "vkpxzm": {
+    "message": "แก้ไข"
+  },
+  "kpzmvx": {
+    "message": "คัดลอกล้มเหลว"
+  },
+  "zmxvkp": {
+    "message": "กรุณากรอก"
+  },
+  "pxvkmz": {
+    "message": "ยกเลิก"
+  },
+  "vkmzpx": {
+    "message": "ยืนยัน"
+  },
+  "mzpxvk": {
+    "message": "หัวข้อไม่สามารถเว้นว่างได้"
+  },
+  "xvkpmz": {
+    "message": "เปลี่ยนชื่อ"
+  },
+  "pzmkvx": {
+    "message": "เนื้อหาไม่สามารถเว้นว่างได้"
+  },
+  "vxpzmk": {
+    "message": "โอเพนซอร์ส"
+  },
+  "mkvxpz": {
+    "message": "ให้ดาวโปรเจกต์"
+  },
+  "xpzmkv": {
+    "message": "ยินดีต้อนรับ"
+  },
+  "pkmzvx": {
+    "message": "แชร์กับเพื่อน"
+  },
+  "mvxkpz": {
+    "message": "คัดลอกสูตร LaTeX"
+  },
+  "kxvpmz": {
+    "message": "โฟลเดอร์ใหม่"
+  },
+  "vpmzkx": {
+    "message": "โฟลเดอร์ย่อยใหม่"
+  },
+  "mzxvkp": {
+    "message": "ลบ"
+  },
+  "pkxvmz": {
+    "message": "โฟลเดอร์เริ่มต้น"
+  },
+  "xmkvpz": {
+    "message": "สร้างโฟลเดอร์ย่อยใน \"{folderName}\""
+  },
+  "vzkpmx": {
+    "message": "กรอกชื่อโฟลเดอร์"
+  },
+  "kmxpvz": {
+    "message": "ชื่อโฟลเดอร์ไม่สามารถเว้นว่างได้"
+  },
+  "pxmzvk": {
+    "message": "เปลี่ยนชื่อโฟลเดอร์"
+  },
+  "mvzxkp": {
+    "message": "กรอกชื่อใหม่"
+  },
+  "kpvzmx": {
+    "message": "ชื่อโฟลเดอร์นี้มีอยู่แล้ว"
+  },
+  "xzvkpm": {
+    "message": "สร้างสำเร็จ"
+  },
+  "vmkxpz": {
+    "message": "อัปเดตสำเร็จ"
+  },
+  "zpxmkv": {
+    "message": "ไม่พบโฟลเดอร์"
+  },
+  "kvpzmx": {
+    "message": "ลบโฟลเดอร์แล้ว"
+  },
+  "mxkvzp": {
+    "message": "ลบล้มเหลว"
+  },
+  "pzvkmx": {
+    "message": "ย้ายสำเร็จ"
+  },
+  "vxkpmz": {
+    "message": "ย้ายไปที่"
+  },
+  "wjxnkp": {
+    "message": "คุณแน่ใจหรือไม่ว่าต้องการลบโฟลเดอร์ \"{folderName}\"?\n\nโฟลเดอร์นี้และโฟลเดอร์ย่อยมี {count} รายการโปรด หลังจากลบ รายการเหล่านี้จะถูกย้ายไปยังโฟลเดอร์เริ่มต้น"
+  },
+  "qzmvkx": {
+    "message": "คุณแน่ใจหรือไม่ว่าต้องการลบโฟลเดอร์ \"{folderName}\"?"
+  },
+  "mvkzpx": {
+    "message": "ค้นหารายการโปรด..."
+  },
+  "kxzpmv": {
+    "message": "บันทึกไปที่"
+  },
+  "vmzpkx": {
+    "message": "โฟลเดอร์เริ่มต้น"
+  },
+  "pkmvxz": {
+    "message": "หัวข้อ"
+  },
+  "pxkmvz": {
+    "message": "ไทม์ไลน์"
+  },
+  "mzkvxp": {
+    "message": "เมื่อเปิดใช้งาน ไทม์ไลน์แบบโต้ตอบจะแสดงทางด้านขวาของหน้าสนทนา AI"
+  },
+  "vkpmzx": {
+    "message": "ใช้ปุ่ม ↑ / ↓ เพื่อนำทางระหว่างโหนดการสนทนา"
+  },
+  "xpvmkz": {
+    "message": "เมื่อเปิดใช้งาน ใช้ปุ่ม ↑ / ↓ เพื่อกระโดดอย่างรวดเร็วระหว่างโหนดการสนทนา"
+  },
+  "pxmzkv": {
+    "message": "📌 ทำเครื่องหมายการสนทนาสำคัญ"
+  },
+  "kzxvpm": {
+    "message": "กดค้างที่โหนดการสนทนาบนไทม์ไลน์เพื่อทำเครื่องหมายว่าสำคัญ"
+  },
+  "xmvkpz": {
+    "message": "กล่องแชท"
+  },
+  "kvzmxp": {
+    "message": "ปุ่ม Enter ขึ้นบรรทัดใหม่"
+  },
+  "kpxvmz": {
+    "message": "คัดลอกสูตร"
+  },
+  "zmkvpx": {
+    "message": "คัดลอกสูตร LaTeX"
+  },
+  "vxkpzm": {
+    "message": "เมื่อเปิดใช้งาน จะตรวจจับสูตรบนหน้าโดยอัตโนมัติและคลิกเพื่อคัดลอกในรูปแบบ LaTeX"
+  },
+  "mkvzpx": {
+    "message": "แพลตฟอร์มที่รองรับ"
+  },
+  "vxmkpz": {
+    "message": "ปุ่ม Enter: กดครั้งเดียวเพื่อขึ้นบรรทัดใหม่ กดสองครั้งเพื่อส่ง"
+  },
+  "mkpxvz": {
+    "message": "เมื่อเปิดใช้งาน ในกล่องป้อนข้อความแชท AI กด Enter ครั้งเดียวเพื่อขึ้นบรรทัดใหม่ กดเร็วๆ สองครั้งเพื่อส่งข้อความ"
+  },
+  "qoytxz": {
+    "message": "คุณสมบัตินี้เปิดใช้งานตามค่าเริ่มต้นและไม่สามารถปิดได้"
+  },
+  "hosegod": {
+    "message": "Prompts"
+  },
+  "hobsidbg": {
+    "message": "เมื่อเปิดใช้งาน จะแสดงปุ่ม Prompt ทางด้านซ้ายของกล่องข้อความ"
+  },
+  "biwhckdj": {
+    "message": "รายการ Prompt"
+  },
+  "byaskjndg": {
+    "message": "เพิ่ม Prompt"
+  },
+  "hsksuywm": {
+    "message": "แก้ไข Prompt"
+  },
+  "hsuywkw": {
+    "message": "ชื่อ Prompt"
+  },
+  "hsuywkwPlaceholder": {
+    "message": "กรอกชื่อ Prompt"
+  },
+  "promptContent": {
+    "message": "เนื้อหา"
+  },
+  "uwkjwjw": {
+    "message": "กรอกเนื้อหา Prompt"
+  },
+  "hsiwhwl": {
+    "message": "ยังไม่มี Prompt"
+  },
+  "shwsuwk": {
+    "message": "เพิ่ม Prompt แล้ว"
+  },
+  "hwkwbhwk": {
+    "message": "อัปเดต Prompt แล้ว"
+  },
+  "qrtypd": {
+    "message": "ลบ Prompt แล้ว"
+  },
+  "dcnfmq": {
+    "message": "คุณแน่ใจหรือไม่ว่าต้องการลบ Prompt นี้?"
+  },
+  "svkbtn": {
+    "message": "บันทึก"
+  },
+  "pmpknd": {
+    "message": "ปักหมุดแล้ว"
+  },
+  "pmuknp": {
+    "message": "เลิกปักหมุดแล้ว"
+  },
+  "addkbt": {
+    "message": "เพิ่ม"
+  },
+  "ptfmsl": {
+    "message": "ใช้กับ"
+  },
+  "allptfm": {
+    "message": "ทุกแพลตฟอร์ม AI"
+  },
+  "febhyejd": {
+    "message": "ส่งความคิดเห็นออนไลน์"
+  },
+  "runnerTabName": {
+    "message": "ตัวรันโค้ด"
+  },
+  "runnerSettingsTitle": {
+    "message": "ภาษาที่รองรับ"
+  },
+  "runnerSettingsHint": {
+    "message": "เมื่อเปิดใช้งาน ปุ่ม Run จะปรากฏบนบล็อกโค้ดเพื่อรันโค้ดโดยตรง"
+  },
+  "fiveStarReview": {
+    "message": "ชอบไหม"
+  },
+  "goToReview": {
+    "message": "ให้เรา 5 ดาว"
+  },
+  "runBtn": {
+    "message": "รัน"
+  },
+  "themeDark": {
+    "message": "มืด"
+  },
+  "themeLight": {
+    "message": "สว่าง"
+  },
+  "dataSyncTabName": {
+    "message": "การย้ายข้อมูล"
+  },
+  "formulaFormatTitle": {
+    "message": "เลือกรูปแบบการคัดลอก"
+  },
+  "importSuccess": {
+    "message": "นำเข้าสำเร็จ"
+  },
+  "importSuccessHint": {
+    "message": "นำเข้าข้อมูลสำเร็จ กรุณารีเฟรชหน้า"
+  },
+  "importFailed": {
+    "message": "นำเข้าล้มเหลว"
+  },
+  "refreshPage": {
+    "message": "รีเฟรชหน้า"
+  },
+  "refreshLater": {
+    "message": "รีเฟรชภายหลัง"
+  },
+  "quoteReply": {
+    "message": "ถามต่อ"
+  },
+  "scrollToBottomTitle": {
+    "message": "ไปด้านล่าง"
+  },
+  "scrollToBottomHint": {
+    "message": "แสดงปุ่มลัดเพื่อกลับไปยังข้อความล่าสุด"
+  },
+  "pleaseWait": {
+    "message": "กรุณารอสักครู่ กำลังโหลด ID โหนด..."
+  },
+  "chatTimeLabelTitle": {
+    "message": "แสดงเวลาแชท"
+  },
+  "chatTimeLabelHint": {
+    "message": "แสดงเวลาส่งในแต่ละข้อความ ชัดเจนเหมือนประวัติแชท"
+  },
+  "exportTitle": {
+    "message": "ซิงค์ด้วยตนเอง"
+  },
+  "exportHint": {
+    "message": "สำรองหรือกู้คืนข้อมูลด้วยตนเองผ่านไฟล์ JSON เพื่อย้ายไปยังเบราว์เซอร์อื่น"
+  },
+  "gdriveTitle": {
+    "message": "ซิงค์ Google Drive"
+  },
+  "gdriveHint": {
+    "message": "สำรองข้อมูลไปยัง Google Drive ของคุณเพื่อซิงค์ข้ามอุปกรณ์"
+  },
+  "mermaidTabName": {
+    "message": "Mermaid"
+  },
+  "mermaidSettingsTitle": {
+    "message": "การแสดงผลแผนภาพ Mermaid"
+  },
+  "mermaidSettingsHint": {
+    "message": "แสดงผลบล็อกโค้ด Mermaid เป็นแผนภาพแบบโต้ตอบอัตโนมัติ"
+  },
+  "mermaidDiagramBtn": {
+    "message": "แผนภาพ"
+  },
+  "mermaidCodeBtn": {
+    "message": "โค้ด"
+  },
+  "mermaidFullscreen": {
+    "message": "เต็มหน้าจอ"
+  },
+  "mermaidViewerHint": {
+    "message": "เลื่อนเพื่อซูม · ลากเพื่อเลื่อน · ESC เพื่อปิด"
+  },
+  "notepadToggleHint": {
+    "message": "Show notepad entry at the bottom of the timeline for quick notes"
+  },
+  "notepadTitle": {
+    "message": "Flash Notes"
+  },
+  "notepadPlaceholder": {
+    "message": "Just write what comes to mind…"
+  },
+  "notepadClose": {
+    "message": "Close"
+  },
+  "notepadAllNotes": {
+    "message": "All Notes"
+  },
+  "notepadNewNote": {
+    "message": "New Note"
+  },
+  "notepadConfirmDeleteTitle": {
+    "message": "Confirm Delete"
+  },
+  "notepadConfirmDeleteContent": {
+    "message": "This cannot be undone. Are you sure?"
+  },
+  "notepadUntitled": {
+    "message": "Untitled"
+  },
+  "notepadYesterday": {
+    "message": "Yesterday"
+  },
+  "formulaCopyTypeTitle": {
+    "message": "ประเภทการคัดลอกสูตร"
+  },
+  "formulaCopyMathML": {
+    "message": "คัดลอกสูตร MathML"
+  },
+  "formulaCopyGeneric": {
+    "message": "คัดลอกสูตร"
+  },
+  "formulaLatexTitle": {
+    "message": "คัดลอกสูตร LaTeX"
+  },
+  "formulaLatexHint": {
+    "message": "คลิกที่สูตรเพื่อคัดลอกในรูปแบบ LaTeX"
+  },
+  "formulaMathMLTitle": {
+    "message": "คัดลอกสูตร MathML"
+  },
+  "formulaMathMLHint": {
+    "message": "คลิกที่สูตรเพื่อคัดลอกในรูปแบบ MathML วางใน Word ได้โดยตรง"
+  },
+  "aboutTabName": {
+    "message": "เกี่ยวกับปลั๊กอิน"
+  },
+  "aboutPluginTitle": {
+    "message": "เกี่ยวกับส่วนขยาย"
+  },
+  "aboutPluginContent": {
+    "message": "ส่วนขยายเพิ่มประสิทธิภาพสำหรับการสนทนา AI มีไทม์ไลน์การสนทนา บันทึกด่วน คัดลอกสูตร LaTeX พรอมต์กำหนดเอง และอีกมากมาย รองรับ ChatGPT, Gemini, DeepSeek, Kimi, Claude และแพลตฟอร์มหลักทั้งหมด เพิ่มประสิทธิภาพการใช้ AI เป็นสองเท่า"
+  },
+  "aboutDataSecurityTitle": {
+    "message": "ความปลอดภัยของข้อมูล"
+  },
+  "aboutDataSecurityContent": {
+    "message": "ข้อมูลทั้งหมดของคุณในส่วนขยายนี้จะถูกจัดเก็บไว้ในเบราว์เซอร์ของคุณหรือใน Google Drive ของคุณ โดยไม่ผ่านเซิร์ฟเวอร์ของบุคคลที่สาม ส่วนขยายจะไม่เก็บรวบรวม อัปโหลด หรือแชร์เนื้อหาการสนทนาหรือข้อมูลส่วนบุคคลของคุณ โปรเจกต์นี้เป็นโอเพ่นซอร์สบน GitHub คุณสามารถตรวจสอบโค้ดได้ตลอดเวลา"
+  },
+  "aboutDeveloperTitle": {
+    "message": "นักพัฒนา"
+  },
+  "aboutDeveloperContent": {
+    "message": "โปรเจกต์นี้ดูแลโดยฉันคนเดียว โดยมีจังหวะการอัปเดต 1–2 เวอร์ชันใหม่ต่อสัปดาห์ หากต้องการรายงานบั๊กหรือเสนอฟีเจอร์ ติดต่อฉันผ่านช่องทางใดก็ได้ด้านล่าง (ฉันจะตอบกลับแน่นอนเมื่อเห็น):"
+  },
+  "aboutShareTitle": {
+    "message": "ขอความช่วยเหลือ"
+  },
+  "aboutShareContent": {
+    "message": "หากส่วนขยายนี้ช่วยคุณได้ กรุณาแนะนำบน X, Reddit หรือแพลตฟอร์มอื่นๆ และแบ่งปันให้เพื่อน เพื่อนร่วมชั้น หรือเพื่อนร่วมงาน ผมดูแลปลั๊กอินนี้คนเดียว ไม่มีเวลาทำการตลาด สิ่งที่ทำได้คือทำให้มันดียิ่งขึ้นเรื่อยๆ ขอบคุณมากครับ ❤️"
+  },
+  "aboutXhsTip": {
+    "message": "หากคุณโพสต์บทความหรือวิดีโอแนะนำที่มีคุณภาพบน Xiaohongshu ฉันสามารถช่วยโปรโมตแบบชำระเงิน (เริ่มต้น ¥75) 👇"
+  },
+  "aboutXhsBtn": {
+    "message": "ส่งลิงก์ Xiaohongshu"
+  }
+}

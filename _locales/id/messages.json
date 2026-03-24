@@ -1,0 +1,440 @@
+{
+  "extName": {
+    "message": "AI Timeline: Gandakan Efisiensi AI | GPT, Gemini, DeepSeek, Qwen"
+  },
+  "extDescription": {
+    "message": "Mendukung GPT, Gemini, DeepSeek & semua platform AI: salin LaTeX, lini masa interaktif, perpustakaan prompt, jalankan kode untuk menggandakan efisiensi AI."
+  },
+  "qwxpzm": {
+    "message": "Favorit"
+  },
+  "hkjvnr": {
+    "message": "Lihat Favorit"
+  },
+  "zmvkpx": {
+    "message": "Tambahkan percakapan ke favorit"
+  },
+  "bpxjkw": {
+    "message": "Hapus dari favorit"
+  },
+  "vnkxpm": {
+    "message": "Daftar Favorit"
+  },
+  "kxpmzv": {
+    "message": "Ditambahkan ke favorit"
+  },
+  "pzmvkx": {
+    "message": "Dihapus dari favorit"
+  },
+  "jwvnkp": {
+    "message": "Tidak ada data"
+  },
+  "zxvkpm": {
+    "message": "Lihat semua"
+  },
+  "qdyqxsc": {
+    "message": "Hapus dari favorit?"
+  },
+  "mvkxpz": {
+    "message": "Salin"
+  },
+  "xpzmvk": {
+    "message": "Disalin"
+  },
+  "vkpxzm": {
+    "message": "Edit"
+  },
+  "kpzmvx": {
+    "message": "Gagal menyalin"
+  },
+  "zmxvkp": {
+    "message": "Silakan masukkan"
+  },
+  "pxvkmz": {
+    "message": "Batal"
+  },
+  "vkmzpx": {
+    "message": "Konfirmasi"
+  },
+  "mzpxvk": {
+    "message": "Judul tidak boleh kosong"
+  },
+  "xvkpmz": {
+    "message": "Ganti nama"
+  },
+  "pzmkvx": {
+    "message": "Konten tidak boleh kosong"
+  },
+  "vxpzmk": {
+    "message": "Sumber terbuka"
+  },
+  "mkvxpz": {
+    "message": "Beri bintang"
+  },
+  "xpzmkv": {
+    "message": "Selamat datang"
+  },
+  "pkmzvx": {
+    "message": "Bagikan ke teman"
+  },
+  "mvxkpz": {
+    "message": "Salin rumus LaTeX"
+  },
+  "kxvpmz": {
+    "message": "Folder baru"
+  },
+  "vpmzkx": {
+    "message": "Subfolder baru"
+  },
+  "mzxvkp": {
+    "message": "Hapus"
+  },
+  "pkxvmz": {
+    "message": "Folder default"
+  },
+  "xmkvpz": {
+    "message": "Buat subfolder di \"{folderName}\""
+  },
+  "vzkpmx": {
+    "message": "Masukkan nama folder"
+  },
+  "kmxpvz": {
+    "message": "Nama folder tidak boleh kosong"
+  },
+  "pxmzvk": {
+    "message": "Ganti nama folder"
+  },
+  "mvzxkp": {
+    "message": "Masukkan nama baru"
+  },
+  "kpvzmx": {
+    "message": "Nama folder sudah ada"
+  },
+  "xzvkpm": {
+    "message": "Berhasil dibuat"
+  },
+  "vmkxpz": {
+    "message": "Berhasil diperbarui"
+  },
+  "zpxmkv": {
+    "message": "Folder tidak ditemukan"
+  },
+  "kvpzmx": {
+    "message": "Folder dihapus"
+  },
+  "mxkvzp": {
+    "message": "Gagal menghapus"
+  },
+  "pzvkmx": {
+    "message": "Berhasil dipindahkan"
+  },
+  "vxkpmz": {
+    "message": "Pindahkan ke"
+  },
+  "wjxnkp": {
+    "message": "Yakin ingin menghapus folder \"{folderName}\"?\n\nFolder ini dan subfoldernya berisi {count} item favorit. Setelah dihapus, item-item ini akan dipindahkan ke folder default."
+  },
+  "qzmvkx": {
+    "message": "Yakin ingin menghapus folder \"{folderName}\"?"
+  },
+  "mvkzpx": {
+    "message": "Cari favorit..."
+  },
+  "kxzpmv": {
+    "message": "Simpan ke"
+  },
+  "vmzpkx": {
+    "message": "Folder default"
+  },
+  "pkmvxz": {
+    "message": "Judul"
+  },
+  "pxkmvz": {
+    "message": "Lini Masa"
+  },
+  "mzkvxp": {
+    "message": "Saat diaktifkan, lini masa interaktif akan ditampilkan di sisi kanan halaman percakapan AI."
+  },
+  "vkpmzx": {
+    "message": "Gunakan tombol ↑ / ↓ untuk navigasi antar node percakapan"
+  },
+  "xpvmkz": {
+    "message": "Saat diaktifkan, gunakan tombol ↑ / ↓ untuk melompat cepat antar node percakapan."
+  },
+  "pxmzkv": {
+    "message": "📌 Tandai percakapan penting"
+  },
+  "kzxvpm": {
+    "message": "Tekan lama node percakapan di lini masa untuk menandainya sebagai penting."
+  },
+  "xmvkpz": {
+    "message": "Kotak chat"
+  },
+  "kvzmxp": {
+    "message": "Tombol Enter untuk baris baru"
+  },
+  "kpxvmz": {
+    "message": "Salin rumus"
+  },
+  "zmkvpx": {
+    "message": "Salin rumus LaTeX"
+  },
+  "vxkpzm": {
+    "message": "Saat diaktifkan, secara otomatis mendeteksi rumus di halaman dan klik untuk menyalin dalam format LaTeX."
+  },
+  "mkvzpx": {
+    "message": "Platform yang didukung"
+  },
+  "vxmkpz": {
+    "message": "Tombol Enter: tekan sekali untuk baris baru, dua kali untuk mengirim"
+  },
+  "mkpxvz": {
+    "message": "Saat diaktifkan, di kotak input chat AI, tekan Enter sekali untuk baris baru, tekan cepat dua kali untuk mengirim pesan."
+  },
+  "qoytxz": {
+    "message": "Fitur ini diaktifkan secara default dan tidak dapat dimatikan"
+  },
+  "hosegod": {
+    "message": "Prompts"
+  },
+  "hobsidbg": {
+    "message": "Saat diaktifkan, tombol prompt akan ditampilkan di sisi kiri kotak input"
+  },
+  "biwhckdj": {
+    "message": "Daftar Prompt"
+  },
+  "byaskjndg": {
+    "message": "Tambah Prompt"
+  },
+  "hsksuywm": {
+    "message": "Edit Prompt"
+  },
+  "hsuywkw": {
+    "message": "Nama Prompt"
+  },
+  "hsuywkwPlaceholder": {
+    "message": "Masukkan nama prompt"
+  },
+  "promptContent": {
+    "message": "Konten"
+  },
+  "uwkjwjw": {
+    "message": "Masukkan konten prompt"
+  },
+  "hsiwhwl": {
+    "message": "Belum ada prompt"
+  },
+  "shwsuwk": {
+    "message": "Prompt ditambahkan"
+  },
+  "hwkwbhwk": {
+    "message": "Prompt diperbarui"
+  },
+  "qrtypd": {
+    "message": "Prompt dihapus"
+  },
+  "dcnfmq": {
+    "message": "Yakin ingin menghapus prompt ini?"
+  },
+  "svkbtn": {
+    "message": "Simpan"
+  },
+  "pmpknd": {
+    "message": "Disematkan"
+  },
+  "pmuknp": {
+    "message": "Dilepas sematan"
+  },
+  "addkbt": {
+    "message": "Tambah"
+  },
+  "ptfmsl": {
+    "message": "Berlaku untuk"
+  },
+  "allptfm": {
+    "message": "Semua platform AI"
+  },
+  "febhyejd": {
+    "message": "Kirim umpan balik online"
+  },
+  "runnerTabName": {
+    "message": "Penjalankan kode"
+  },
+  "runnerSettingsTitle": {
+    "message": "Bahasa yang didukung"
+  },
+  "runnerSettingsHint": {
+    "message": "Saat diaktifkan, tombol Run akan muncul di blok kode untuk menjalankan kode secara langsung"
+  },
+  "fiveStarReview": {
+    "message": "Suka"
+  },
+  "goToReview": {
+    "message": "Beri kami bintang 5"
+  },
+  "runBtn": {
+    "message": "Jalankan"
+  },
+  "themeDark": {
+    "message": "Gelap"
+  },
+  "themeLight": {
+    "message": "Terang"
+  },
+  "dataSyncTabName": {
+    "message": "Migrasi Data"
+  },
+  "formulaFormatTitle": {
+    "message": "Pilih Format Salin"
+  },
+  "importSuccess": {
+    "message": "Impor berhasil"
+  },
+  "importSuccessHint": {
+    "message": "Data berhasil diimpor. Silakan refresh halaman"
+  },
+  "importFailed": {
+    "message": "Impor gagal"
+  },
+  "refreshPage": {
+    "message": "Refresh halaman"
+  },
+  "refreshLater": {
+    "message": "Refresh nanti"
+  },
+  "quoteReply": {
+    "message": "Tanya Lanjutan"
+  },
+  "scrollToBottomTitle": {
+    "message": "Ke Bawah"
+  },
+  "scrollToBottomHint": {
+    "message": "Tampilkan tombol cepat untuk kembali ke pesan terbaru"
+  },
+  "pleaseWait": {
+    "message": "Harap tunggu, ID node sedang dimuat..."
+  },
+  "chatTimeLabelTitle": {
+    "message": "Tampilkan Waktu Chat"
+  },
+  "chatTimeLabelHint": {
+    "message": "Tampilkan waktu kirim di setiap pesan, sejelas riwayat chat"
+  },
+  "exportTitle": {
+    "message": "Sinkronisasi Manual"
+  },
+  "exportHint": {
+    "message": "Cadangkan atau pulihkan data secara manual melalui file JSON untuk migrasi ke browser lain."
+  },
+  "gdriveTitle": {
+    "message": "Sinkronisasi Google Drive"
+  },
+  "gdriveHint": {
+    "message": "Cadangkan data ke Google Drive Anda untuk sinkronisasi multi-perangkat."
+  },
+  "mermaidTabName": {
+    "message": "Mermaid"
+  },
+  "mermaidSettingsTitle": {
+    "message": "Rendering Diagram Mermaid"
+  },
+  "mermaidSettingsHint": {
+    "message": "Secara otomatis merender blok kode Mermaid sebagai diagram interaktif"
+  },
+  "mermaidDiagramBtn": {
+    "message": "Diagram"
+  },
+  "mermaidCodeBtn": {
+    "message": "Kode"
+  },
+  "mermaidFullscreen": {
+    "message": "Layar penuh"
+  },
+  "mermaidViewerHint": {
+    "message": "Gulir untuk zoom · Seret untuk menggeser · ESC untuk menutup"
+  },
+  "notepadToggleHint": {
+    "message": "Show notepad entry at the bottom of the timeline for quick notes"
+  },
+  "notepadTitle": {
+    "message": "Flash Notes"
+  },
+  "notepadPlaceholder": {
+    "message": "Just write what comes to mind…"
+  },
+  "notepadClose": {
+    "message": "Close"
+  },
+  "notepadAllNotes": {
+    "message": "All Notes"
+  },
+  "notepadNewNote": {
+    "message": "New Note"
+  },
+  "notepadConfirmDeleteTitle": {
+    "message": "Confirm Delete"
+  },
+  "notepadConfirmDeleteContent": {
+    "message": "This cannot be undone. Are you sure?"
+  },
+  "notepadUntitled": {
+    "message": "Untitled"
+  },
+  "notepadYesterday": {
+    "message": "Yesterday"
+  },
+  "formulaCopyTypeTitle": {
+    "message": "Jenis salinan rumus"
+  },
+  "formulaCopyMathML": {
+    "message": "Salin rumus MathML"
+  },
+  "formulaCopyGeneric": {
+    "message": "Salin rumus"
+  },
+  "formulaLatexTitle": {
+    "message": "Salin rumus LaTeX"
+  },
+  "formulaLatexHint": {
+    "message": "Klik rumus untuk menyalinnya dalam format LaTeX"
+  },
+  "formulaMathMLTitle": {
+    "message": "Salin rumus MathML"
+  },
+  "formulaMathMLHint": {
+    "message": "Klik rumus untuk menyalinnya dalam format MathML, bisa langsung ditempel di Word"
+  },
+  "aboutTabName": {
+    "message": "Tentang Plugin"
+  },
+  "aboutPluginTitle": {
+    "message": "Tentang ekstensi"
+  },
+  "aboutPluginContent": {
+    "message": "Ekstensi produktivitas untuk percakapan AI, dengan timeline percakapan, catatan cepat, salin rumus LaTeX, prompt kustom, dan banyak lagi. Mendukung ChatGPT, Gemini, DeepSeek, Kimi, Claude dan semua platform utama — dirancang untuk menggandakan efisiensi penggunaan AI."
+  },
+  "aboutDataSecurityTitle": {
+    "message": "Keamanan Data"
+  },
+  "aboutDataSecurityContent": {
+    "message": "Semua data kamu di ekstensi ini disimpan secara lokal di browser atau di Google Drive kamu, tanpa melewati server pihak ketiga mana pun. Ekstensi tidak mengumpulkan, mengunggah, atau membagikan konten percakapan atau informasi pribadi kamu. Proyek ini bersifat open-source di GitHub, dan kode dapat ditinjau kapan saja."
+  },
+  "aboutDeveloperTitle": {
+    "message": "Pengembang"
+  },
+  "aboutDeveloperContent": {
+    "message": "Proyek ini dipelihara oleh saya sendiri, dengan ritme 1–2 versi baru setiap minggu. Untuk melaporkan bug atau menyarankan fitur, hubungi saya melalui salah satu saluran di bawah (saya pasti akan membalas ketika melihatnya):"
+  },
+  "aboutShareTitle": {
+    "message": "Minta bantuan kecil"
+  },
+  "aboutShareContent": {
+    "message": "Jika ekstensi ini membantu, tolong rekomendasikan di X, Reddit atau platform lainnya, dan bagikan ke teman, teman sekelas, atau rekan kerja. Saya mengelola plugin ini sendirian dan tidak bisa meluangkan waktu untuk pemasaran — yang bisa saya lakukan adalah membuatnya semakin baik. Terima kasih banyak. ❤️"
+  },
+  "aboutXhsTip": {
+    "message": "Jika kamu telah memposting artikel atau video rekomendasi berkualitas di Xiaohongshu, saya dapat membantu promosi berbayar (mulai dari ¥75). 👇"
+  },
+  "aboutXhsBtn": {
+    "message": "Kirim Link Xiaohongshu"
+  }
+}

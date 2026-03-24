@@ -1,0 +1,509 @@
+{
+  "extName": {
+    "message": "AI Timeline：助你使用 AI 效率翻倍 | GPT、Gemini、DeepSeek、Qwen"
+  },
+  "extDescription": {
+    "message": "支持 GPT、Gemini、DeepSeek 等所有主流 AI 平台：复制 LaTeX 公式、可交互对话时间轴、自定义提示词库、运行代码块等超多功能，助你使用 AI 效率翻倍。"
+  },
+  "qwxpzm": {
+    "message": "收藏"
+  },
+  "hkjvnr": {
+    "message": "查看收藏"
+  },
+  "zmvkpx": {
+    "message": "收藏对话"
+  },
+  "bpxjkw": {
+    "message": "取消收藏"
+  },
+  "vnkxpm": {
+    "message": "收藏列表"
+  },
+  "kxpmzv": {
+    "message": "收藏成功"
+  },
+  "pzmvkx": {
+    "message": "已取消收藏"
+  },
+  "jwvnkp": {
+    "message": "暂无数据"
+  },
+  "mvkxpz": {
+    "message": "复制"
+  },
+  "xpzmvk": {
+    "message": "复制成功"
+  },
+  "vkpxzm": {
+    "message": "编辑"
+  },
+  "kpzmvx": {
+    "message": "复制失败"
+  },
+  "zmxvkp": {
+    "message": "请输入"
+  },
+  "pxvkmz": {
+    "message": "取消"
+  },
+  "vkmzpx": {
+    "message": "确定"
+  },
+  "mzpxvk": {
+    "message": "主题不能为空"
+  },
+  "xvkpmz": {
+    "message": "重命名"
+  },
+  "pzmkvx": {
+    "message": "内容不能为空"
+  },
+  "vxpzmk": {
+    "message": "已开源"
+  },
+  "mkvxpz": {
+    "message": "为项目点亮"
+  },
+  "xpzmkv": {
+    "message": "欢迎"
+  },
+  "pkmzvx": {
+    "message": "分享给朋友"
+  },
+  "mvxkpz": {
+    "message": "复制 LaTeX 公式"
+  },
+  "kxvpmz": {
+    "message": "新建文件夹"
+  },
+  "vpmzkx": {
+    "message": "新建子文件夹"
+  },
+  "mzxvkp": {
+    "message": "删除"
+  },
+  "pkxvmz": {
+    "message": "默认文件夹"
+  },
+  "xmkvpz": {
+    "message": "在「{folderName}」下新建子文件夹"
+  },
+  "vzkpmx": {
+    "message": "请输入文件夹名称"
+  },
+  "kmxpvz": {
+    "message": "文件夹名称不能为空"
+  },
+  "pxmzvk": {
+    "message": "修改文件夹名称"
+  },
+  "mvzxkp": {
+    "message": "请输入新名称"
+  },
+  "kpvzmx": {
+    "message": "文件夹名称已存在"
+  },
+  "xzvkpm": {
+    "message": "创建成功"
+  },
+  "vmkxpz": {
+    "message": "更新成功"
+  },
+  "zpxmkv": {
+    "message": "文件夹不存在"
+  },
+  "kvpzmx": {
+    "message": "文件夹已删除"
+  },
+  "mxkvzp": {
+    "message": "删除失败"
+  },
+  "pzvkmx": {
+    "message": "移动成功"
+  },
+  "vxkpmz": {
+    "message": "移动到"
+  },
+  "wjxnkp": {
+    "message": "确定要删除文件夹「{folderName}」吗？\n\n该文件夹及其子文件夹中有 {count} 个收藏项，删除后这些收藏项将移至默认文件夹。"
+  },
+  "qzmvkx": {
+    "message": "确定要删除文件夹「{folderName}」吗？"
+  },
+  "mvkzpx": {
+    "message": "搜索收藏..."
+  },
+  "kxzpmv": {
+    "message": "收藏到"
+  },
+  "vmzpkx": {
+    "message": "默认文件夹"
+  },
+  "pkmvxz": {
+    "message": "标题"
+  },
+  "pxkmvz": {
+    "message": "时间轴"
+  },
+  "mzkvxp": {
+    "message": "启用后，在AI 对话页面右侧会显示可交互时间轴。"
+  },
+  "vkpmzx": {
+    "message": "键盘 ↑ / ↓ 键跳转对话节点"
+  },
+  "xpvmkz": {
+    "message": "启用后，使用键盘 ↑ / ↓ 键，在对话节点间快速跳转。"
+  },
+  "pxmzkv": {
+    "message": "📌 标记重点对话"
+  },
+  "kzxvpm": {
+    "message": "长按时间轴上的对话节点，即可标记重点。"
+  },
+  "xmvkpz": {
+    "message": "对话框"
+  },
+  "kvzmxp": {
+    "message": "键盘 Enter 键换行"
+  },
+  "kpxvmz": {
+    "message": "复制公式"
+  },
+  "zmkvpx": {
+    "message": "复制LaTeX公式"
+  },
+  "vxkpzm": {
+    "message": "启用后，自动识别页面上的公式，点击即可复制为 LaTeX 格式。"
+  },
+  "mkvzpx": {
+    "message": "支持的平台"
+  },
+  "vxmkpz": {
+    "message": "Enter键：单击换行，双击发送消息"
+  },
+  "mkpxvz": {
+    "message": "启用后，在 AI 对话输入框中，单击 Enter 键换行，快速双击 Enter 键发送消息。"
+  },
+  "qoytxz": {
+    "message": "此功能默认开启，无法关闭"
+  },
+  "hosegod": {
+    "message": "提示词"
+  },
+  "hobsidbg": {
+    "message": "启用后，在输入框左侧显示提示词按钮"
+  },
+  "biwhckdj": {
+    "message": "提示词列表"
+  },
+  "byaskjndg": {
+    "message": "添加提示词"
+  },
+  "hsksuywm": {
+    "message": "编辑提示词"
+  },
+  "hsuywkw": {
+    "message": "提示词名称"
+  },
+  "hsuywkwPlaceholder": {
+    "message": "输入提示词名称"
+  },
+  "promptContent": {
+    "message": "内容"
+  },
+  "uwkjwjw": {
+    "message": "输入提示词内容"
+  },
+  "hsiwhwl": {
+    "message": "暂无提示词"
+  },
+  "shwsuwk": {
+    "message": "提示词已添加"
+  },
+  "hwkwbhwk": {
+    "message": "提示词已更新"
+  },
+  "qrtypd": {
+    "message": "提示词已删除"
+  },
+  "dcnfmq": {
+    "message": "确定删除这个提示词吗？"
+  },
+  "svkbtn": {
+    "message": "保存"
+  },
+  "pmpknd": {
+    "message": "已置顶"
+  },
+  "pmuknp": {
+    "message": "已取消置顶"
+  },
+  "mvupkt": {
+    "message": "上移"
+  },
+  "mvdnkt": {
+    "message": "下移"
+  },
+  "pntotp": {
+    "message": "置顶"
+  },
+  "addkbt": {
+    "message": "添加"
+  },
+  "ptfmsl": {
+    "message": "适用于"
+  },
+  "allptfm": {
+    "message": "全部AI平台"
+  },
+  "febhyejd": {
+    "message": "在线提交反馈"
+  },
+  "runnerTabTitle": {
+    "message": "代码运行器"
+  },
+  "runnerExecute": {
+    "message": "运行"
+  },
+  "runnerClear": {
+    "message": "清空"
+  },
+  "runnerCodeEditor": {
+    "message": "代码编辑器"
+  },
+  "runnerOutput": {
+    "message": "输出"
+  },
+  "runnerHint": {
+    "message": "在这里输入代码，支持 async/await"
+  },
+  "runnerTabName": {
+    "message": "代码运行"
+  },
+  "runnerSettingsTitle": {
+    "message": "支持的编程语言"
+  },
+  "runnerSettingsHint": {
+    "message": "开启后，代码块右上角将显示 Run 按钮，点击可直接运行代码"
+  },
+  "fiveStarReview": {
+    "message": "觉得好用"
+  },
+  "goToReview": {
+    "message": "给我们五星好评"
+  },
+  "runBtn": {
+    "message": "运行"
+  },
+  "themeDark": {
+    "message": "深色"
+  },
+  "themeLight": {
+    "message": "浅色"
+  },
+  "zxvkpm": {
+    "message": "查看全部"
+  },
+  "qdyqxsc": {
+    "message": "确定要取消收藏吗？"
+  },
+  "formulaFormatTitle": {
+    "message": "选择复制格式"
+  },
+  "formulaCopyTypeTitle": {
+    "message": "复制公式类型"
+  },
+  "formulaCopyMathML": {
+    "message": "复制 MathML 公式"
+  },
+  "formulaCopyGeneric": {
+    "message": "复制公式"
+  },
+  "formulaLatexTitle": {
+    "message": "复制 LaTeX 公式"
+  },
+  "formulaLatexHint": {
+    "message": "点击公式复制为 LaTeX 格式"
+  },
+  "formulaMathMLTitle": {
+    "message": "复制 MathML 公式"
+  },
+  "formulaMathMLHint": {
+    "message": "点击公式复制为 MathML 格式，可直接粘贴到 Word"
+  },
+  "dataSyncTabName": {
+    "message": "数据迁移"
+  },
+  "exportTitle": {
+    "message": "手动同步"
+  },
+  "exportHint": {
+    "message": "通过 JSON 文件手动备份或恢复数据，用于迁移到其他浏览器。"
+  },
+  "exportBtn": {
+    "message": "导出数据"
+  },
+  "importTitle": {
+    "message": "导入数据"
+  },
+  "importHint": {
+    "message": "从 JSON 文件导入数据，支持覆盖或合并两种模式。"
+  },
+  "importBtn": {
+    "message": "选择文件导入"
+  },
+  "importModeMerge": {
+    "message": "合并"
+  },
+  "importModeMergeDesc": {
+    "message": "保留现有数据，与导入数据合并"
+  },
+  "importModeOverwrite": {
+    "message": "覆盖"
+  },
+  "importModeOverwriteDesc": {
+    "message": "清空现有数据，使用导入数据替换"
+  },
+  "exportingData": {
+    "message": "正在导出..."
+  },
+  "exportSuccess": {
+    "message": "导出成功"
+  },
+  "exportFailed": {
+    "message": "导出失败"
+  },
+  "importingData": {
+    "message": "正在导入..."
+  },
+  "importSuccess": {
+    "message": "导入成功"
+  },
+  "importSuccessHint": {
+    "message": "数据已成功导入，需要刷新页面后生效"
+  },
+  "importFailed": {
+    "message": "导入失败"
+  },
+  "refreshPage": {
+    "message": "刷新页面"
+  },
+  "refreshLater": {
+    "message": "稍后刷新"
+  },
+  "quoteReply": {
+    "message": "追问"
+  },
+  "quoteReplyTitle": {
+    "message": "追问功能"
+  },
+  "quoteReplyHint": {
+    "message": "选中页面上的文字后，显示追问按钮，点击可快速引用到对话框中"
+  },
+  "scrollToBottomTitle": {
+    "message": "返回底部"
+  },
+  "scrollToBottomHint": {
+    "message": "显示返回底部的快捷按钮，方便回到最新消息"
+  },
+  "pleaseWait": {
+    "message": "请稍等，节点ID正在加载..."
+  },
+  "chatTimeLabelTitle": {
+    "message": "显示对话时间"
+  },
+  "chatTimeLabelHint": {
+    "message": "在每条消息上显示发送时间，像聊天记录一样清晰"
+  },
+  "gdriveTitle": {
+    "message": "Google Drive 云同步"
+  },
+  "gdriveHint": {
+    "message": "将数据备份到你的 Google Drive 中，实现多设备同步。"
+  },
+  "mermaidTabName": {
+    "message": "Mermaid 图表"
+  },
+  "mermaidSettingsTitle": {
+    "message": "Mermaid 图表渲染"
+  },
+  "mermaidSettingsHint": {
+    "message": "自动将 Mermaid 代码块渲染为可视化图表"
+  },
+  "mermaidDiagramBtn": {
+    "message": "图表"
+  },
+  "mermaidCodeBtn": {
+    "message": "源码"
+  },
+  "mermaidFullscreen": {
+    "message": "全屏查看"
+  },
+  "mermaidViewerHint": {
+    "message": "滚轮缩放 · 拖拽平移 · ESC 退出"
+  },
+  "notepadToggleHint": {
+    "message": "在时间轴底部显示闪记入口，随手记录灵感"
+  },
+  "notepadTitle": {
+    "message": "闪记"
+  },
+  "notepadPlaceholder": {
+    "message": "想到什么就写什么，无需排版…"
+  },
+  "notepadClose": {
+    "message": "关闭"
+  },
+  "notepadAllNotes": {
+    "message": "全部笔记"
+  },
+  "notepadNewNote": {
+    "message": "新建笔记"
+  },
+  "notepadConfirmDeleteTitle": {
+    "message": "确认删除"
+  },
+  "notepadConfirmDeleteContent": {
+    "message": "删除后将无法恢复，确定要继续吗？"
+  },
+  "notepadUntitled": {
+    "message": "无标题"
+  },
+  "notepadYesterday": {
+    "message": "昨天"
+  },
+  "aboutTabName": {
+    "message": "关于插件"
+  },
+  "aboutPluginTitle": {
+    "message": "插件简介"
+  },
+  "aboutPluginContent": {
+    "message": "专门为 AI 对话开发的提效插件，拥有 对话时间轴、闪记、复制 LaTeX 公式、自定义提示词等超多功能。支持 ChatGPT、Gemini、DeepSeek、Kimi、Claude 等主流平台，它的使命是助你使用 AI 的效率翻倍。"
+  },
+  "aboutDataSecurityTitle": {
+    "message": "数据安全"
+  },
+  "aboutDataSecurityContent": {
+    "message": "你在本插件内的所有数据都存储在你的浏览器本地或你的 Google Drive 中，不经过任何第三方服务器。插件不会收集、上传或分享你的任何对话内容和个人信息，本项目已在GitHub开源，可随时审查代码。"
+  },
+  "aboutDeveloperTitle": {
+    "message": "开发者"
+  },
+  "aboutDeveloperContent": {
+    "message": "这个项目是我一个人在维护，每周 1～2 个新版本的更新节奏。如果想反馈 bug 或功能建议，可通过以下任一渠道进行反馈（我看到一定会回复）："
+  },
+  "aboutShareTitle": {
+    "message": "想请你帮个忙"
+  },
+  "aboutShareContent": {
+    "message": "如果这个插件帮到了你，想请你在 小红书、X、Reddit 等平台发帖推荐一下，也欢迎分享给朋友、同学、同事，让更多人使用到它。我是一个人维护这个插件，精力有限，无法抽身去做用户增长运营，我能做到的是让这个插件越来越好用，非常感谢。❤️"
+  },
+  "aboutXhsTip": {
+    "message": "如果你在小红书发布了推荐文章或视频，且内容优质，我可以帮你投流推广（75元起）。👇"
+  },
+  "aboutXhsBtn": {
+    "message": "登记小红书链接"
+  }
+}
