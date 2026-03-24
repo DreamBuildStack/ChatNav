@@ -14,6 +14,15 @@
  * - Virtual rendering for performance
  */
 
+function i18n(key, fallback) {
+    try {
+        const msg = i18n(key);
+        return msg || fallback || key;
+    } catch(e) {
+        return fallback || key;
+    }
+}
+
 class TimelineManager {
     constructor(adapter) {
         if (!adapter) {
@@ -329,7 +338,7 @@ class TimelineManager {
             starredBtn = document.createElement('button');
             starredBtn.className = 'timeline-starred-btn';
             starredBtn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-8l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2Z"/></svg>';
-            starredBtn.setAttribute('aria-label', chrome.i18n.getMessage('hkjvnr'));
+            starredBtn.setAttribute('aria-label', i18n('hkjvnr'));
             // ✅ 初始状态：隐藏，等时间轴渲染完成后再显示
             starredBtn.style.display = 'none';
             
@@ -339,7 +348,7 @@ class TimelineManager {
                     'starred-btn',
                     'button',
                     starredBtn,
-                    chrome.i18n.getMessage('vnkxpm'),
+                    i18n('vnkxpm'),
                     { placement: 'left' }
                 );
             });
@@ -368,7 +377,7 @@ class TimelineManager {
                     'notepad-btn',
                     'button',
                     notepadBtn,
-                    chrome.i18n.getMessage('notepadTitle') || '闪记',
+                    i18n('notepadTitle') || '闪记',
                     { placement: 'left' }
                 );
             });
@@ -639,7 +648,7 @@ class TimelineManager {
             starChatBtn.style.backgroundColor = 'rgba(0, 0, 0, 0.05)';
             
             const isStarred = await this.isChatStarred();
-            const tooltipText = isStarred ? chrome.i18n.getMessage('bpxjkw') : chrome.i18n.getMessage('zmvkpx');
+            const tooltipText = isStarred ? i18n('bpxjkw') : i18n('zmvkpx');
             
             window.globalTooltipManager?.show(
                 'star-chat-btn',
@@ -689,7 +698,7 @@ class TimelineManager {
                 }
                 
                 // 更新 tooltip 文本
-                const newText = nowStarred ? chrome.i18n.getMessage('bpxjkw') : chrome.i18n.getMessage('zmvkpx');
+                const newText = nowStarred ? i18n('bpxjkw') : i18n('zmvkpx');
                 window.globalTooltipManager?.updateContent(newText);
                 
                 // 显示 toast
@@ -700,9 +709,9 @@ class TimelineManager {
                     };
                     
                     if (result.action === 'star') {
-                        window.globalToastManager.success(chrome.i18n.getMessage('kxpmzv'), null, { color: toastColor });
+                        window.globalToastManager.success(i18n('kxpmzv'), null, { color: toastColor });
                     } else if (result.action === 'unstar') {
-                        window.globalToastManager.info(chrome.i18n.getMessage('pzmvkx'), null, { color: toastColor });
+                        window.globalToastManager.info(i18n('pzmvkx'), null, { color: toastColor });
                     }
                 }
             }
@@ -719,11 +728,11 @@ class TimelineManager {
         }
         
         return await window.globalInputModal.show({
-            title: chrome.i18n.getMessage('vkpxzm'),
+            title: i18n('vkpxzm'),
             defaultValue: currentText,
-            placeholder: chrome.i18n.getMessage('zmxvkp'),
+            placeholder: i18n('zmxvkp'),
             required: true,
-            requiredMessage: chrome.i18n.getMessage('pzmkvx'),
+            requiredMessage: i18n('pzmkvx'),
             maxLength: 100
         });
     }
@@ -765,9 +774,9 @@ class TimelineManager {
                 const defaultTheme = this.adapter.getDefaultChatTheme?.() || '';
                 
                 const result = await window.starInputModal.show({
-                    title: chrome.i18n.getMessage('qwxpzm'),
+                    title: i18n('qwxpzm'),
                     defaultValue: defaultTheme,
-                    placeholder: chrome.i18n.getMessage('zmxvkp'),
+                    placeholder: i18n('zmxvkp'),
                     folderManager: this.folderManager,
                     defaultFolderId: null
                 });
@@ -813,11 +822,11 @@ class TimelineManager {
             const defaultTheme = this.adapter.getDefaultChatTheme?.() || '';
             
         return await window.globalInputModal.show({
-            title: chrome.i18n.getMessage('qwxpzm'),
+            title: i18n('qwxpzm'),
             defaultValue: defaultTheme,
-            placeholder: chrome.i18n.getMessage('zmxvkp'),
+            placeholder: i18n('zmxvkp'),
             required: true,
-            requiredMessage: chrome.i18n.getMessage('mzpxvk'),
+            requiredMessage: i18n('mzpxvk'),
             maxLength: 100
         });
     }
@@ -2243,13 +2252,13 @@ class TimelineManager {
                     // 添加收藏成功
                     starSpan.classList.remove('not-starred');
                     if (window.globalToastManager) {
-                        window.globalToastManager.success(chrome.i18n.getMessage('kxpmzv'), null, { color: toastColor });
+                        window.globalToastManager.success(i18n('kxpmzv'), null, { color: toastColor });
                     }
                 } else if (result.action === 'unstar') {
                     // 取消收藏成功
                     starSpan.classList.add('not-starred');
                     if (window.globalToastManager) {
-                        window.globalToastManager.info(chrome.i18n.getMessage('pzmvkx'), null, { color: toastColor });
+                        window.globalToastManager.info(i18n('pzmvkx'), null, { color: toastColor });
                     }
                 }
             }
@@ -3415,7 +3424,11 @@ class TimelineManager {
             const isTempId = /^.+-\d+$/.test(id);
             if (isTempId) {
                 if (window.globalToastManager) {
-                    window.globalToastManager.info(chrome.i18n.getMessage('pleaseWait') || '请稍等，节点ID正在加载...');
+                    try {
+                        window.globalToastManager.info(i18n('pleaseWait') || '请稍等，节点ID正在加载...');
+                    } catch(e) {
+                        window.globalToastManager.info('请稍等，节点ID正在加载...');
+                    }
                 }
                 return { success: false, action: null };
             }
@@ -3474,9 +3487,9 @@ class TimelineManager {
             }
             
             const result = await window.starInputModal.show({
-                title: chrome.i18n.getMessage('qwxpzm'),
+                title: i18n('qwxpzm'),
                 defaultValue: m.summary,
-                placeholder: chrome.i18n.getMessage('zmxvkp'),
+                placeholder: i18n('zmxvkp'),
                 folderManager: this.folderManager,
                 defaultFolderId: null
             });
@@ -3619,7 +3632,7 @@ class TimelineManager {
     // ✅ 显示复制成功的反馈提示（使用全局 Toast 管理器）
     showCopyFeedback(targetElement) {
         window.globalToastManager.success(
-            chrome.i18n.getMessage('xpzmvk'),
+            i18n('xpzmvk'),
             targetElement
         );
     }
@@ -3745,7 +3758,11 @@ class TimelineManager {
             const isTempId = /^.+-\d+$/.test(id);
             if (isTempId) {
                 if (window.globalToastManager) {
-                    window.globalToastManager.info(chrome.i18n.getMessage('pleaseWait') || '请稍等，节点ID正在加载...');
+                    try {
+                        window.globalToastManager.info(i18n('pleaseWait') || '请稍等，节点ID正在加载...');
+                    } catch(e) {
+                        window.globalToastManager.info('请稍等，节点ID正在加载...');
+                    }
                 }
                 return false;
             }
