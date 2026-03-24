@@ -1819,13 +1819,12 @@ class TimelineManager {
         try { StorageAdapter.addChangeListener(this.onStorage); } catch {}
         
         // ✅ 收藏按钮点击事件（打开 Panel Modal 并显示收藏 tab）
-        // 使用事件委托（解决长时间停留后事件失效问题）
         window.eventDelegateManager.on('click', '.timeline-starred-btn', () => {
-            if (window.panelModal) {
+            if (window._showPanelModal) {
+                window._showPanelModal('starred');
+            } else if (window.panelModal) {
                 window.panelModal.show('starred');
-                return;
-            }
-            if (window.globalToastManager) {
+            } else if (window.globalToastManager) {
                 window.globalToastManager.info('收藏夹面板模块未加载');
             }
         });
