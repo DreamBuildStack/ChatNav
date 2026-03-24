@@ -14,6 +14,7 @@
             this.icon = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>';
 
             this.folderManager = new FolderManager(StorageAdapter);
+            this.searchTimer = null;
         }
 
         getInitialState() {
@@ -67,12 +68,16 @@
             const searchInput = document.createElement('input');
             searchInput.type = 'text';
             searchInput.className = 'starred-toolbar-search';
-            searchInput.placeholder = '\u641c\u7d22\u6536\u85CF...';
+            searchInput.placeholder = '搜索收藏...';
             searchInput.autocomplete = 'off';
 
             this.addEventListener(searchInput, 'input', (function(e) {
-                this.setState('searchQuery', e.target.value.trim().toLowerCase());
-                this.updateList();
+                clearTimeout(this.searchTimer);
+                var self = this;
+                this.searchTimer = setTimeout(function() {
+                    self.setState('searchQuery', e.target.value.trim().toLowerCase());
+                    self.updateList();
+                }, 250);
             }).bind(this));
 
             this.addEventListener(searchInput, 'keydown', (function(e) {
