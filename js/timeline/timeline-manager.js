@@ -3408,13 +3408,12 @@ class TimelineManager {
         const m = this.markerMap.get(id);
         if (!m) return { success: false, action: null };
         
-        // ✅ 检查是否是 stableNodeId 平台但还没有真正的 ID
-        const features = getCurrentPlatform()?.features;
-        if (features?.stableNodeId) {
-            // 检查 ID 是否是临时格式（以 -数字 结尾，如 gemini-0）
+        // ✅ 对于非 Gemini 平台（ChatGPT、豆包），索引格式本身就是稳定的，直接收藏
+        // Gemini 使用父元素 id 作为稳定 ID，如果 turnId 是纯数字索引则表示尚未分配，需等待
+        const platformId = getCurrentPlatform()?.id;
+        if (platformId === 'gemini') {
             const isTempId = /^.+-\d+$/.test(id);
             if (isTempId) {
-                // 显示提示
                 if (window.globalToastManager) {
                     window.globalToastManager.info(chrome.i18n.getMessage('pleaseWait') || '请稍等，节点ID正在加载...');
                 }
@@ -3739,13 +3738,12 @@ class TimelineManager {
             return false;
         }
         
-        // ✅ 检查是否是 stableNodeId 平台但还没有真正的 ID
-        const features = getCurrentPlatform()?.features;
-        if (features?.stableNodeId) {
-            // 检查 ID 是否是临时格式（以 -数字 结尾，如 gemini-0）
+        // ✅ 对于非 Gemini 平台，索引格式本身就是稳定的，直接标记
+        // Gemini 如果 turnId 是纯数字索引则表示尚未分配，需等待
+        const platformId = getCurrentPlatform()?.id;
+        if (platformId === 'gemini') {
             const isTempId = /^.+-\d+$/.test(id);
             if (isTempId) {
-                // 显示提示
                 if (window.globalToastManager) {
                     window.globalToastManager.info(chrome.i18n.getMessage('pleaseWait') || '请稍等，节点ID正在加载...');
                 }
