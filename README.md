@@ -1,15 +1,20 @@
 <div align="center">
+  <img src="./icons/icon128.png" alt="ChatNav Logo" width="100" height="100">
+  <h1>ChatNav · 对话时间轴</h1>
 
-# ChatNav · 对话时间轴
+  <p>
+    <a href="https://github.com/DreamBuildStack/ChatNav">
+      <img src="https://img.shields.io/badge/Platform-Chrome%20%7C%20Edge-green?style=flat-square&logo=googlechrome&logoColor=white" alt="Platform">
+    </a>
+    <img src="https://img.shields.io/badge/version-1.0-blue?style=flat-square" alt="Version">
+    <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License">
+  </p>
 
-**为 AI 对话页面添加时间轴导航，快速跳转任意消息**
+  <p><strong>为 AI 对话页面添加时间轴导航，快速跳转任意消息</strong></p>
 
-[English](#english) · 中文
+  <h4><strong>中文</strong> | <a href="#english">English</a></h4>
 
-`https://img.shields.io/badge/License-MIT-blue.svg` ](LICENSE)
-! `https://img.shields.io/badge/Platform-Chrome%20%7C%20Edge-green` 
-! `https://img.shields.io/badge/version-1.0.1-orange` 
-
+  <img src="./images/preview.png" alt="ChatNav 效果预览" width="800">
 </div>
 
 ---
@@ -60,7 +65,9 @@
 
 ## 🖼️ 效果预览
 
-![预览图](public/preview.png)
+> 请将效果预览截图命名为 `preview.png` 并放入 `images/` 文件夹后，取消下方注释
+
+<!-- ![效果预览](images/preview.png) -->
 
 ---
 
@@ -80,6 +87,8 @@
 
 <h2 id="english">English</h2>
 
+<div align="center">
+
 ## ChatNav — AI Conversation Timeline
 
 Adds an interactive timeline to AI chat pages so you can jump to any message instantly.
@@ -93,3 +102,5 @@ Adds an interactive timeline to AI chat pages so you can jump to any message ins
 - Per-site enable/disable toggle in the popup
 
 **Install:** Load the `extension/` folder as an unpacked extension in Chrome or Edge developer mode.
+
+</div>
