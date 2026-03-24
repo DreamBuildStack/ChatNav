@@ -1,16 +1,5 @@
 /**
  * Panel Modal - 右侧弹出的面板模态框
- * 
- * 功能：
- * - 从右侧滑入/滑出
- * - 支持多个 tab 切换
- * - tab 只显示 icon，悬停显示 tooltip
- * - 点击遮罩层或关闭按钮关闭
- * 
- * 使用方式：
- * window.panelModal.show('starred'); // 打开并显示 starred tab
- * window.panelModal.hide();          // 关闭
- * window.panelModal.registerTab(tab); // 注册新 tab
  */
 
 class PanelModal {
@@ -35,6 +24,13 @@ class PanelModal {
         this.createDOM();
         this.bindEvents();
         this._attachUrlListeners();
+        this._registerDefaultTabs();
+    }
+    
+    _registerDefaultTabs() {
+        if (typeof StarredTab !== 'undefined') {
+            this.registerTab(new StarredTab());
+        }
     }
     
     createDOM() {
@@ -127,9 +123,7 @@ class PanelModal {
         try {
             window.removeEventListener('popstate', this._boundHandleUrlChange);
             window.removeEventListener('hashchange', this._boundHandleUrlChange);
-        } catch (error) {
-            console.error('[PanelModal] Failed to detach URL listeners:', error);
-        }
+        } catch (error) {}
     }
     
     _handleUrlChange() {
@@ -176,17 +170,9 @@ class PanelModal {
     }
     
     show(tabId = null) {
-        if (typeof registerAllTabs === 'function') {
-            registerAllTabs();
-        }
-        
         let targetTabId = tabId;
         
-        if (targetTabId && !this.tabs.has(targetTabId)) {
-            targetTabId = null;
-        }
-        
-        if (!targetTabId) {
+        if (!targetTabId || !this.tabs.has(targetTabId)) {
             targetTabId = this.currentTabId && this.tabs.has(this.currentTabId) 
                 ? this.currentTabId 
                 : this.tabs.keys().next().value;
