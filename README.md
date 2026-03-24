@@ -65,7 +65,7 @@
 
 
 
-![效果预览](images/preview.png)
+![效果预览](images/preview2.jpeg)
 
 ---
 
