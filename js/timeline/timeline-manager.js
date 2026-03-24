@@ -338,7 +338,7 @@ class TimelineManager {
             starredBtn = document.createElement('button');
             starredBtn.className = 'timeline-starred-btn';
             starredBtn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-8l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2Z"/></svg>';
-            starredBtn.setAttribute('aria-label', i18n('hkjvnr'));
+            starredBtn.setAttribute('aria-label', '查看收藏');
             // ✅ 初始状态：隐藏，等时间轴渲染完成后再显示
             starredBtn.style.display = 'none';
             
@@ -348,7 +348,7 @@ class TimelineManager {
                     'starred-btn',
                     'button',
                     starredBtn,
-                    i18n('vnkxpm'),
+                    '收藏列表',
                     { placement: 'left' }
                 );
             });
@@ -377,7 +377,7 @@ class TimelineManager {
                     'notepad-btn',
                     'button',
                     notepadBtn,
-                    i18n('notepadTitle') || '闪记',
+                    '闪记',
                     { placement: 'left' }
                 );
             });
@@ -648,7 +648,7 @@ class TimelineManager {
             starChatBtn.style.backgroundColor = 'rgba(0, 0, 0, 0.05)';
             
             const isStarred = await this.isChatStarred();
-            const tooltipText = isStarred ? i18n('bpxjkw') : i18n('zmvkpx');
+            const tooltipText = isStarred ? '取消收藏' : '收藏对话';
             
             window.globalTooltipManager?.show(
                 'star-chat-btn',
@@ -698,7 +698,7 @@ class TimelineManager {
                 }
                 
                 // 更新 tooltip 文本
-                const newText = nowStarred ? i18n('bpxjkw') : i18n('zmvkpx');
+                const newText = nowStarred ? '取消收藏' : '收藏对话';
                 window.globalTooltipManager?.updateContent(newText);
                 
                 // 显示 toast
@@ -709,9 +709,9 @@ class TimelineManager {
                     };
                     
                     if (result.action === 'star') {
-                        window.globalToastManager.success(i18n('kxpmzv'), null, { color: toastColor });
+                        window.globalToastManager.success('收藏成功', null, { color: toastColor });
                     } else if (result.action === 'unstar') {
-                        window.globalToastManager.info(i18n('pzmvkx'), null, { color: toastColor });
+                        window.globalToastManager.info('已取消收藏', null, { color: toastColor });
                     }
                 }
             }
@@ -728,11 +728,11 @@ class TimelineManager {
         }
         
         return await window.globalInputModal.show({
-            title: i18n('vkpxzm'),
+            title: '编辑收藏',
             defaultValue: currentText,
-            placeholder: i18n('zmxvkp'),
+            placeholder: '请输入',
             required: true,
-            requiredMessage: i18n('pzmkvx'),
+            requiredMessage: '内容不能为空',
             maxLength: 100
         });
     }
@@ -774,9 +774,9 @@ class TimelineManager {
                 const defaultTheme = this.adapter.getDefaultChatTheme?.() || '';
                 
                 const result = await window.starInputModal.show({
-                    title: i18n('qwxpzm'),
+                    title: '添加收藏',
                     defaultValue: defaultTheme,
-                    placeholder: i18n('zmxvkp'),
+                    placeholder: '请输入',
                     folderManager: this.folderManager,
                     defaultFolderId: null
                 });
@@ -822,11 +822,11 @@ class TimelineManager {
             const defaultTheme = this.adapter.getDefaultChatTheme?.() || '';
             
         return await window.globalInputModal.show({
-            title: i18n('qwxpzm'),
+            title: '添加收藏',
             defaultValue: defaultTheme,
-            placeholder: i18n('zmxvkp'),
+            placeholder: '请输入',
             required: true,
-            requiredMessage: i18n('mzpxvk'),
+            requiredMessage: '主题不能为空',
             maxLength: 100
         });
     }
@@ -2252,13 +2252,13 @@ class TimelineManager {
                     // 添加收藏成功
                     starSpan.classList.remove('not-starred');
                     if (window.globalToastManager) {
-                        window.globalToastManager.success(i18n('kxpmzv'), null, { color: toastColor });
+                        window.globalToastManager.success('收藏成功', null, { color: toastColor });
                     }
                 } else if (result.action === 'unstar') {
                     // 取消收藏成功
                     starSpan.classList.add('not-starred');
                     if (window.globalToastManager) {
-                        window.globalToastManager.info(i18n('pzmvkx'), null, { color: toastColor });
+                        window.globalToastManager.info('已取消收藏', null, { color: toastColor });
                     }
                 }
             }
@@ -3425,7 +3425,7 @@ class TimelineManager {
             if (isTempId) {
                 if (window.globalToastManager) {
                     try {
-                        window.globalToastManager.info(i18n('pleaseWait') || '请稍等，节点ID正在加载...');
+                        window.globalToastManager.info('请稍等，节点ID正在加载...');
                     } catch(e) {
                         window.globalToastManager.info('请稍等，节点ID正在加载...');
                     }
@@ -3487,9 +3487,9 @@ class TimelineManager {
             }
             
             const result = await window.starInputModal.show({
-                title: i18n('qwxpzm'),
+                title: '添加收藏',
                 defaultValue: m.summary,
-                placeholder: i18n('zmxvkp'),
+                placeholder: '请输入',
                 folderManager: this.folderManager,
                 defaultFolderId: null
             });
@@ -3632,7 +3632,7 @@ class TimelineManager {
     // ✅ 显示复制成功的反馈提示（使用全局 Toast 管理器）
     showCopyFeedback(targetElement) {
         window.globalToastManager.success(
-            i18n('xpzmvk'),
+            '复制成功',
             targetElement
         );
     }
@@ -3759,7 +3759,7 @@ class TimelineManager {
             if (isTempId) {
                 if (window.globalToastManager) {
                     try {
-                        window.globalToastManager.info(i18n('pleaseWait') || '请稍等，节点ID正在加载...');
+                        window.globalToastManager.info('请稍等，节点ID正在加载...');
                     } catch(e) {
                         window.globalToastManager.info('请稍等，节点ID正在加载...');
                     }
