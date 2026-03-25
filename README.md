@@ -77,6 +77,24 @@
 
 ---
 
+## ⭐ 支持我们
+
+<p>如果项目对你有帮助，欢迎 Star 支持！关注我们的 B 站主页，获取更多工具与更新。</p>
+
+<p>
+  <a href="https://github.com/DreamBuildStack/ChatNav" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-Check%20it%20out!-orange?style=for-the-badge&logo=github" alt="GitHub">
+  </a>
+  <a href="https://gitee.com/DreamBuildStack/ChatNav" target="_blank">
+    <img src="https://img.shields.io/badge/Gitee-Gitee%E9%95%9C%E5%83%8F-blue?style=for-the-badge&logo=gitee" alt="Gitee">
+  </a>
+  <a href="https://space.bilibili.com/1095841196?spm_id_from=333.788.upinfo.head.click" target="_blank">
+    <img src="https://img.shields.io/badge/B%E7%AB%99-%E5%85%B3%E6%B3%A8%E6%88%91%E4%BB%AC-ff69b4?style=for-the-badge&logo=bilibili" alt="B站">
+  </a>
+</p>
+
+---
+
 ## 📄 License
 
 [MIT](LICENSE) © 2025
@@ -99,6 +117,6 @@ Adds an interactive timeline to AI chat pages so you can jump to any message ins
 - Auto dark/light theme detection per platform
 - Per-site enable/disable toggle in the popup
 
-**Install:** Load the `extension/` folder as an unpacked extension in Chrome or Edge developer mode.
+**Install:** Load the project folder as an unpacked extension in Chrome or Edge developer mode.
 
 </div>
