@@ -98,6 +98,14 @@
             this.setDomRef('listContainer', listContainer);
             container.appendChild(listContainer);
 
+            const footer = document.createElement('div');
+            footer.className = 'starred-footer';
+            footer.innerHTML = '<span class="starred-footer-text">觉得好用？</span>' +
+                '<a href="https://github.com/DreamBuildStack/ChatNav" target="_blank" class="starred-footer-link" title="GitHub">⭐ Star</a>' +
+                '<span class="starred-footer-dot">·</span>' +
+                '<a href="https://space.bilibili.com/1095841196" target="_blank" class="starred-footer-link" title="B站">📺 B站</a>';
+            container.appendChild(footer);
+
             return container;
         }
 

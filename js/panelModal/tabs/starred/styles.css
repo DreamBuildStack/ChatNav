@@ -325,3 +325,35 @@ html[class*="dark"] {
     opacity: 1;
     transform: translateX(-50%) translateY(0);
 }
+
+.starred-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 8px 16px;
+    border-top: 1px solid var(--si-border);
+    flex-shrink: 0;
+    font-size: 12px;
+    color: var(--si-text-secondary);
+}
+
+.starred-footer-text {
+    color: var(--si-text-secondary);
+}
+
+.starred-footer-dot {
+    color: var(--si-text-secondary);
+    opacity: 0.5;
+}
+
+.starred-footer-link {
+    color: var(--si-text-secondary);
+    text-decoration: none;
+    transition: color 0.15s;
+    font-size: 12px;
+}
+
+.starred-footer-link:hover {
+    color: var(--si-text);
+}
