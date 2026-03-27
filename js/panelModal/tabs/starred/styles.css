@@ -227,25 +227,41 @@ html[class*="dark"] {
     min-width: 0;
 }
 
-.starred-item-theme {
-    font-size: 13px;
-    color: var(--si-text);
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    margin-bottom: 3px;
-}
-
-.starred-item-meta {
+.starred-item-actions {
     display: flex;
     align-items: center;
-    gap: 8px;
-    font-size: 11px;
-    color: var(--si-text-secondary);
+    gap: 2px;
+    opacity: 0;
+    transition: opacity 0.15s;
 }
 
-.starred-item-platform {
-    font-weight: 500;
+.starred-item:hover .starred-item-actions {
+    opacity: 1;
+}
+
+.starred-item-btn {
+    width: 28px;
+    height: 28px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--si-text-secondary);
+    transition: background 0.15s, color 0.15s;
+    flex-shrink: 0;
+}
+
+.starred-item-btn:hover {
+    background: var(--si-border);
+    color: var(--si-text);
+}
+
+.starred-item-btn svg {
+    width: 14px;
+    height: 14px;
 }
 
 .starred-item-delete {
@@ -259,13 +275,8 @@ html[class*="dark"] {
     align-items: center;
     justify-content: center;
     color: var(--si-text-secondary);
-    opacity: 0;
-    transition: opacity 0.15s, background 0.15s, color 0.15s;
+    transition: background 0.15s, color 0.15s;
     flex-shrink: 0;
-}
-
-.starred-item:hover .starred-item-delete {
-    opacity: 1;
 }
 
 .starred-item-delete:hover {

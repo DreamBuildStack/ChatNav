@@ -286,6 +286,7 @@
             el.className = 'starred-item';
             el.dataset.turnId = item.turnId;
             el.dataset.url = item.url || '';
+            el.dataset.question = item.question || '';
 
             var timeStr = '';
             if (item.timestamp) {
@@ -294,7 +295,7 @@
                 } catch(e) { timeStr = ''; }
             }
 
-            var themeText = item.theme || '\u6574\u4e2a\u5bf9\u8bdd';
+            var themeText = item.theme || item.question || '\u6574\u4e2a\u5bf9\u8bdd';
             var platformText = this.getPlatformName(item.url);
 
             el.innerHTML =
@@ -304,13 +305,26 @@
                 '<span class="starred-item-platform">' + this.escapeHtml(platformText) + '</span>' +
                 '<span class="starred-item-time">' + this.escapeHtml(timeStr) + '</span>' +
                 '</div></div>' +
+                '<div class="starred-item-actions">' +
+                '<button class="starred-item-btn starred-item-copy" title="\u590d\u5236\u63d0\u793a\u8bcd">' +
+                '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>' +
+                '</button>' +
+                '<button class="starred-item-btn starred-item-goto" title="\u8df3\u8f6c\u4f1a\u8bdd">' +
+                '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>' +
+                '</button>' +
                 '<button class="starred-item-delete" title="\u53d6\u6d88\u6536\u85cf">' +
                 '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M8 6V4h8v2M19 6l-1 14H6L5 6"/></svg>' +
-                '</button>';
+                '</button>' +
+                '</div>';
 
             var self = this;
-            el.addEventListener('click', function(e) {
-                if (e.target.closest('.starred-item-delete')) return;
+            el.querySelector('.starred-item-copy').addEventListener('click', function(e) {
+                e.stopPropagation();
+                self.handleCopy(item, el);
+            });
+
+            el.querySelector('.starred-item-goto').addEventListener('click', function(e) {
+                e.stopPropagation();
                 self.handleNavigate(item);
             });
 
@@ -451,6 +465,20 @@
             } else {
                 window.open(item.url, '_blank');
             }
+        }
+
+        handleCopy(item, el) {
+            var text = item.question || item.theme || '';
+            if (!text) {
+                this.showToast('无内容可复制');
+                return;
+            }
+            var self = this;
+            navigator.clipboard.writeText(text).then(function() {
+                self.showToast('\u63d0\u793a\u8bcd\u5df2\u590d\u5236\u5230\u526a\u8d34\u677f');
+            }).catch(function() {
+                self.showToast('\u590d\u5236\u5931\u8d25');
+            });
         }
 
         handleUnstar(item) {
