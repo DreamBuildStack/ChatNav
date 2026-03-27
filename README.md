@@ -6,7 +6,7 @@
     <a href="https://github.com/DreamBuildStack/ChatNav">
       <img src="https://img.shields.io/badge/Platform-Chrome%20%7C%20Edge-green?style=flat-square&logo=googlechrome&logoColor=white" alt="Platform">
     </a>
-    <img src="https://img.shields.io/badge/version-1.0-blue?style=flat-square" alt="Version">
+    <img src="https://img.shields.io/badge/version-1.1.0-blue?style=flat-square" alt="Version">
     <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License">
   </p>
 
@@ -40,6 +40,16 @@
 | 腾讯元宝 Yuanbao | yuanbao.tencent.com | ✅ |
 | 文心一言 Yiyan | yiyan.baidu.com | ✅ |
 | Grok | grok.com | ✅ |
+
+---
+
+## 🌐 支持浏览器
+
+**国际主流：** Microsoft Edge、Opera、Brave、Vivaldi、Google Chrome
+
+**国内主流：** 360安全/极速浏览器、夸克浏览器、狐猴浏览器、搜狗浏览器、QQ浏览器、UC浏览器
+
+> 以上浏览器均基于 Chromium 内核，安装方法与 Chrome 完全一致
 
 ---
 
@@ -111,12 +121,14 @@ Adds an interactive timeline to AI chat pages so you can jump to any message ins
 
 **Supported platforms:** ChatGPT · DeepSeek · Gemini · Kimi · Doubao · Tongyi · Yuanbao · Yiyan · Grok
 
+**Supported browsers:** Chrome · Edge · Opera · Brave · Vivaldi · 360 · Quark · Sogou · QQ · UC
+
 **Features:**
 - Click any dot on the timeline to jump to that message
 - Long-press a dot to star/bookmark important messages
 - Auto dark/light theme detection per platform
 - Per-site enable/disable toggle in the popup
 
-**Install:** Load the project folder as an unpacked extension in Chrome or Edge developer mode.
+**Install:** Load the project folder as an unpacked extension in Chrome, Edge or other Chromium-based browser developer mode.
 
 </div>

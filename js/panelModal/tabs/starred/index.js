@@ -103,7 +103,9 @@
             footer.innerHTML = '<span class="starred-footer-text">觉得好用？</span>' +
                 '<a href="https://github.com/DreamBuildStack/ChatNav" target="_blank" class="starred-footer-link" title="GitHub">⭐ Star</a>' +
                 '<span class="starred-footer-dot">·</span>' +
-                '<a href="https://space.bilibili.com/1095841196" target="_blank" class="starred-footer-link" title="B站">📺 B站</a>';
+                '<a href="https://space.bilibili.com/1095841196" target="_blank" class="starred-footer-link" title="B站">📺 B站</a>' +
+                '<span class="starred-footer-dot">·</span>' +
+                '<a href="https://kcnf4sqpizau.feishu.cn/share/base/form/shrcn4wz41ZEZICJslr7f9nbkBc" target="_blank" class="starred-footer-link" title="反馈建议">📝 反馈</a>';
             container.appendChild(footer);
 
             return container;
