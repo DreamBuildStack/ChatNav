@@ -3,7 +3,7 @@
   "name": "ChatNav - AI 对话时间轴",
   "short_name": "AI Timeline",
   "version": "1.1.0",
-  "description": "Add an interactive timeline to AI chat pages for quick navigation. Supports ChatGPT, DeepSeek, Gemini, Kimi, Doubao, Tongyi, Yuanbao, Yiyan, and Grok.",
+  "description": "Add an interactive timeline to AI chat pages. Click to jump, long-press to star.",
   "default_locale": "en",
   "icons": {
     "16": "icons/icon16.png",
