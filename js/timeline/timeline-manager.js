@@ -214,9 +214,27 @@ class TimelineManager {
     }
     
     async findCriticalElements() {
+        // 尝试主选择器
         const selector = this.adapter.getUserMessageSelector();
-        const firstTurn = await this.waitForElement(selector);
-        if (!firstTurn) return false;
+        let firstTurn = await this.waitForElement(selector, 3000);
+        
+        // 如果主选择器失败，尝试备用选择器
+        if (!firstTurn && this.adapter.getUserMessageSelectors) {
+            const fallbackSelectors = this.adapter.getUserMessageSelectors();
+            for (let i = 1; i < fallbackSelectors.length; i++) {
+                const fallbackSelector = fallbackSelectors[i];
+                firstTurn = document.querySelector(fallbackSelector);
+                if (firstTurn) {
+                    break;
+                }
+            }
+        }
+        
+        if (!firstTurn) {
+            // 初始化失败，显示手动重扫按钮
+            this.showRescanButton();
+            return false;
+        }
         
         this.conversationContainer = this.adapter.findConversationContainer(firstTurn);
         if (!this.conversationContainer) return false;
@@ -237,7 +255,33 @@ class TimelineManager {
             this.scrollContainer = document.scrollingElement || document.documentElement || document.body;
         }
         
+        // 隐藏手动重扫按钮（如果存在）
+        this.hideRescanButton();
+        
         return this.scrollContainer !== null;
+    }
+    
+    showRescanButton() {
+        // 移除已存在的重扫按钮
+        this.hideRescanButton();
+        
+        const btn = document.createElement('button');
+        btn.className = 'ait-rescan-btn';
+        btn.innerHTML = '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 4v6h6M23 20v-6h-6"/><path d="M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4l-4.64 4.36A9 9 0 0 1 3.51 15"/></svg> 重新扫描';
+        btn.style.cssText = 'position:fixed;bottom:20px;right:20px;z-index:999999;padding:10px 16px;background:#10a37f;color:white;border:none;border-radius:8px;cursor:pointer;font-size:14px;display:flex;align-items:center;gap:6px;box-shadow:0 4px 12px rgba(0,0,0,0.15);';
+        btn.addEventListener('click', () => {
+            this.hideRescanButton();
+            this.init();
+        });
+        document.body.appendChild(btn);
+        this._rescanBtn = btn;
+    }
+    
+    hideRescanButton() {
+        if (this._rescanBtn) {
+            this._rescanBtn.remove();
+            this._rescanBtn = null;
+        }
     }
     
     injectTimelineUI() {
@@ -3040,7 +3084,7 @@ class TimelineManager {
         }
     }
 
-    waitForElement(selector) {
+    waitForElement(selector, timeout = TIMELINE_CONFIG.OBSERVER_TIMEOUT) {
         return new Promise((resolve) => {
             const element = document.querySelector(selector);
             if (element) return resolve(element);
@@ -3053,7 +3097,7 @@ class TimelineManager {
             });
             try { observer.observe(document.body, { childList: true, subtree: true }); } catch {}
             // Guard against long-lived observers on wrong pages
-            setTimeout(() => { TimelineUtils.disconnectObserverSafe(observer); resolve(null); }, TIMELINE_CONFIG.OBSERVER_TIMEOUT);
+            setTimeout(() => { TimelineUtils.disconnectObserverSafe(observer); resolve(null); }, timeout);
         });
     }
 
@@ -3183,6 +3227,9 @@ class TimelineManager {
         // ✅ 清理键盘导航引用
         this.onKeyDown = null;
         this.pendingActiveId = null;
+        
+        // ✅ 清理手动重扫按钮
+        this.hideRescanButton();
     }
 
     // --- Star/Highlight helpers ---

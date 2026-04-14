@@ -20,6 +20,18 @@ class KimiAdapter extends SiteAdapter {
         return '.chat-content-item:has(.user-content)';
     }
 
+    getUserMessageSelectors() {
+        // 备用选择器列表，按优先级排序
+        // 用于兼容旧对话或不同页面结构的场景
+        return [
+            '.chat-content-item:has(.user-content)',
+            '.message-item:has(.user-content)',
+            '[class*="message"]:not([class*="avatar"]):not([class*="time"])',
+            '.conversation-message',
+            '.chat-message'
+        ];
+    }
+
     generateTurnId(element, index) {
         return `kimi-${index}`;
     }
